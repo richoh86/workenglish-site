@@ -18,6 +18,9 @@
   .lede { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
     padding: 1rem 1.15rem; margin: 0 0 2rem; }
   ul { padding-left: 1.15rem; } li { margin: .3rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  th { background: var(--card); font-weight: 600; }
   footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
     color: var(--dim); font-size: .9rem; }
   a { color: var(--accent); }
@@ -26,9 +29,88 @@
 <body>
 <h1>Privacy Policy</h1>
 <p class="sub">출근영어: 직장인 AI 영어회화 · Last updated 13 September 2026</p>
-<p class="lede"><strong>TODO — describe exactly what this app collects, why, and
-who it is shared with.</strong> Every category listed here must match the App
-Privacy answers in App Store Connect, or the app will be rejected.</p>
+<p class="lede">시행일: 2026년 9월 13일<br>
+출근영어는 계정도 로그인도 없이 쓰는 앱이에요. 이름, 이메일, 전화번호, 위치를 수집하지 않고,
+광고·트래킹·제3자 분석 SDK도 넣지 않았어요. 기록은 기기에서 만들어진 익명 기기 ID 하나로만 구분해요.</p>
+
+<h2>음성 녹음을 다루는 방식</h2>
+<ul>
+  <li>녹음(최대 60초)은 전사, 즉 텍스트 변환을 위해서만 서버로 전송돼요.</li>
+  <li>전사가 끝나면 전송된 음성은 바로 폐기돼요. 서버에 저장하지 않아요.</li>
+  <li>전사에는 OpenAI 음성 인식 API를 사용해요.</li>
+  <li>녹음 파일 원본은 사용자 기기에만 저장되고, 앱 설정에서 전체 삭제할 수 있어요.</li>
+</ul>
+
+<h2>서버에 저장하는 것</h2>
+<ul>
+  <li>전사 텍스트, 피드백 텍스트, 세션 기록(상황 ID, 시도 횟수, 완료 시각, XP)을 저장해요.</li>
+  <li>저장하는 이유는 하나예요. 사용자가 자신의 기록을 나중에 다시 보기 위해서예요.</li>
+  <li>이 기록은 익명 기기 ID에 연결되고, 이름이나 연락처와는 연결되지 않아요.</li>
+  <li>피드백을 만들 때는 Anthropic Claude API를 사용하고, 이때 전사 텍스트가 전달돼요.</li>
+</ul>
+
+<h2>제3자 처리자</h2>
+<table>
+  <tr><th>처리자</th><th>하는 일</th><th>전달되는 것</th></tr>
+  <tr><td>OpenAI</td><td>음성 인식(전사)</td><td>녹음된 음성 — 전사 직후 폐기</td></tr>
+  <tr><td>Anthropic</td><td>피드백 생성</td><td>전사 텍스트</td></tr>
+  <tr><td>GitHub Pages</td><td>이 웹사이트 제공</td><td>이 페이지 방문 기록 — 앱 데이터는 전달되지 않아요</td></tr>
+</table>
+
+<h2>보관 기간</h2>
+<p>서버에 저장된 기록은 삭제를 요청하시면 그 시점에, 요청이 없으면 마지막 사용으로부터 12개월이
+지날 때 삭제돼요. 서버로 전송된 음성은 앞서 적은 대로 전사 직후 폐기되므로 보관하지 않아요.</p>
+
+<h2>삭제하는 방법</h2>
+<p>앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록이 즉시 전부 삭제돼요.
+기기에 남아 있는 녹음 파일은 앱 설정에서 전체 삭제할 수 있어요.</p>
+
+<h2>결제</h2>
+<p>현재 버전에는 결제나 구독이 없어요. 결제 정보를 수집하지 않아요.</p>
+
+<h2>아동</h2>
+<p>이 앱의 연령 등급은 만 4세 이상이지만, 직장 생활을 하는 성인을 위해 만들었어요.
+아동을 대상으로 하지 않고, 아동의 개인정보를 일부러 수집하지 않아요.</p>
+
+<h2>정책이 바뀔 때</h2>
+<p>이 방침이 바뀌면 바뀐 내용을 이 페이지에 게시해요.</p>
+
+<h2>English</h2>
+<p>Effective 13 September 2026. 출근영어 is used without an account or sign-in. It
+does not collect your name, email address, phone number or location, and contains
+no advertising, tracking or third-party analytics SDKs. Records are tied only to
+an anonymous device ID generated on the device.</p>
+<ul>
+  <li><strong>Voice.</strong> A recording (up to 60 seconds) is sent to the server
+    only so it can be transcribed, and is discarded immediately after
+    transcription. It is not stored. Transcription uses the OpenAI speech
+    recognition API. The original recording files stay on your device and can all
+    be deleted in the app settings.</li>
+  <li><strong>Stored on the server.</strong> The transcribed text, the feedback
+    text, and session records (situation ID, number of attempts, completion time,
+    XP), linked to the anonymous device ID, so that you can look back at your own
+    history. Feedback is generated with the Anthropic Claude API, which receives
+    the transcribed text.</li>
+</ul>
+<table>
+  <tr><th>Processor</th><th>Purpose</th><th>What it receives</th></tr>
+  <tr><td>OpenAI</td><td>Speech recognition (transcription)</td><td>The recorded audio — discarded right after transcription</td></tr>
+  <tr><td>Anthropic</td><td>Feedback generation</td><td>The transcribed text</td></tr>
+  <tr><td>GitHub Pages</td><td>Hosting this website</td><td>Visits to this page — no app data</td></tr>
+</table>
+<p><strong>Retention.</strong> Server records are deleted when you ask for them to
+be deleted, or 12 months after your last use if you do not. Audio sent for
+transcription is not retained at all.</p>
+<p><strong>Deletion.</strong> <em>내 데이터 삭제</em> (Delete my data) in the app removes
+everything stored on the server immediately. Recordings on the device can be
+deleted in the app settings.</p>
+<p><strong>Payments.</strong> The current version has no payments or
+subscriptions, and no payment information is collected.</p>
+<p><strong>Children.</strong> The app is rated 4+, but it is made for working
+adults. It is not directed at children and does not knowingly collect personal
+information from them.</p>
+<p><strong>Changes.</strong> If this policy changes, the updated version will be
+posted on this page.</p>
 <h2>Contact</h2><p>Questions: <a href="mailto:richohios@gmail.com">richohios@gmail.com</a></p>
 <footer>© 2026 출근영어: 직장인 AI 영어회화. All rights reserved.</footer>
 </body>
