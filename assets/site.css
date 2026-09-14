@@ -331,8 +331,6 @@ footer {
   font-size: 0.9rem;
 }
 
-footer a { margin-right: var(--s2); }
-
 /* ---------- wider screens ---------- */
 
 @media (min-width: 46rem) {
