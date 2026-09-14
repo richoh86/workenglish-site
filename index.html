@@ -1,77 +1,224 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>출근영어: 직장인 AI 영어회화</title>
-<style>
-  :root { color-scheme: light dark;
-    --ink:#1c1a22; --dim:#6c6577; --bg:#fff; --card:#f6f4f9; --line:#e3dfe9; --accent:#7a3ea8; }
-  @media (prefers-color-scheme: dark) {
-    :root { --ink:#ece9f1; --dim:#a49cb0; --bg:#17141d; --card:#231f2b; --line:#37303f; --accent:#c79bee; }
-  }
-  body { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; background: var(--bg);
-    color: var(--ink); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  h1 { font-size: 2rem; margin: 0 0 .35rem; letter-spacing: -.02em; }
-  h2 { font-size: 1.1rem; margin: 2.2rem 0 .6rem; }
-  .sub { color: var(--dim); margin: 0 0 2rem; }
-  .lede { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
-    padding: 1rem 1.15rem; margin: 0 0 2rem; }
-  ul { padding-left: 1.15rem; } li { margin: .3rem 0; }
-  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
-    color: var(--dim); font-size: .9rem; }
-  a { color: var(--accent); }
-</style>
+<meta name="description" content="오늘의 업무 상황 하나, 한 문장 피드백, 하루 5분. 직장인을 위한 iOS 영어 말하기 앱 출근영어.">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<h1>출근영어: 직장인 AI 영어회화</h1>
-<p class="sub">하루 한 번, 오늘의 업무 상황을 영어로 말해 보세요. 한 문장과 팁 하나만 돌려드려요.</p>
-<p class="lede">출근영어는 직장인을 위한 하루 한 번 영어 말하기 루틴이에요.
-오늘의 업무 상황 하나에 음성이나 텍스트로 답하면, 자연스러운 문장 한 개와 팁 한 개를 돌려드려요.
-길게 붙잡지 않고 한 세션으로 끝나요.</p>
+<div class="wrap">
 
-<h2>한 세션은 이렇게 진행돼요</h2>
-<ol>
-  <li>오늘의 업무 상황 1개를 받아요.</li>
-  <li>음성(최대 60초) 또는 텍스트로 답해요.</li>
-  <li>자연스러운 문장 1개와 팁 1개를 받아요.</li>
-  <li>그 문장으로 한 번 다시 말해요.</li>
-  <li>완료.</li>
-</ol>
+<header class="site-header">
+  <a class="brand" href="index.html">출근영어</a>
+  <nav>
+    <a href="support.html">지원</a>
+    <a href="privacy.html">개인정보</a>
+  </nav>
+</header>
 
-<h2>알아두면 좋은 것</h2>
-<ul>
-  <li>하루 3세션까지 할 수 있어요.</li>
-  <li>계정과 로그인이 없어요. 익명 기기 토큰으로만 기록을 구분해요.</li>
-  <li>현재 버전에는 결제가 없어요.</li>
-  <li>음성은 전사를 위해서만 서버로 보내고, 전사 직후 폐기해요. 저장하지 않아요.</li>
-  <li>녹음 파일 원본은 기기에만 남고, 앱 설정에서 전체 삭제할 수 있어요.</li>
-  <li>말하기 어려운 자리에서는 텍스트 모드로 답하면 돼요.</li>
-</ul>
+<!-- 1. 히어로 -->
+<section class="hero">
+  <h1>출근영어</h1>
+  <p class="tagline">오늘의 업무 상황 하나, 한 문장 피드백, 하루 5분.</p>
 
-<p>더 자세한 내용은 <a href="support.html">지원</a>과
-<a href="privacy.html">개인정보 처리방침</a>에 있어요.
-App Store 링크는 앱이 공개되면 이 페이지에 올릴게요.</p>
+  <div class="device">
+    <picture>
+      <source srcset="assets/ready-dark.webp" media="(prefers-color-scheme: dark)" width="600" height="1304">
+      <img src="assets/ready-light.webp" width="600" height="1304" loading="lazy" decoding="async"
+           alt="출근영어 앱 첫 화면. '오늘의 업무 상황' 카드에 '오전 회의 제안을 오후로 돌리기'가 적혀 있고, 그 아래 영어 질문 'How would you reply to your manager?'와 하단의 녹음 버튼이 보인다.">
+    </picture>
+  </div>
 
-<h2>English</h2>
-<p>출근영어 (Workday English) is a once-a-day English speaking routine for people
-at work. You get one work situation for today, answer by voice (up to 60 seconds)
-or by text, and receive one natural sentence plus one tip. Say it once more, and
-the session is done.</p>
-<ul>
-  <li>Up to three sessions a day.</li>
-  <li>No account and no sign-in — an anonymous device token only.</li>
-  <li>No payments in the current version.</li>
-  <li>Voice is sent to the server only for transcription and discarded right
-    after it; it is not stored.</li>
-  <li>The original recordings stay on your device and can be deleted in the
-    app settings.</li>
-  <li>Text mode is there for places where speaking out loud is awkward.</li>
-</ul>
-<p>See <a href="support.html">Support</a> and the
-<a href="privacy.html">Privacy Policy</a> for details. The App Store link will be
-added here once the app is public.</p>
-<footer><a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a>
- · © 2026 출근영어: 직장인 AI 영어회화. All rights reserved.</footer>
+  <p>회의·출장·거래처 통화에서 쓸 업무 영어 한두 문장을, 앱을 열면 이미 준비된 오늘의 상황 하나로 연습해요.
+  음성으로 말하기 어려운 자리에서는 텍스트로 같은 세션을 끝낼 수 있어요.</p>
+
+  <div class="actions">
+    <!-- 출시 후: 아래 span을 <a class="btn btn-primary" href="APP_STORE_URL">App Store에서 받기</a> 로 교체 -->
+    <span class="btn btn-disabled" aria-disabled="true">App Store에서 곧 만나요</span>
+    <a class="btn btn-secondary" href="support.html">지원</a>
+  </div>
+</section>
+
+<hr>
+
+<!-- 2. 세션 흐름 5단계 -->
+<section>
+  <h2>한 세션은 이렇게 흘러가요</h2>
+
+  <div class="step">
+    <div class="device">
+      <picture>
+        <source srcset="assets/ready-dark.webp" media="(prefers-color-scheme: dark)" width="600" height="1304">
+        <img src="assets/ready-light.webp" width="600" height="1304" loading="lazy" decoding="async"
+             alt="1단계 화면. 업무 상황 카드와 영어 질문, 하단의 초록 녹음 버튼.">
+      </picture>
+    </div>
+    <div class="step-body">
+      <h3><span class="step-no">1</span>상황</h3>
+      <p>오늘의 업무 상황 하나와 그에 대한 영어 질문이 이미 준비돼 있어요. 무엇을 공부할지 고르지 않아도 돼요.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="device">
+      <picture>
+        <source srcset="assets/recording-dark.webp" media="(prefers-color-scheme: dark)" width="600" height="1304">
+        <img src="assets/recording-light.webp" width="600" height="1304" loading="lazy" decoding="async"
+             alt="2단계 화면. 녹음 중 표시와 경과 시간 0:12, 빨간 정지 버튼이 보인다.">
+      </picture>
+    </div>
+    <div class="step-body">
+      <h3><span class="step-no">2</span>말하기 또는 텍스트</h3>
+      <p>음성으로 최대 60초까지 답해요. 말을 중간에 끊지 않고, 멈추는 시점은 사용자가 정해요.
+      지하철이나 사무실에서는 왼쪽의 '텍스트로' 버튼을 눌러 적어도 돼요.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="device">
+      <picture>
+        <source srcset="assets/feedback-dark.webp" media="(prefers-color-scheme: dark)" width="600" height="1304">
+        <img src="assets/feedback-light.webp" width="600" height="1304" loading="lazy" decoding="async"
+             alt="3단계 화면. 내가 말한 문장과 자연스러운 문장 'I can only meet after six.', 그리고 팁 한 줄이 적힌 피드백 카드.">
+      </picture>
+    </div>
+    <div class="step-body">
+      <h3><span class="step-no">3</span>피드백</h3>
+      <p>의도가 전달됐는지 먼저 알려주고, 자연스러운 문장 한 개와 가장 영향이 큰 팁 한 개만 보여줘요.
+      달라진 부분만 표시해서 전체를 다시 읽지 않아도 돼요.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="device">
+      <picture>
+        <source srcset="assets/recording-dark.webp" media="(prefers-color-scheme: dark)" width="600" height="1304">
+        <img src="assets/recording-light.webp" width="600" height="1304" loading="lazy" decoding="async"
+             alt="4단계 화면. 같은 녹음 화면에서 피드백을 참고해 한 번 더 말하는 중.">
+      </picture>
+    </div>
+    <div class="step-body">
+      <h3><span class="step-no">4</span>다시 말하기</h3>
+      <p>받은 문장을 참고해 같은 뜻을 한 번 더 말해봐요. 텍스트로 답했다면 한 번 더 적으면 돼요.
+      건너뛰고 바로 완료해도 괜찮아요.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="device">
+      <picture>
+        <source srcset="assets/completed-dark.webp" media="(prefers-color-scheme: dark)" width="600" height="1304">
+        <img src="assets/completed-light.webp" width="600" height="1304" loading="lazy" decoding="async"
+             alt="5단계 화면. '오늘 세션을 끝냈어요' 제목과 문장 수·시도 수·걸린 시간, 오늘 저장한 표현 카드.">
+      </picture>
+    </div>
+    <div class="step-body">
+      <h3><span class="step-no">5</span>완료</h3>
+      <p>오늘 저장한 표현 하나와 다음 복습일을 확인하고 끝나요. 연속 일수나 요일 빈칸 같은 압박 장치는 없어요.</p>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- 3. 스픽과 다른 점 -->
+<section>
+  <h2>스픽과 다른 점</h2>
+  <p class="muted small">좋은 앱들이 이미 많아요. 출근영어가 다르게 잡은 것은 세 가지예요.</p>
+
+  <div class="card">
+    <p class="label">하나</p>
+    <h3>밀린 과제가 없어요</h3>
+    <p>며칠 쉬어도 복습 큐가 쌓이지 않아요. 돌아오면 밀린 것부터가 아니라 오늘 세션부터 다시 시작해요.</p>
+  </div>
+
+  <div class="card">
+    <p class="label">둘</p>
+    <h3>한 문장, 한 팁</h3>
+    <p>틀린 곳을 한꺼번에 지적하지 않아요. 의도를 살린 자연스러운 문장 한 개와 가장 영향이 큰 팁 한 개만 드려요.</p>
+  </div>
+
+  <div class="card">
+    <p class="label">셋</p>
+    <h3>월 구독, 즉시 해지</h3>
+    <p>연 단위 강제 결제나 월 할부가 없어요. 가격과 해지 방법을 앱 화면에 그대로 적어 둬요.</p>
+  </div>
+</section>
+
+<hr>
+
+<!-- 4. 요금 -->
+<section>
+  <h2>요금</h2>
+  <p class="chip">출시 전 예정 가격</p>
+
+  <div class="price-row">
+    <div class="card">
+      <p class="label">월간</p>
+      <p class="price-amount">7,900원</p>
+      <p class="small muted">3일 무료 체험 후 시작</p>
+    </div>
+    <div class="card">
+      <p class="label">연간</p>
+      <p class="price-amount">59,000원</p>
+      <p class="small muted">체험 없이 바로 시작</p>
+    </div>
+  </div>
+
+  <p class="small">첫 달 30% 할인과 이어가면 12개월 15% 할인은 앱 안에서 안내해요.</p>
+
+  <div class="notice">
+    <p><strong>자동 갱신 안내.</strong> 3일 무료 체험이 끝나면 별도 해지가 없는 한 정가로 자동 결제되고,
+    이후에도 매 기간 자동으로 갱신돼요.</p>
+    <p><strong>해지 방법.</strong> iPhone <em>설정 &gt; Apple 계정 &gt; 구독</em>에서 언제든 해지할 수 있어요.
+    갱신 24시간 전까지 해지하면 다음 결제가 되지 않고, 남은 기간은 그대로 쓸 수 있어요.</p>
+    <p>가격은 출시 전 예정 값이고, App Store 가격 정책에 따라 달라질 수 있어요. 확정 가격은 앱 안 결제 화면에 표시돼요.</p>
+  </div>
+</section>
+
+<hr>
+
+<!-- 5. 개인정보 요약 -->
+<section>
+  <h2>개인정보</h2>
+  <ul>
+    <li><strong>음성을 저장하지 않아요.</strong> 녹음은 전사를 위해서만 서버로 보내고, 전사 직후 폐기해요.</li>
+    <li><strong>계정도 로그인도 없어요.</strong> 기록은 기기에서 만든 익명 기기 ID 하나로만 구분해요.</li>
+    <li><strong>언제든 지울 수 있어요.</strong> 앱의 '내 데이터 삭제'를 누르면 서버 기록이 즉시 전부 삭제돼요.</li>
+  </ul>
+  <p><a href="privacy.html">개인정보 처리방침</a> · <a href="support.html">지원</a></p>
+</section>
+
+<hr>
+
+<!-- English -->
+<section class="en">
+  <h2>English</h2>
+  <p>출근영어 (Workday English) is a once-a-day English speaking routine for Korean
+  office workers: one work situation for today, one sentence of feedback, about five minutes.</p>
+  <ul>
+    <li>Answer today's question by voice (up to 60 seconds) or by text, then hear it back as one
+      natural sentence with a single tip, say it once more, and the session is done.</li>
+    <li>Nothing piles up. Take a few days off and you resume with today's session, not a backlog.</li>
+    <li>Planned pricing before launch: a 3-day free trial, then ₩7,900 per month or ₩59,000 per year.
+      The subscription renews automatically unless cancelled in <em>Settings &gt; Apple Account &gt;
+      Subscriptions</em> at least 24 hours before the renewal date.</li>
+    <li>Voice is sent to the server only for transcription and discarded right after it. There is no
+      account or sign-in — records are tied to an anonymous device ID and can be deleted from the app.</li>
+  </ul>
+  <p>See <a href="support.html">Support</a> and the <a href="privacy.html">Privacy Policy</a> for details.
+  The App Store link will be added here once the app is public.</p>
+</section>
+
+<footer>
+  <a href="mailto:richohios@gmail.com">richohios@gmail.com</a> ·
+  <a href="privacy.html">개인정보 처리방침</a> ·
+  <a href="support.html">지원</a><br>
+  © 2026 출근영어: 직장인 AI 영어회화. All rights reserved.
+</footer>
+
+</div>
 </body>
 </html>

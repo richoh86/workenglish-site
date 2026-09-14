@@ -1,0 +1,348 @@
+/* 출근영어 website — design tokens from docs/design-spec.md §2 */
+
+:root {
+  color-scheme: light dark;
+
+  /* color tokens (light) */
+  --bg: #F6F6F4;
+  --surface: #FFFFFF;
+  --surface-muted: #EEEEEB;
+  --ink: #1B1D1C;
+  --ink-secondary: #6E7270;
+  --line: #E3E3DF;
+  --accent: #0E7C5A;
+  --accent-soft: #DDF2EA;
+  --amber: #B35C00;
+  --amber-soft: #FBEBD6;
+  --recording: #D93636;
+  --on-accent: #FFFFFF;
+
+  --card-border: 1px solid var(--line);
+
+  /* spacing scale */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --gutter: 20px;
+
+  /* shape */
+  --r-card: 20px;
+  --r-btn: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101211;
+    --surface: #1A1D1C;
+    --surface-muted: #232726;
+    --ink: #F2F3F2;
+    --ink-secondary: #9A9E9C;
+    --line: #2C302E;
+    --accent: #3EE8A8;
+    --accent-soft: #163A30;
+    --amber: #E8A33E;
+    --amber-soft: #3D2A0F;
+    --recording: #FF6B6B;
+    --on-accent: #101211;
+
+    --card-border: none;
+  }
+}
+
+/* ---------- base ---------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI",
+    "Noto Sans KR", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+
+.wrap {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+a { color: var(--accent); }
+a:hover { text-decoration: none; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: var(--s6) 0;
+}
+
+/* ---------- type ---------- */
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--s3);
+}
+
+h2 {
+  font-size: 1.375rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: var(--s6) 0 var(--s4);
+}
+
+h3 {
+  font-size: 1.0625rem;
+  line-height: 1.4;
+  margin: 0 0 var(--s2);
+}
+
+p { margin: 0 0 var(--s4); }
+
+.label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--ink-secondary);
+  margin: 0 0 var(--s2);
+}
+
+.muted { color: var(--ink-secondary); }
+
+.small { font-size: 0.9rem; }
+
+.en { font-size: 1.0625rem; }
+
+ul, ol { padding-left: 1.15rem; margin: 0 0 var(--s4); }
+li { margin: var(--s1) 0; }
+
+/* ---------- header / sections ---------- */
+
+.site-header {
+  padding: var(--s5) 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.site-header .brand {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.site-header nav a {
+  font-size: 0.9rem;
+  margin-left: var(--s3);
+}
+
+section { padding: var(--s5) 0; }
+
+.hero { padding-top: var(--s5); }
+
+.hero .tagline {
+  font-size: 1.125rem;
+  color: var(--ink-secondary);
+  margin: 0 0 var(--s5);
+}
+
+.chip {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: var(--s1) var(--s3);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin: 0 0 var(--s3);
+}
+
+/* ---------- cards ---------- */
+
+.card {
+  background: var(--surface);
+  border: var(--card-border);
+  border-radius: var(--r-card);
+  padding: var(--s4) var(--s4) var(--s2);
+  margin: 0 0 var(--s3);
+}
+
+.card.muted-card { background: var(--surface-muted); }
+
+.card p:last-child { margin-bottom: var(--s3); }
+
+/* ---------- buttons ---------- */
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  margin: 0 0 var(--s5);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 var(--s5);
+  border-radius: var(--r-btn);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.btn-secondary {
+  background: var(--surface-muted);
+  color: var(--ink);
+}
+
+.btn-disabled {
+  background: var(--surface-muted);
+  color: var(--ink-secondary);
+  cursor: default;
+}
+
+/* ---------- device frame ---------- */
+
+.device {
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto var(--s4);
+  padding: 8px;
+  background: var(--line);
+  border-radius: 34px;
+}
+
+.device img {
+  width: 100%;
+  border-radius: 26px;
+}
+
+.hero .device { max-width: 280px; }
+
+/* ---------- steps ---------- */
+
+.step {
+  margin: 0 0 var(--s6);
+}
+
+.step .step-no {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-right: var(--s2);
+  vertical-align: middle;
+}
+
+/* ---------- price ---------- */
+
+.price-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  margin: 0 0 var(--s4);
+}
+
+.price-row .card {
+  flex: 1 1 150px;
+  margin: 0;
+}
+
+.price-amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--s1);
+}
+
+.notice {
+  background: var(--surface-muted);
+  border-radius: var(--r-card);
+  padding: var(--s4);
+  font-size: 0.9rem;
+  color: var(--ink-secondary);
+}
+
+.notice p:last-child { margin-bottom: 0; }
+
+/* ---------- table (privacy) ---------- */
+
+.table-scroll { overflow-x: auto; margin: 0 0 var(--s4); }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 22rem;
+  font-size: 0.9rem;
+}
+
+th, td {
+  border: 1px solid var(--line);
+  padding: var(--s2) var(--s3);
+  text-align: left;
+  vertical-align: top;
+}
+
+th { background: var(--surface-muted); font-weight: 600; }
+
+/* ---------- faq ---------- */
+
+.faq p { margin: 0 0 var(--s4); }
+.faq strong { display: inline-block; margin-bottom: var(--s1); }
+
+/* ---------- footer ---------- */
+
+footer {
+  margin-top: var(--s6);
+  padding: var(--s5) 0 var(--s6);
+  border-top: 1px solid var(--line);
+  color: var(--ink-secondary);
+  font-size: 0.9rem;
+}
+
+footer a { margin-right: var(--s2); }
+
+/* ---------- wider screens ---------- */
+
+@media (min-width: 46rem) {
+  h1 { font-size: 2.5rem; }
+  .hero .device { max-width: 300px; }
+  .step {
+    display: flex;
+    gap: var(--s5);
+    align-items: flex-start;
+  }
+  .step .device { flex: 0 0 200px; max-width: 200px; margin-bottom: 0; }
+  .step .step-body { flex: 1 1 auto; }
+}
