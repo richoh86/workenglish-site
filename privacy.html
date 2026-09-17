@@ -23,7 +23,7 @@
   <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 13 September 2026</p>
 
   <div class="card muted-card">
-    <p>시행일: 2026년 9월 16일</p>
+    <p>시행일: 2026년 9월 17일</p>
     <p>출근영어는 계정도 로그인도 없이 쓰는 앱이에요. 이름, 이메일, 전화번호, 위치를 수집하지 않고,
     광고·트래킹·제3자 분석 SDK도 넣지 않았어요. 기록은 기기에서 만들어진 익명 기기 ID 하나로만 구분해요.</p>
   </div>
@@ -32,9 +32,9 @@
 <section>
   <h2>음성 녹음을 다루는 방식</h2>
   <ul>
-    <li>녹음(최대 60초)은 전사, 즉 텍스트 변환을 위해서만 서버로 전송돼요.</li>
-    <li>전사가 끝나면 전송된 음성은 바로 폐기돼요. 서버에 저장하지 않아요.</li>
-    <li>전사에는 OpenAI 음성 인식 API를 사용해요.</li>
+    <li>녹음(최대 60초)은 iPhone에 내장된 Apple 음성 인식으로 기기 안에서 텍스트로 바뀌어요. 음성 파일은 저희 서버로 보내지 않아요.</li>
+    <li>기기가 기기 내 인식을 지원하지 않으면 Apple 음성 인식 서비스가 처리할 수 있으며, 이때는 Apple의 개인정보 처리방침이 적용돼요.</li>
+    <li>음성 인식이 안 되면 들은 내용을 직접 적어 답할 수 있어요.</li>
     <li>녹음 파일 원본은 사용자 기기에만 저장되고, 앱 설정에서 전체 삭제할 수 있어요.</li>
   </ul>
 
@@ -50,7 +50,6 @@
   <div class="table-scroll">
     <table>
       <tr><th>처리자</th><th>하는 일</th><th>전달되는 것</th></tr>
-      <tr><td>OpenAI</td><td>음성 인식(전사)</td><td>녹음된 음성 — 전사 직후 폐기</td></tr>
       <tr><td>Anthropic</td><td>피드백 생성</td><td>전사 텍스트</td></tr>
       <tr><td>GitHub Pages</td><td>이 웹사이트 제공</td><td>이 페이지 방문 기록 — 앱 데이터는 전달되지 않아요</td></tr>
     </table>
@@ -84,10 +83,10 @@
   no advertising, tracking or third-party analytics SDKs. Records are tied only to
   an anonymous device ID generated on the device.</p>
   <ul>
-    <li><strong>Voice.</strong> A recording (up to 60 seconds) is sent to the server
-      only so it can be transcribed, and is discarded immediately after
-      transcription. It is not stored. Transcription uses the OpenAI speech
-      recognition API. The original recording files stay on your device and can all
+    <li><strong>Voice.</strong> A recording (up to 60 seconds) is turned into text on your
+      iPhone by Apple's built-in speech recognition; the audio is not sent to our
+      server. If your device cannot recognise speech on the device, Apple's speech
+      service may process it under Apple's privacy policy. The original recording files stay on your device and can all
       be deleted in the app settings.</li>
     <li><strong>Stored on the server.</strong> The transcribed text, the feedback
       text, and session records (situation ID, number of attempts, completion time,
@@ -98,7 +97,6 @@
   <div class="table-scroll">
     <table>
       <tr><th>Processor</th><th>Purpose</th><th>What it receives</th></tr>
-      <tr><td>OpenAI</td><td>Speech recognition (transcription)</td><td>The recorded audio — discarded right after transcription</td></tr>
       <tr><td>Anthropic</td><td>Feedback generation</td><td>The transcribed text</td></tr>
       <tr><td>GitHub Pages</td><td>Hosting this website</td><td>Visits to this page — no app data</td></tr>
     </table>
