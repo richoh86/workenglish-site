@@ -56,7 +56,17 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* 앵커로 이동했을 때 제목이 화면 맨 위에 붙지 않도록 */
+[id] { scroll-margin-top: var(--s5); }
 
 body {
   margin: 0;
@@ -186,6 +196,141 @@ section { padding: var(--s5) 0; }
 
 .card p:last-child { margin-bottom: var(--s3); }
 
+/* ---------- 하루 흐름 3단 (#quick) ---------- */
+
+.flow {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--s4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+}
+
+.flow-item {
+  margin: 0;
+  position: relative;
+  padding-bottom: var(--s3);
+}
+
+.flow-no {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 var(--s2);
+}
+
+.flow-item h3 { margin: 0 0 var(--s1); }
+
+.flow-item p { margin: 0 0 var(--s2); }
+
+.flow-time {
+  display: inline-block;
+  background: var(--surface-muted);
+  color: var(--ink-secondary);
+  border-radius: 999px;
+  padding: 2px var(--s3);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.flow-item p.flow-time:last-child { margin-bottom: 0; }
+
+.flow-note {
+  color: var(--ink-secondary);
+  margin: 0;
+}
+
+/* ---------- 시작 단계 목록 (#start) ---------- */
+
+.start-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--s4);
+  counter-reset: start-step;
+}
+
+.start-list li {
+  counter-increment: start-step;
+  position: relative;
+  padding-left: 38px;
+  margin: 0 0 var(--s4);
+}
+
+.start-list li::before {
+  content: counter(start-step);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.start-list h3 { margin: 0 0 var(--s1); }
+
+.start-list p {
+  margin: 0;
+  color: var(--ink-secondary);
+}
+
+/* ---------- 질문 카드 (#faq) ---------- */
+
+.qa {
+  background: var(--surface);
+  border: var(--card-border);
+  border-radius: var(--r-card);
+  padding: var(--s3) var(--s4);
+  margin: 0 0 var(--s3);
+}
+
+.qa > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+  min-height: 34px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.qa > summary::-webkit-details-marker { display: none; }
+
+.qa > summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  color: var(--ink-secondary);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.qa[open] > summary::after { content: "\2212"; }
+
+.qa[open] > summary { margin-bottom: var(--s2); }
+
+.qa p {
+  margin: 0;
+  color: var(--ink-secondary);
+}
+
 /* ---------- buttons ---------- */
 
 .actions {
@@ -249,6 +394,8 @@ section { padding: var(--s5) 0; }
 .step {
   margin: 0 0 var(--s6);
 }
+
+.step .step-lead { margin: 0 0 var(--s2); }
 
 .step .step-no {
   display: inline-flex;
@@ -332,6 +479,40 @@ footer {
 }
 
 /* ---------- wider screens ---------- */
+
+@media (min-width: 40rem) {
+  .flow {
+    flex-direction: row;
+    gap: var(--s5);
+  }
+  .flow-item {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+  }
+  /* 카드 사이 연결 화살표 (넓은 화면에서만) */
+  .flow-item + .flow-item::before {
+    content: "";
+    position: absolute;
+    top: 34px;
+    left: calc(-1 * var(--s5));
+    width: var(--s5);
+    height: 2px;
+    background: var(--line);
+  }
+  .flow-item + .flow-item::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: calc(-1 * var(--s2));
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid var(--line);
+    border-right: 2px solid var(--line);
+    transform: rotate(45deg);
+  }
+  .flow-item p.flow-time { margin-top: auto; align-self: flex-start; }
+}
 
 @media (min-width: 46rem) {
   h1 { font-size: 2.5rem; }
