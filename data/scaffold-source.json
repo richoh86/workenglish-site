@@ -1,0 +1,338 @@
+{
+ "wk_003": {
+  "intent": {
+   "ko": "어제 무엇을 끝냈고 오늘은 무엇을 할지 말해보세요",
+   "en": "Tell them what you finished yesterday and what you are moving on to today."
+  },
+  "chips": [
+   {"en": "finished the draft", "gloss": {"ko": "초안을 끝냈어요", "en": "I completed the draft"}},
+   {"en": "one small issue", "gloss": {"ko": "작은 문제 하나", "en": "one minor problem"}},
+   {"en": "moving on to", "gloss": {"ko": "이제 넘어가요", "en": "now starting on"}}
+  ],
+  "sample_en": "I finished the draft yesterday, and today I'm moving on to the test results. There was one small issue with the data.",
+  "sample_gloss": {
+   "ko": "어제 초안을 끝냈고 오늘은 테스트 결과로 넘어간다는 뜻이에요. 데이터에 작은 문제가 하나 있었다고 덧붙였어요.",
+   "en": "You finished the draft yesterday and are starting on the test results today, and you mention one small data problem."
+  }
+ },
+ "wk_005": {
+  "intent": {
+   "ko": "어느 팀에서 주로 어떤 일을 맡고 있는지 말해보세요",
+   "en": "Tell them which team you are on and what you mainly take care of."
+  },
+  "chips": [
+   {"en": "on the support team", "gloss": {"ko": "지원팀에 있어요", "en": "I belong to the support team"}},
+   {"en": "mostly handle", "gloss": {"ko": "주로 맡아요", "en": "I am mainly in charge of"}},
+   {"en": "day to day", "gloss": {"ko": "평소에는", "en": "in everyday work"}}
+  ],
+  "sample_en": "I'm on the support team, and I mostly handle orders from our overseas clients. Day to day, that means a lot of email.",
+  "sample_gloss": {
+   "ko": "지원팀에서 해외 거래처 주문을 주로 맡고 있고, 평소에는 메일 업무가 많다는 뜻이에요.",
+   "en": "You are on the support team, you mainly handle overseas client orders, and most days that means a lot of email."
+  }
+ },
+ "wk_008": {
+  "intent": {
+   "ko": "소리가 끊겨 미안하다고 하고 일정 이야기를 다시 말해보세요",
+   "en": "Say your audio dropped, then say your point about the schedule again."
+  },
+  "chips": [
+   {"en": "sorry about the audio", "gloss": {"ko": "소리 문제 죄송해요", "en": "apologies for the sound trouble"}},
+   {"en": "say that again", "gloss": {"ko": "다시 말할게요", "en": "let me repeat it"}},
+   {"en": "pushed back a week", "gloss": {"ko": "일주일 밀렸어요", "en": "delayed by one week"}}
+  ],
+  "sample_en": "Sorry about the audio. Let me say that again: the launch date may get pushed back a week.",
+  "sample_gloss": {
+   "ko": "소리가 끊긴 것을 사과하고, 출시 날짜가 일주일 밀릴 수 있다는 말을 다시 전하는 뜻이에요.",
+   "en": "You apologize for the audio trouble and repeat that the launch date may slip by a week."
+  }
+ },
+ "wk_011": {
+  "intent": {
+   "ko": "내일 회의에서 다룰 것 두 가지를 정해서 말해보세요",
+   "en": "Say the two things you want tomorrow's meeting to cover."
+  },
+  "chips": [
+   {"en": "two things mainly", "gloss": {"ko": "크게 두 가지예요", "en": "mainly two topics"}},
+   {"en": "the budget first", "gloss": {"ko": "예산 먼저요", "en": "the budget to start with"}},
+   {"en": "then the timeline", "gloss": {"ko": "그다음 일정이요", "en": "after that, the schedule"}}
+  ],
+  "sample_en": "Two things mainly. I'd like to go over the budget first, and then the timeline for next quarter.",
+  "sample_gloss": {
+   "ko": "크게 두 가지를 다루자는 뜻이에요. 예산을 먼저 보고, 그다음에 다음 분기 일정을 보자고 했어요.",
+   "en": "You want to cover two things: the budget first, and after that next quarter's timeline."
+  }
+ },
+ "wk_014": {
+  "intent": {
+   "ko": "목요일은 어렵고 며칠 더 필요하다고 말해보세요",
+   "en": "Say Thursday is too tight and ask for a few more days."
+  },
+  "chips": [
+   {"en": "Thursday would be tight", "gloss": {"ko": "목요일은 빠듯해요", "en": "Thursday is hard to make"}},
+   {"en": "a couple more days", "gloss": {"ko": "이틀쯤 더요", "en": "two or three more days"}},
+   {"en": "would Monday work?", "gloss": {"ko": "월요일은 어떠세요?", "en": "is Monday all right for you?"}}
+  ],
+  "sample_en": "Thursday would be tight. If I could have a couple more days for the checks, would Monday work?",
+  "sample_gloss": {
+   "ko": "목요일까지는 빠듯하다는 뜻이에요. 확인할 시간이 이틀쯤 더 있으면 월요일은 어떤지 물었어요.",
+   "en": "Thursday is too tight, and you ask whether Monday would work if you get two or three more days for checks."
+  }
+ },
+ "wk_017": {
+  "intent": {
+   "ko": "공장 일정이 밀려 샘플이 늦어진다고 알리고 새 날짜를 말해보세요",
+   "en": "Tell them the factory is behind and give the new date for the samples."
+  },
+  "chips": [
+   {"en": "running a bit behind", "gloss": {"ko": "조금 늦어지고 있어요", "en": "a little behind schedule"}},
+   {"en": "ship next Friday", "gloss": {"ko": "다음 금요일 발송", "en": "send them next Friday"}},
+   {"en": "keep you posted", "gloss": {"ko": "계속 알려드릴게요", "en": "I'll let you know"}}
+  ],
+  "sample_en": "The factory is running a bit behind, so we can ship next Friday instead. I'll keep you posted if anything changes.",
+  "sample_gloss": {
+   "ko": "공장 일정이 조금 밀려서 다음 금요일에 보낼 수 있다는 뜻이에요. 달라지면 계속 알려주겠다고 했어요.",
+   "en": "The factory is a little behind, so the samples ship next Friday instead, and you will keep them updated."
+  }
+ },
+ "wk_020": {
+  "intent": {
+   "ko": "무엇이 잘못됐고 지금 어떻게 하고 있는지 짧게 말해보세요",
+   "en": "Say briefly what went wrong and what you are doing about it now."
+  },
+  "chips": [
+   {"en": "the short version", "gloss": {"ko": "짧게 말씀드리면", "en": "the quick summary is"}},
+   {"en": "one batch was affected", "gloss": {"ko": "한 묶음이 영향받았어요", "en": "one batch had the problem"}},
+   {"en": "already working on it", "gloss": {"ko": "이미 처리 중이에요", "en": "we are handling it already"}}
+  ],
+  "sample_en": "The short version is that one batch was affected by a labeling error. We're already working on it and I'll have numbers by noon.",
+  "sample_gloss": {
+   "ko": "라벨 오류로 한 묶음이 영향을 받았다는 뜻이에요. 이미 처리 중이고 정오까지 숫자를 드리겠다고 했어요.",
+   "en": "In short, one batch was hit by a labeling error, you are already on it, and numbers will come by noon."
+  }
+ },
+ "wk_023": {
+  "intent": {
+   "ko": "원자재 값이 올라 견적이 높아졌다고 말해보세요",
+   "en": "Tell them the quote is higher because material costs went up this year."
+  },
+  "chips": [
+   {"en": "on the raw material", "gloss": {"ko": "원자재 쪽이에요", "en": "it is about the raw material"}},
+   {"en": "up since last year", "gloss": {"ko": "작년보다 올랐어요", "en": "higher than last year"}},
+   {"en": "the same margin", "gloss": {"ko": "이윤은 그대로예요", "en": "the same profit margin"}}
+  ],
+  "sample_en": "The difference is on the raw material, which is up since last year. Everything else is at the same margin as before.",
+  "sample_gloss": {
+   "ko": "차이가 난 건 원자재 쪽이고 작년보다 값이 올랐다는 뜻이에요. 나머지는 예전과 같은 이윤이라고 했어요.",
+   "en": "The gap comes from the raw material, which costs more than last year, while everything else keeps the same margin."
+  }
+ },
+ "wk_026": {
+  "intent": {
+   "ko": "일정 단축이 무리라고 생각하는 이유를 말해보세요",
+   "en": "Say you think the shorter schedule is too tight, and give your reason."
+  },
+  "chips": [
+   {"en": "a little worried", "gloss": {"ko": "조금 걱정돼요", "en": "I have some concerns"}},
+   {"en": "the testing time", "gloss": {"ko": "테스트 시간이요", "en": "the time left for testing"}},
+   {"en": "what if we", "gloss": {"ko": "이렇게 하면 어떨까요", "en": "how about this instead"}}
+  ],
+  "sample_en": "I'm a little worried about the testing time. What if we keep the date but drop one of the smaller features?",
+  "sample_gloss": {
+   "ko": "테스트 시간이 걱정된다는 뜻이에요. 날짜는 그대로 두고 작은 기능 하나를 빼면 어떻겠냐고 제안했어요.",
+   "en": "You are concerned about the testing time and suggest keeping the date but dropping one smaller feature."
+  }
+ },
+ "wk_029": {
+  "intent": {
+   "ko": "숫자가 틀린 경위를 인정하고 어떻게 바로잡았는지 말해보세요",
+   "en": "Say how the wrong number got in and how you are fixing it."
+  },
+  "chips": [
+   {"en": "my mistake", "gloss": {"ko": "제 실수예요", "en": "it was my error"}},
+   {"en": "pulled the old file", "gloss": {"ko": "예전 파일을 썼어요", "en": "I used the old file"}},
+   {"en": "sent a correction", "gloss": {"ko": "정정본을 보냈어요", "en": "I sent a corrected version"}}
+  ],
+  "sample_en": "That was my mistake. I pulled the old file by accident, so I've already sent a correction to everyone on the list.",
+  "sample_gloss": {
+   "ko": "본인 실수였다고 인정하는 뜻이에요. 예전 파일을 잘못 썼고, 받은 사람 모두에게 정정본을 이미 보냈다고 했어요.",
+   "en": "You own the mistake, explain you used the old file by accident, and say a correction already went to everyone."
+  }
+ },
+ "wk_031": {
+  "intent": {
+   "ko": "예약이 있는데 확인이 안 된다고 하고 다시 찾아봐 달라고 말해보세요",
+   "en": "Say you have a booking that is not showing, and ask them to look again."
+  },
+  "chips": [
+   {"en": "checking in tonight", "gloss": {"ko": "오늘 밤 체크인이에요", "en": "I am checking in tonight"}},
+   {"en": "the company name", "gloss": {"ko": "회사 이름으로요", "en": "under the company's name"}},
+   {"en": "could you check again?", "gloss": {"ko": "다시 봐주시겠어요?", "en": "would you look once more?"}}
+  ],
+  "sample_en": "I'm checking in tonight, but it may be saved under the company name instead of mine. Could you check again?",
+  "sample_gloss": {
+   "ko": "오늘 밤 체크인인데 예약이 회사 이름으로 되어 있을 수 있다는 뜻이에요. 다시 확인해 달라고 부탁했어요.",
+   "en": "You are checking in tonight, the booking may be under the company name, and you ask them to look again."
+  }
+ },
+ "wk_034": {
+  "intent": {
+   "ko": "생산 라인에 대해 무엇이 궁금한지 한 가지만 말해보세요",
+   "en": "Say you have one question about how the line runs, and ask it."
+  },
+  "chips": [
+   {"en": "one question about", "gloss": {"ko": "하나 여쭤볼게요", "en": "I have one question about"}},
+   {"en": "how many units", "gloss": {"ko": "몇 개를 만드나요", "en": "what quantity is produced"}},
+   {"en": "in a shift", "gloss": {"ko": "한 교대 동안", "en": "during one work shift"}}
+  ],
+  "sample_en": "I do have one question about output. How many units does this line run in a shift?",
+  "sample_gloss": {
+   "ko": "생산량에 대해 하나 묻고 싶다는 뜻이에요. 이 라인이 한 교대에 몇 개를 만드는지 물었어요.",
+   "en": "You have one question about output and ask how many units this line produces in a single shift."
+  }
+ },
+ "wk_037": {
+  "intent": {
+   "ko": "지금 어디까지 왔고 무엇이 남았는지 한두 문장으로 말해보세요",
+   "en": "Say where the project stands now and what is still left."
+  },
+  "chips": [
+   {"en": "about halfway through", "gloss": {"ko": "절반쯤 왔어요", "en": "roughly half done"}},
+   {"en": "on schedule so far", "gloss": {"ko": "아직 일정대로예요", "en": "still on time for now"}},
+   {"en": "one thing left", "gloss": {"ko": "하나 남았어요", "en": "one item remaining"}}
+  ],
+  "sample_en": "We're about halfway through and on schedule so far. The one thing left this month is the client review.",
+  "sample_gloss": {
+   "ko": "절반쯤 왔고 아직 일정대로라는 뜻이에요. 이번 달에 남은 건 고객 검토 하나라고 했어요.",
+   "en": "You are about halfway and still on schedule, and the only thing left this month is the client review."
+  }
+ },
+ "wk_040": {
+  "intent": {
+   "ko": "오늘 저녁은 어렵지만 다른 날은 괜찮다고 말해보세요",
+   "en": "Say tonight does not work for you, and offer another day."
+  },
+  "chips": [
+   {"en": "wish I could", "gloss": {"ko": "저도 가고 싶은데요", "en": "I would really like to"}},
+   {"en": "already have plans", "gloss": {"ko": "선약이 있어요", "en": "I already have something on"}},
+   {"en": "how about tomorrow", "gloss": {"ko": "내일은 어떠세요", "en": "would tomorrow be better"}}
+  ],
+  "sample_en": "I wish I could, but I already have plans tonight. How about tomorrow instead, if your schedule allows?",
+  "sample_gloss": {
+   "ko": "가고 싶지만 오늘은 선약이 있다는 뜻이에요. 일정이 괜찮다면 내일은 어떤지 물었어요.",
+   "en": "You would like to go but already have plans tonight, and you offer tomorrow if their schedule allows."
+  }
+ },
+ "wk_042": {
+  "intent": {
+   "ko": "다섯 시에는 다른 회의가 있고 여섯 시 이후면 된다고 말해보세요",
+   "en": "Say five does not work because of another meeting, and offer after six."
+  },
+  "chips": [
+   {"en": "can't make five", "gloss": {"ko": "다섯 시는 어려워요", "en": "five does not work for me"}},
+   {"en": "another meeting then", "gloss": {"ko": "그때 회의가 있어요", "en": "I have a meeting at that hour"}},
+   {"en": "any time after six", "gloss": {"ko": "여섯 시 이후면 돼요", "en": "after six is fine"}}
+  ],
+  "sample_en": "I'm afraid I can't make five. I have another meeting then, but any time after six works for me.",
+  "sample_gloss": {
+   "ko": "다섯 시에는 다른 회의가 있어 어렵다는 뜻이에요. 대신 여섯 시 이후면 언제든 괜찮다고 했어요.",
+   "en": "Five does not work because you have another meeting, but any time after six is fine for you."
+  }
+ },
+ "wk_045": {
+  "intent": {
+   "ko": "휴가 동안 누구에게 무엇을 물으면 되는지 말해보세요",
+   "en": "Tell them who to go to for what while you are away next week."
+  },
+  "chips": [
+   {"en": "anything urgent", "gloss": {"ko": "급한 일은요", "en": "for urgent matters"}},
+   {"en": "the team lead", "gloss": {"ko": "팀장님께요", "en": "the lead of the team"}},
+   {"en": "back on Monday", "gloss": {"ko": "월요일에 돌아와요", "en": "I return on Monday"}}
+  ],
+  "sample_en": "For anything urgent, please go to the team lead. I'll be back on Monday and can pick up the rest then.",
+  "sample_gloss": {
+   "ko": "급한 일은 팀장에게 물어봐 달라는 뜻이에요. 월요일에 돌아와서 나머지는 이어받겠다고 했어요.",
+   "en": "Urgent things go to the team lead, and you will pick up the rest when you are back on Monday."
+  }
+ },
+ "wk_048": {
+  "intent": {
+   "ko": "주문이 들어온 뒤의 순서를 차례대로 말해보세요",
+   "en": "Tell them the steps, in order, from the moment an order comes in."
+  },
+  "chips": [
+   {"en": "first we check", "gloss": {"ko": "먼저 확인해요", "en": "the first step is checking"}},
+   {"en": "then it goes to", "gloss": {"ko": "그다음 넘어가요", "en": "after that it moves to"}},
+   {"en": "once that's done", "gloss": {"ko": "그게 끝나면요", "en": "when that part is finished"}}
+  ],
+  "sample_en": "First we check that the stock is there. Then it goes to the warehouse team, and once that's done I send the confirmation.",
+  "sample_gloss": {
+   "ko": "먼저 재고를 확인한다는 뜻이에요. 그다음 창고팀으로 넘기고, 그게 끝나면 확인 메일을 보낸다고 했어요.",
+   "en": "First you check the stock, then it goes to the warehouse team, and once that is done you send the confirmation."
+  }
+ },
+ "wk_051": {
+  "intent": {
+   "ko": "먼저 사과하고 바로 무엇을 해 드릴지 말해보세요",
+   "en": "Say you are sorry, then say exactly what you will do to fix it."
+  },
+  "chips": [
+   {"en": "so sorry about this", "gloss": {"ko": "정말 죄송합니다", "en": "I sincerely apologize for this"}},
+   {"en": "the right one", "gloss": {"ko": "맞는 물건으로요", "en": "the correct item"}},
+   {"en": "at no cost", "gloss": {"ko": "무료로요", "en": "with no charge to you"}}
+  ],
+  "sample_en": "I'm so sorry about this. Let me send the right one out today at no cost, and we'll collect the wrong item.",
+  "sample_gloss": {
+   "ko": "먼저 사과하는 뜻이에요. 맞는 물건을 오늘 무료로 보내고 잘못 간 물건은 회수하겠다고 했어요.",
+   "en": "You apologize, then say you will send the correct item today at no cost and collect the wrong one."
+  }
+ },
+ "wk_054": {
+  "intent": {
+   "ko": "지금 예산으로는 어렵고 무엇이 더 필요한지 말해보세요",
+   "en": "Say the budget is not enough, and tell them what it would take."
+  },
+  "chips": [
+   {"en": "not with this budget", "gloss": {"ko": "이 예산으로는 어려워요", "en": "this budget is not enough"}},
+   {"en": "about twenty percent short", "gloss": {"ko": "이십 퍼센트쯤 부족해요", "en": "short by about twenty percent"}},
+   {"en": "or a smaller scope", "gloss": {"ko": "범위를 줄이는 방법도요", "en": "or we reduce the scope"}}
+  ],
+  "sample_en": "Not with this budget, I'm afraid. We're about twenty percent short, so we'd need a little more room or a smaller scope.",
+  "sample_gloss": {
+   "ko": "지금 예산으로는 어렵다는 뜻이에요. 이십 퍼센트쯤 모자라서 예산을 더 받거나 범위를 줄여야 한다고 했어요.",
+   "en": "This budget is not enough; you are about twenty percent short, so you need a bit more room or a smaller scope."
+  }
+ },
+ "wk_057": {
+  "intent": {
+   "ko": "결정된 내용과 누가 무엇을 할지 짧게 정리해서 말해보세요",
+   "en": "Say what was agreed and who is doing what next."
+  },
+  "chips": [
+   {"en": "we agreed on", "gloss": {"ko": "이렇게 정했어요", "en": "this is what we decided"}},
+   {"en": "take care of", "gloss": {"ko": "제가 맡을게요", "en": "handle it myself"}},
+   {"en": "by next Friday", "gloss": {"ko": "다음 금요일까지요", "en": "by Friday next week"}}
+  ],
+  "sample_en": "So we agreed on the shorter list for now. I'll take care of the supplier call and send the summary by next Friday.",
+  "sample_gloss": {
+   "ko": "짧은 목록으로 가기로 했다는 뜻이에요. 공급사 통화는 본인이 맡고, 정리본은 다음 금요일까지 보내겠다고 했어요.",
+   "en": "You agreed on the shorter list, you will handle the supplier call, and you will send the summary by next Friday."
+  }
+ },
+ "sample_001": {
+  "intent": {
+   "ko": "세 시는 어렵고 네 시는 괜찮다고 말해보세요",
+   "en": "Say three does not work for you, and suggest four instead."
+  },
+  "chips": [
+   {"en": "sorry about that", "gloss": {"ko": "미안해요", "en": "I apologize for that"}},
+   {"en": "can't make three", "gloss": {"ko": "세 시는 어려워요", "en": "three does not work for me"}},
+   {"en": "how about four", "gloss": {"ko": "네 시는 어때요", "en": "would four be all right"}}
+  ],
+  "sample_en": "Sorry about that, I can't make three. How about four instead?",
+  "sample_gloss": {
+   "ko": "세 시는 어렵다고 말하고 네 시는 어떤지 물어보는 뜻이에요.",
+   "en": "You say three does not work for you and ask whether four would be all right instead."
+  }
+ }
+}

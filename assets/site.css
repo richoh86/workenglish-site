@@ -161,6 +161,8 @@ li { margin: var(--s1) 0; }
   margin-left: var(--s3);
 }
 
+.site-header nav a:first-child { margin-left: 0; }
+
 section { padding: var(--s5) 0; }
 
 .hero { padding-top: var(--s5); }
@@ -477,6 +479,75 @@ footer {
   color: var(--ink-secondary);
   font-size: 0.9rem;
 }
+
+/* ---------- hero h1 keyword tail ---------- */
+
+h1 .h1-tail {
+  font-size: 0.55em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ink-secondary);
+}
+
+/* ---------- breadcrumb (표현·가이드 글) ---------- */
+
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: var(--s5) 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8125rem;
+  color: var(--ink-secondary);
+}
+
+.breadcrumb li { margin: 0; }
+
+.breadcrumb li + li::before {
+  content: "\203A";
+  margin: 0 var(--s2);
+  color: var(--ink-secondary);
+}
+
+.breadcrumb a { color: var(--ink-secondary); }
+
+.breadcrumb [aria-current="page"] { color: var(--ink); }
+
+/* ---------- prose (글 본문) ---------- */
+
+.prose h2 { margin: var(--s6) 0 var(--s3); }
+
+.prose h3 { margin: var(--s5) 0 var(--s2); }
+
+.prose > :first-child { margin-top: 0; }
+
+.prose ul, .prose ol { margin: 0 0 var(--s4); padding-left: 1.4rem; }
+
+.prose li { margin: var(--s2) 0; }
+
+.prose li > ul, .prose li > ol { margin: var(--s1) 0 0; }
+
+.prose blockquote {
+  margin: 0 0 var(--s4);
+  padding: var(--s3) var(--s4);
+  border-left: 3px solid var(--accent);
+  background: var(--surface-muted);
+  border-radius: 0 var(--r-btn) var(--r-btn) 0;
+}
+
+.prose blockquote p:last-child { margin-bottom: 0; }
+
+.prose code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  background: var(--surface-muted);
+  border-radius: 6px;
+  padding: 1px 5px;
+}
+
+.prose .table-scroll { margin: 0 0 var(--s5); }
+
+.prose .notice { margin: var(--s5) 0; }
 
 /* ---------- wider screens ---------- */
 
