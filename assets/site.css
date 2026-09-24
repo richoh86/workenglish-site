@@ -596,3 +596,6 @@ h1 .h1-tail {
   .step .device { flex: 0 0 200px; max-width: 200px; margin-bottom: 0; }
   .step .step-body { flex: 1 1 auto; }
 }
+
+/* Secondary button inside a notice shares its background; give it an edge. */
+.notice .btn-secondary { background: var(--surface); border: 1px solid var(--line); }

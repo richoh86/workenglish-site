@@ -46,14 +46,14 @@
 ```html
 <div class="notice">
   <p><strong>이 상황을 60초 동안 직접 말해보세요.</strong> 출근영어는 하루 한 상황을 말하면 자연스러운 문장 한 개와 팁 한 개를 돌려주는 iOS 앱이에요.</p>
-  <p><a class="btn btn-secondary" href="../index.html">출근영어 알아보기</a></p>
+  <p class="actions"><a class="btn btn-primary" href="https://apps.apple.com/kr/app/id6811576834" rel="noopener">App Store에서 받기</a> <a class="btn btn-secondary" href="../index.html">출근영어 알아보기</a></p>
 </div>
 ```
-App Store 링크는 아직 없다(출시 전). "곧 만나요" 문구 유지, 스토어 URL을 지어내지 않는다.
+App Store URL: https://apps.apple.com/kr/app/id6811576834 (2026-09-23 출시). 다운로드 버튼은 btn-primary, 링크에 rel="noopener".
 
 ## 사실 규칙
 - 경쟁사 가격·기능은 조사 파일(raw 02)에 적힌 것 또는 공식 페이지에서 오늘 확인한 것만 쓴다. 확인 못 하면 숫자를 쓰지 않고 "공식 사이트 기준"으로 넘긴다. 폄하 표현 금지, 사실 비교만.
-- 출근영어 가격: 월 7,900원 / 연 59,000원 / 3일 무료 체험(출시 전 예정 가격). 음성은 iPhone 안에서 텍스트로 바뀌고 서버로 가지 않는다. 계정 없음. 스트릭 없음. 텍스트 모드 동등.
+- 출근영어 가격: 월 7,900원 / 연 59,000원 / 3일 무료 체험. 음성은 iPhone 안에서 텍스트로 바뀌고 서버로 가지 않는다. 계정 없음. 스트릭 없음. 텍스트 모드 동등.
 
 ## 사이트맵
 `tools/build_sitemap.py`(W1 작성)가 저장소의 모든 `.html`을 스캔해 `sitemap.xml`을 만든다. 각 워커는 페이지만 만들고 사이트맵은 마지막에 Advisor가 한 번 생성한다.

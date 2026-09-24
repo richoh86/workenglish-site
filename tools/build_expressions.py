@@ -172,7 +172,7 @@ def head(title, description, canonical, og_type, ld):
 
 CTA = """<div class="notice">
   <p><strong>이 상황을 60초 동안 직접 말해보세요.</strong> 출근영어는 하루 한 상황을 말하면 자연스러운 문장 한 개와 팁 한 개를 돌려주는 iOS 앱이에요.</p>
-  <p><a class="btn btn-secondary" href="../index.html">출근영어 알아보기</a></p>
+  <p class="actions"><a class="btn btn-primary" href="https://apps.apple.com/kr/app/id6811576834" rel="noopener">App Store에서 받기</a> <a class="btn btn-secondary" href="../index.html">출근영어 알아보기</a></p>
 </div>
 """
 
