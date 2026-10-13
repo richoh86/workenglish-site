@@ -26,9 +26,20 @@ OG_IMAGE = SITE + "assets/og.png"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "expressions")
 
-# 지금은 모든 상황이 업무 카테고리다. id 접두어로 나눈다.
+# 공통 상황은 '업무', 1.2 직무 트랙 상황(tr_<track>_NNN)은 트랙 이름으로 나눈다.
 CATEGORY_BY_PREFIX = {"wk": "업무", "sample": "업무"}
-CATEGORY_ORDER = ["업무"]
+TRACK_NAMES = {"dev": "개발·IT", "sales": "영업·마케팅", "pm": "기획·PM",
+               "hr": "인사·총무", "finance": "재무·회계", "trade": "무역·구매"}
+CATEGORY_ORDER = ["업무"] + list(TRACK_NAMES.values())
+# 직무 트랙 페이지는 1.2와 함께 올라간다.
+DATE_BY_PREFIX = {"tr": "2026-10-14"}
+
+
+def category_of(sid):
+    parts = sid.split("_")
+    if parts[0] == "tr" and len(parts) > 1 and parts[1] in TRACK_NAMES:
+        return TRACK_NAMES[parts[1]]
+    return CATEGORY_BY_PREFIX.get(parts[0], "업무")
 
 SAMPLE_PREFIX = "오늘 예시:"
 
@@ -66,7 +77,8 @@ def load():
             "first_sentence": sentences[0] if sentences else "",
             "context_en": s["context_en"].strip(),
             "question_en": s["question_en"].strip(),
-            "category": CATEGORY_BY_PREFIX.get(sid.split("_")[0], "업무"),
+            "category": category_of(sid),
+            "date": DATE_BY_PREFIX.get(sid.split("_")[0], DATE),
             "intent_ko": c["intent"]["ko"].strip(),
             "chips": [(ch["en"].strip(), ch["gloss"]["ko"].strip()) for ch in c["chips"]],
             "sample_en": c["sample_en"].strip(),
@@ -215,8 +227,8 @@ def render_page(item, related):
                 "headline": headline,
                 "description": desc,
                 "inLanguage": "ko",
-                "datePublished": DATE,
-                "dateModified": DATE,
+                "datePublished": item["date"],
+                "dateModified": item["date"],
                 "author": ORG,
                 "publisher": ORG,
                 "mainEntityOfPage": canonical,

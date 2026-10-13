@@ -901,6 +901,366 @@
    "context_ko": "면접관이 당신의 가장 큰 강점을 묻습니다. 실제 사례 하나로 답하고 싶습니다.",
    "context_en": "The interviewer asks for your biggest strength and you want to back it up with one example.",
    "question_en": "What would you say is your biggest strength?"
+  },
+  "tr_dev_001": {
+   "title_ko": "코드 리뷰 코멘트에 답하기",
+   "context_ko": "외국인 동료가 내 풀 리퀘스트에 리뷰를 남겼습니다. 함수 이름을 바꾸자고 제안합니다.",
+   "context_en": "A colleague reviewing your pull request suggests renaming one of your functions.",
+   "question_en": "Would you mind renaming this function to something clearer?"
+  },
+  "tr_dev_002": {
+   "title_ko": "배포 후 장애 상황 공유하기",
+   "context_ko": "방금 배포한 뒤 결제 오류가 늘었습니다. 엔지니어링 매니저가 상황을 묻습니다.",
+   "context_en": "Payment errors spiked right after your deploy, and your engineering manager wants an update.",
+   "question_en": "The release is causing errors. Should we roll back?"
+  },
+  "tr_dev_003": {
+   "title_ko": "스탠드업에서 막힌 일 말하기",
+   "context_ko": "아침 스탠드업에서 내 차례가 됐습니다. 다른 팀의 API 권한이 없어 일이 멈춰 있습니다.",
+   "context_en": "It's your turn at standup, and your work is stuck waiting for API access from another team.",
+   "question_en": "Anything blocking you today?"
+  },
+  "tr_dev_004": {
+   "title_ko": "작업 기간을 추정해 말하기",
+   "context_ko": "팀 리드가 새 로그인 화면 작업에 시간이 얼마나 걸릴지 묻습니다.",
+   "context_en": "Your team lead asks how long it will take you to build the new login screen.",
+   "question_en": "How long do you think the login screen will take?"
+  },
+  "tr_dev_005": {
+   "title_ko": "설계 리뷰에서 질문하기",
+   "context_ko": "설계 리뷰에서 동료가 새 캐시 구조를 발표했습니다. 발표자가 질문이 있는지 묻습니다.",
+   "context_en": "A teammate just presented a new caching design and opens the floor for questions.",
+   "question_en": "Any questions or concerns about this approach?"
+  },
+  "tr_dev_006": {
+   "title_ko": "외국인 개발자와 페어 프로그래밍하기",
+   "context_ko": "해외 지사 개발자와 화면을 공유하며 함께 코딩합니다. 상대가 키보드를 넘기겠다고 합니다.",
+   "context_en": "You're pair programming with an overseas engineer, and they offer to let you drive.",
+   "question_en": "Do you want to take over the keyboard for this part?"
+  },
+  "tr_dev_007": {
+   "title_ko": "버그 영향을 PM에게 설명하기",
+   "context_ko": "PM이 고객 문의가 들어온 버그가 얼마나 심각한지 묻습니다. 개발자가 아니어도 이해되게 설명해야 합니다.",
+   "context_en": "A PM asks how serious a customer-reported bug is and needs the answer in plain terms.",
+   "question_en": "How bad is this bug, and who's affected by it?"
+  },
+  "tr_dev_008": {
+   "title_ko": "온콜 교대 때 인수인계하기",
+   "context_ko": "온콜 근무를 마치고 다음 담당자에게 넘깁니다. 밤사이 경고 알림이 한 번 울렸습니다.",
+   "context_en": "You're ending your on-call shift and handing over to the next engineer after a night alert.",
+   "question_en": "Anything I should know before I take over?"
+  },
+  "tr_dev_009": {
+   "title_ko": "라이브러리 선택 이유 설명하기",
+   "context_ko": "기술 회의에서 시니어 개발자가 왜 새 차트 라이브러리를 골랐는지 묻습니다.",
+   "context_en": "In a tech meeting, a senior engineer asks why you picked a new charting library.",
+   "question_en": "Why this library instead of the one we already use?"
+  },
+  "tr_dev_010": {
+   "title_ko": "릴리스 내용 짧게 공유하기",
+   "context_ko": "주간 릴리스 통화에서 고객지원팀이 이번 버전에 무엇이 바뀌었는지 묻습니다.",
+   "context_en": "On the weekly release call, the support team asks what changed in this version.",
+   "question_en": "What's new in this release that we should know about?"
+  },
+  "tr_sales_001": {
+   "title_ko": "첫 상담 통화에서 고객 니즈 묻기",
+   "context_ko": "잠재 고객과 첫 상담 통화를 시작했습니다. 고객이 무엇부터 이야기할지 묻습니다.",
+   "context_en": "You're starting a first call with a potential client, and they ask where to begin.",
+   "question_en": "So where would you like to start?"
+  },
+  "tr_sales_002": {
+   "title_ko": "가격이 비싸다는 반응에 답하기",
+   "context_ko": "제안서를 본 고객이 경쟁사보다 가격이 높다고 말합니다.",
+   "context_en": "After reading your proposal, the client says your price is higher than a competitor's.",
+   "question_en": "Honestly, your price is about 20% higher than the others."
+  },
+  "tr_sales_003": {
+   "title_ko": "데모 후 후속 연락하기",
+   "context_ko": "어제 제품 데모를 한 고객에게 전화했습니다. 고객이 아직 내부 검토 중이라고 합니다.",
+   "context_en": "You call a client the day after a product demo, and they say they're still reviewing it.",
+   "question_en": "We're still going over it internally. Anything else to share?"
+  },
+  "tr_sales_004": {
+   "title_ko": "만족한 고객에게 소개 부탁하기",
+   "context_ko": "분기 점검 통화에서 고객이 서비스에 아주 만족한다고 말합니다.",
+   "context_en": "On a quarterly check-in call, a client says they're very happy with your service.",
+   "question_en": "We're really happy with how things are going."
+  },
+  "tr_sales_005": {
+   "title_ko": "캠페인 결과 보고하기",
+   "context_ko": "마케팅 회의에서 팀장이 지난달 SNS 광고 캠페인 성과를 묻습니다.",
+   "context_en": "In a marketing meeting, your manager asks how last month's social ad campaign did.",
+   "question_en": "So how did the social campaign perform last month?"
+  },
+  "tr_sales_006": {
+   "title_ko": "전시회 부스에서 방문객 맞이하기",
+   "context_ko": "해외 전시회 부스에 방문객이 다가와 제품을 둘러봅니다.",
+   "context_en": "At an overseas trade show, a visitor stops by your booth and looks at your products.",
+   "question_en": "Hi, so what does your company do?"
+  },
+  "tr_sales_007": {
+   "title_ko": "계약 갱신을 망설이는 고객 설득하기",
+   "context_ko": "계약 만료 한 달 전, 고객이 사용률이 낮아 갱신을 고민 중이라고 말합니다.",
+   "context_en": "A month before renewal, the client says they're unsure because usage has been low.",
+   "question_en": "We're not sure about renewing. Usage has been pretty low."
+  },
+  "tr_sales_008": {
+   "title_ko": "할인 대신 다른 조건 제안하기",
+   "context_ko": "계약서 서명 직전, 고객이 마지막으로 10% 할인을 요청합니다.",
+   "context_en": "Right before signing, the client asks for one last 10% discount.",
+   "question_en": "If you can do 10% off, we can sign today."
+  },
+  "tr_sales_009": {
+   "title_ko": "광고 대행사에 캠페인 설명하기",
+   "context_ko": "새 광고 대행사와 첫 회의를 합니다. 대행사가 이번 캠페인의 목표를 묻습니다.",
+   "context_en": "In a first meeting with a new ad agency, they ask about the goal of your campaign.",
+   "question_en": "What's the main goal you want this campaign to hit?"
+  },
+  "tr_sales_010": {
+   "title_ko": "행사에서 처음 만난 사람과 인사하기",
+   "context_ko": "업계 네트워킹 행사에서 처음 보는 사람이 먼저 말을 겁니다.",
+   "context_en": "At an industry networking event, someone you've never met starts a conversation.",
+   "question_en": "Hi there, I don't think we've met. What brings you here?"
+  },
+  "tr_pm_001": {
+   "title_ko": "급한 요청의 우선순위 정하기",
+   "context_ko": "영업팀이 고객이 요청한 기능을 이번 스프린트에 넣어 달라고 합니다.",
+   "context_en": "The sales team asks you to squeeze a customer's feature request into this sprint.",
+   "question_en": "Can we get this into the current sprint? The client is waiting."
+  },
+  "tr_pm_002": {
+   "title_ko": "출시 범위를 줄이자고 제안하기",
+   "context_ko": "출시 2주 전, 일정이 빠듯합니다. 디렉터가 날짜를 지킬 수 있는지 묻습니다.",
+   "context_en": "Two weeks before launch, the schedule is tight, and your director asks if the date still holds.",
+   "question_en": "Are we still on track for the launch date?"
+  },
+  "tr_pm_003": {
+   "title_ko": "기능 출시가 늦어진 이유 설명하기",
+   "context_ko": "주간 회의에서 마케팅 팀장이 결제 기능이 왜 또 늦어지는지 묻습니다.",
+   "context_en": "In the weekly sync, the marketing lead asks why the payment feature is late again.",
+   "question_en": "Why is the payment feature slipping again?"
+  },
+  "tr_pm_004": {
+   "title_ko": "사용자 인터뷰 시작하기",
+   "context_ko": "사용자 인터뷰를 위해 고객과 화상으로 만났습니다. 고객이 무엇을 하면 되는지 묻습니다.",
+   "context_en": "You're starting a video interview with a user, and they ask what they need to do.",
+   "question_en": "So what do you need from me today?"
+  },
+  "tr_pm_005": {
+   "title_ko": "스프린트 리뷰에서 결과 발표하기",
+   "context_ko": "스프린트 리뷰에서 이해관계자들에게 지난 2주 동안 팀이 한 일을 보여 줍니다.",
+   "context_en": "At the sprint review, you show stakeholders what the team shipped in the last two weeks.",
+   "question_en": "What did the team manage to finish this sprint?"
+  },
+  "tr_pm_006": {
+   "title_ko": "기획 변경을 팀에 알리기",
+   "context_ko": "회의에서 화면 기획이 바뀌었다고 알렸습니다. 개발자가 정확히 무엇이 바뀌었는지 묻습니다.",
+   "context_en": "You tell the team the spec changed, and a developer asks exactly what is different now.",
+   "question_en": "Wait, what exactly changed in the spec?"
+  },
+  "tr_pm_007": {
+   "title_ko": "기능 요청을 정중히 거절하기",
+   "context_ko": "다른 팀장이 자기 팀만 쓰는 맞춤 기능을 만들어 달라고 요청합니다.",
+   "context_en": "Another team's lead asks you to build a feature that only their team would use.",
+   "question_en": "Could you add a custom report just for our team?"
+  },
+  "tr_pm_008": {
+   "title_ko": "개발팀에 작업 기간 물어보기",
+   "context_ko": "새 알림 기능을 기획했습니다. 개발 리드가 무엇이 필요한지 묻습니다.",
+   "context_en": "You've planned a new alert feature, and the dev lead asks what you need from the team.",
+   "question_en": "Sure, what do you need from us?"
+  },
+  "tr_pm_009": {
+   "title_ko": "임원의 로드맵 질문에 답하기",
+   "context_ko": "분기 보고에서 임원이 AI 기능을 고객이 언제 쓸 수 있는지 묻습니다.",
+   "context_en": "During a quarterly review, an executive asks when customers can use the AI feature.",
+   "question_en": "When can customers actually use the AI feature?"
+  },
+  "tr_pm_010": {
+   "title_ko": "회고에서 잘된 점 말하기",
+   "context_ko": "스프린트 회고에서 진행자가 이번에 잘된 점을 하나씩 말해 달라고 합니다.",
+   "context_en": "In a sprint retrospective, the facilitator asks everyone to share one thing that went well.",
+   "question_en": "What's one thing that went well this sprint?"
+  },
+  "tr_hr_001": {
+   "title_ko": "지원자와 면접 일정 잡기",
+   "context_ko": "해외 지원자에게 면접 일정을 잡으려고 전화했습니다. 지원자가 가능한 시간을 묻습니다.",
+   "context_en": "You call an overseas candidate to set up an interview, and they ask about available times.",
+   "question_en": "What times work on your side for the interview?"
+  },
+  "tr_hr_002": {
+   "title_ko": "외국인 입사자에게 첫 주 안내하기",
+   "context_ko": "외국인 신입이 첫 출근했습니다. 이번 주에 무엇을 하는지 묻습니다.",
+   "context_en": "On their first day, a new hire from abroad asks what this week will look like.",
+   "question_en": "What should I expect this first week?"
+  },
+  "tr_hr_003": {
+   "title_ko": "외국인 직원에게 연차 규정 설명하기",
+   "context_ko": "외국인 직원이 연차가 며칠인지, 남은 휴가를 다음 해로 넘길 수 있는지 묻습니다.",
+   "context_en": "A foreign employee asks how many vacation days they get and if unused days carry over.",
+   "question_en": "How many days off do I get, and do they roll over?"
+  },
+  "tr_hr_004": {
+   "title_ko": "사무실 시설 고장 대응하기",
+   "context_ko": "한 직원이 회의실 에어컨이 고장 났다고 총무 담당인 당신에게 말합니다.",
+   "context_en": "An employee tells you the air conditioning in Meeting Room B isn't working.",
+   "question_en": "The AC in Room B isn't working. Can someone fix it?"
+  },
+  "tr_hr_005": {
+   "title_ko": "복지 혜택 질문에 답하기",
+   "context_ko": "직원이 회사 건강검진 지원이 배우자에게도 되는지 묻습니다.",
+   "context_en": "An employee asks whether the company health checkup also covers family members.",
+   "question_en": "Does the health checkup cover my spouse too?"
+  },
+  "tr_hr_006": {
+   "title_ko": "지원자 평판 조회 전화하기",
+   "context_ko": "지원자의 전 직장 상사에게 평판 조회 전화를 했습니다. 상대가 무엇이 궁금한지 묻습니다.",
+   "context_en": "You call a candidate's former manager for a reference, and they ask what you'd like to know.",
+   "question_en": "Happy to help. What would you like to know?"
+  },
+  "tr_hr_007": {
+   "title_ko": "팀 워크숍 날짜 정하기",
+   "context_ko": "팀 워크숍 날짜를 정하는 중입니다. 해외 팀원이 날짜가 정해졌는지 묻습니다.",
+   "context_en": "You're organizing a team workshop, and an overseas teammate asks which day it will be.",
+   "question_en": "Have we picked a date for the team workshop yet?"
+  },
+  "tr_hr_008": {
+   "title_ko": "비자 서류 제출 요청하기",
+   "context_ko": "외국인 입사 예정자의 취업 비자 신청을 돕고 있습니다. 상대가 어떤 서류가 필요한지 묻습니다.",
+   "context_en": "You're handling a new foreign hire's work visa, and they ask which documents you need.",
+   "question_en": "Which documents do you need from me for the visa?"
+  },
+  "tr_hr_009": {
+   "title_ko": "평가 면담 일정 조율하기",
+   "context_ko": "평가 시즌입니다. 한 팀장이 출장 때문에 면담 기한을 지키기 어렵다고 말합니다.",
+   "context_en": "It's review season, and a team lead says a business trip makes the deadline hard to meet.",
+   "question_en": "I'm traveling all next week. Can my reviews wait?"
+  },
+  "tr_hr_010": {
+   "title_ko": "새 근무 규정 공지하기",
+   "context_ko": "전사 회의에서 재택근무 규정이 바뀐다고 발표했습니다. 직원이 언제부터인지 묻습니다.",
+   "context_en": "At an all-hands, you announce a new remote work policy, and an employee asks when it starts.",
+   "question_en": "When does the new policy actually start?"
+  },
+  "tr_finance_001": {
+   "title_ko": "청구서 금액 차이 확인하기",
+   "context_ko": "해외 협력사 담당자가 받은 금액이 청구서보다 적다며 전화했습니다.",
+   "context_en": "A partner calls because your payment was less than the amount on their invoice.",
+   "question_en": "We received $8,000, but the invoice says $8,500. Why?"
+  },
+  "tr_finance_002": {
+   "title_ko": "신규 예산 승인 요청하기",
+   "context_ko": "재무 이사에게 새 회계 소프트웨어 구매 예산을 요청했습니다. 이사가 왜 필요한지 묻습니다.",
+   "context_en": "You ask the finance director to approve budget for new accounting software.",
+   "question_en": "Why do we need this now, and how much is it?"
+  },
+  "tr_finance_003": {
+   "title_ko": "경비 규정 질문에 답하기",
+   "context_ko": "출장에서 돌아온 직원이 택시비도 경비 처리가 되는지 묻습니다.",
+   "context_en": "A colleague back from a business trip asks if taxi fares can be expensed.",
+   "question_en": "Can I expense the taxi rides from my trip?"
+  },
+  "tr_finance_004": {
+   "title_ko": "월 마감 보고 지연 알리기",
+   "context_ko": "본사 재무팀이 이번 달 마감 보고서를 금요일에 받을 수 있는지 묻습니다. 자료 하나가 늦어지고 있습니다.",
+   "context_en": "Head office asks when they'll get your month-end report, but one data source is late.",
+   "question_en": "Are we still getting the close report on Friday?"
+  },
+  "tr_finance_005": {
+   "title_ko": "예산 대비 차이 설명하기",
+   "context_ko": "분기 회의에서 CFO가 마케팅 비용이 예산보다 20% 많은 이유를 묻습니다.",
+   "context_en": "In a quarterly meeting, the CFO asks why marketing spend is 20% over budget.",
+   "question_en": "Why is marketing 20% over budget this quarter?"
+  },
+  "tr_finance_006": {
+   "title_ko": "감사 자료 요청에 답하기",
+   "context_ko": "외부 감사인이 3분기 계약서 사본을 내일까지 보내 달라고 요청합니다.",
+   "context_en": "An external auditor asks you for copies of all third-quarter contracts by tomorrow.",
+   "question_en": "Could you send copies of the Q3 contracts by tomorrow?"
+  },
+  "tr_finance_007": {
+   "title_ko": "새 거래처에 지급 기준 안내하기",
+   "context_ko": "새 공급업체가 대금을 15일 안에 받을 수 있는지 묻습니다. 회사 기준은 45일입니다.",
+   "context_en": "A new supplier asks to be paid within 15 days, but your company's standard is 45.",
+   "question_en": "Would it be possible to get paid within 15 days?"
+  },
+  "tr_finance_008": {
+   "title_ko": "환율 영향 짧게 설명하기",
+   "context_ko": "팀장이 이번 달 수입 원가가 왜 올랐는지 묻습니다. 달러 환율이 많이 올랐습니다.",
+   "context_en": "Your manager asks why import costs went up this month, and the dollar has risen.",
+   "question_en": "Why did our import costs jump this month?"
+  },
+  "tr_finance_009": {
+   "title_ko": "수정 청구서 다시 요청하기",
+   "context_ko": "협력사 청구서에 우리 회사 사업자 번호가 틀려 있습니다. 담당자가 전화로 문제가 있는지 묻습니다.",
+   "context_en": "A vendor's invoice shows your company's tax ID wrong, and their rep calls to check on it.",
+   "question_en": "Is there a problem with our invoice?"
+  },
+  "tr_finance_010": {
+   "title_ko": "매출 전망을 신중하게 말하기",
+   "context_ko": "전망 회의에서 사업부장이 하반기 매출 전망을 10% 올릴 수 있는지 묻습니다.",
+   "context_en": "In a forecast meeting, the division head asks if you can raise the second-half sales forecast.",
+   "question_en": "Can we push the second-half forecast up by 10%?"
+  },
+  "tr_trade_001": {
+   "title_ko": "공급업체에 견적 요청하기",
+   "context_ko": "새 공급업체와 통화합니다. 상대가 어떤 제품의 견적이 필요한지 묻습니다.",
+   "context_en": "On a call with a new supplier, they ask what you'd like a quote for.",
+   "question_en": "Which items would you like us to quote?"
+  },
+  "tr_trade_002": {
+   "title_ko": "공급업체 납기 지연에 대응하기",
+   "context_ko": "공급업체가 원자재 부족으로 납기가 2주 늦어진다고 알려 왔습니다.",
+   "context_en": "Your supplier says a material shortage will push your delivery back two weeks.",
+   "question_en": "I'm sorry, but we need two more weeks for your order."
+  },
+  "tr_trade_003": {
+   "title_ko": "운송사에 파손 클레임 제기하기",
+   "context_ko": "도착한 화물 일부가 물에 젖어 있습니다. 포워더 담당자가 클레임 접수를 위해 상황을 묻습니다.",
+   "context_en": "Part of your shipment arrived wet, and the forwarder asks for details to file a claim.",
+   "question_en": "Can you tell me what was damaged for the claim?"
+  },
+  "tr_trade_004": {
+   "title_ko": "선적 조건의 책임 범위 확인하기",
+   "context_ko": "계약 협상 중 상대가 FOB 조건이면 보험은 누가 드는지 묻습니다.",
+   "context_en": "During contract talks, the other side asks who covers insurance under FOB terms.",
+   "question_en": "Under FOB, who's responsible for the insurance?"
+  },
+  "tr_trade_005": {
+   "title_ko": "통관 서류 누락 알리기",
+   "context_ko": "물건이 세관에서 멈췄습니다. 공급업체가 무슨 문제인지 묻습니다.",
+   "context_en": "Your goods are being held at customs, and the supplier asks what the problem is.",
+   "question_en": "Why is the shipment stuck at customs?"
+  },
+  "tr_trade_006": {
+   "title_ko": "샘플 다시 보내 달라고 하기",
+   "context_ko": "받은 샘플의 색이 주문한 것과 다릅니다. 공급업체가 샘플이 괜찮았는지 묻습니다.",
+   "context_en": "The sample you received is the wrong color, and the supplier asks how it looked.",
+   "question_en": "Did the samples look okay to you?"
+  },
+  "tr_trade_007": {
+   "title_ko": "최소 주문 수량 협상하기",
+   "context_ko": "공급업체의 최소 주문 수량은 1만 개인데, 첫 주문은 3천 개만 하고 싶습니다.",
+   "context_en": "The supplier's minimum order is 10,000 units, but you only want 3,000 for a first order.",
+   "question_en": "Our MOQ is 10,000 units. Can you work with that?"
+  },
+  "tr_trade_008": {
+   "title_ko": "공급업체에 품질 문제 제기하기",
+   "context_ko": "입고 검사에서 불량률이 높게 나왔습니다. 공급업체가 전화로 결과를 묻습니다.",
+   "context_en": "Your incoming inspection found a high defect rate, and the supplier calls to ask about it.",
+   "question_en": "We heard the inspection didn't go well. What did you find?"
+  },
+  "tr_trade_009": {
+   "title_ko": "공급업체 공장 방문 일정 잡기",
+   "context_ko": "다음 달 베트남 공장을 방문하려고 합니다. 공급업체가 언제 오는지 묻습니다.",
+   "context_en": "You plan to visit a supplier's factory in Vietnam, and they ask when you'll come.",
+   "question_en": "When are you planning to visit our factory?"
+  },
+  "tr_trade_010": {
+   "title_ko": "대금 송금 사실 확인해 주기",
+   "context_ko": "공급업체가 대금이 아직 들어오지 않았다고 연락했습니다. 회사는 이틀 전에 송금했습니다.",
+   "context_en": "A supplier says they haven't received payment, but your company wired it two days ago.",
+   "question_en": "We still haven't received the payment. Can you check?"
   }
  }
 }

@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://richoh86.github.io/workenglish-site/</loc>
-    <lastmod>2026-09-25T00:06:03+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:25+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/index.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -17,6 +17,366 @@
     <lastmod>2026-09-25T00:06:03+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_001.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_002.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_003.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_004.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_005.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_006.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_007.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_008.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_009.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_dev_010.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_001.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_002.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_003.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_004.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_005.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_006.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_007.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_008.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_009.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_finance_010.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_001.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_002.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_003.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_004.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_005.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_006.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_007.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_008.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_009.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_hr_010.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_001.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_002.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_003.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_004.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_005.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_006.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_007.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_008.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_009.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_pm_010.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_001.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_002.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_003.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_004.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_005.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_006.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_007.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_008.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_009.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_sales_010.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_001.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_002.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_003.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_004.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_005.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_006.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_007.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_008.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_009.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://richoh86.github.io/workenglish-site/expressions/tr_trade_010.html</loc>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_003.html</loc>
@@ -122,205 +482,205 @@
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_051.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_054.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_057.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_060.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_061.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_062.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_063.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_064.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_065.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_066.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_067.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_068.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_069.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_070.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_071.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_072.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_073.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_074.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_075.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_076.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_077.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_078.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_079.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_080.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_081.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_082.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_083.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_084.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_085.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_086.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-09T07:52:43+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_087.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_088.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/expressions/wk_089.html</loc>
-    <lastmod>2026-10-09T07:52:36+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:46+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/guide/best-english-speaking-apps-for-office-workers-2026.html</loc>
-    <lastmod>2026-09-25T00:06:03+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -344,13 +704,13 @@
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/guide/phone-english-vs-ai-speaking-app.html</loc>
-    <lastmod>2026-09-25T00:06:03+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/guide/speak-vs-workenglish.html</loc>
-    <lastmod>2026-09-25T00:06:03+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -362,7 +722,7 @@
   </url>
   <url>
     <loc>https://richoh86.github.io/workenglish-site/privacy.html</loc>
-    <lastmod>2026-09-24T23:58:16+09:00</lastmod>
+    <lastmod>2026-10-14T07:10:25+09:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

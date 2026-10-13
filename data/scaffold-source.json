@@ -1732,5 +1732,2045 @@
    "ko": "체계적인 정리가 강점이라며, 작년에 12개 프로젝트를 동시에 맡아 모두 제때 끝냈다는 뜻이에요.",
    "en": "Your strength is keeping things in order, and last year all twelve of your projects finished by the deadline."
   }
+ },
+ "tr_dev_001": {
+  "intent": {
+   "ko": "좋은 지적이라며 바로 고치겠다고 말해보세요",
+   "en": "Agree with the suggestion and say you will update it right away."
+  },
+  "chips": [
+   {
+    "en": "good catch",
+    "gloss": {
+     "ko": "좋은 지적이에요",
+     "en": "nice spot"
+    }
+   },
+   {
+    "en": "rename it to",
+    "gloss": {
+     "ko": "~로 이름을 바꿀게요",
+     "en": "change its name to"
+    }
+   },
+   {
+    "en": "push a fix",
+    "gloss": {
+     "ko": "수정본을 올릴게요",
+     "en": "upload the change"
+    }
+   }
+  ],
+  "sample_en": "Good catch. I'll rename it to calculateTotal and push a fix in a few minutes.",
+  "sample_gloss": {
+   "ko": "좋은 지적이라며, 이름을 calculateTotal로 바꾸고 몇 분 안에 수정본을 올리겠다는 뜻이에요.",
+   "en": "You thank them for spotting it and will upload the renamed version in a few minutes."
+  }
+ },
+ "tr_dev_002": {
+  "intent": {
+   "ko": "이미 롤백했고 원인을 찾는 중이라고 말해보세요",
+   "en": "Say the release is already reverted and you are still looking for the cause."
+  },
+  "chips": [
+   {
+    "en": "rolled it back",
+    "gloss": {
+     "ko": "이미 롤백했어요",
+     "en": "reverted the release"
+    }
+   },
+   {
+    "en": "error rate",
+    "gloss": {
+     "ko": "오류율",
+     "en": "how often it fails"
+    }
+   },
+   {
+    "en": "root cause",
+    "gloss": {
+     "ko": "근본 원인",
+     "en": "the real reason"
+    }
+   }
+  ],
+  "sample_en": "We already rolled it back, and the error rate is normal. Now we're finding the root cause.",
+  "sample_gloss": {
+   "ko": "이미 롤백해서 오류율은 정상으로 돌아왔고, 지금 근본 원인을 찾고 있다는 뜻이에요.",
+   "en": "The release is reverted, failures are back to normal, and you are looking for the real reason."
+  }
+ },
+ "tr_dev_003": {
+  "intent": {
+   "ko": "API 권한이 없어 막혀 있다고 말해보세요",
+   "en": "Say your work is stuck because you still can't use the other team's API."
+  },
+  "chips": [
+   {
+    "en": "blocked on",
+    "gloss": {
+     "ko": "~ 때문에 막혀 있어요",
+     "en": "stuck because of"
+    }
+   },
+   {
+    "en": "API access",
+    "gloss": {
+     "ko": "API 권한",
+     "en": "permission to use the API"
+    }
+   },
+   {
+    "en": "could someone help",
+    "gloss": {
+     "ko": "누가 도와줄 수 있을까요",
+     "en": "is anyone able to assist"
+    }
+   }
+  ],
+  "sample_en": "Yes, I'm blocked on API access from the platform team. Could someone help me follow up?",
+  "sample_gloss": {
+   "ko": "플랫폼팀의 API 권한 때문에 막혀 있으니, 누가 확인을 도와줄 수 있는지 묻는 뜻이에요.",
+   "en": "You are stuck waiting for the platform team's permission and ask if anyone can help chase it."
+  }
+ },
+ "tr_dev_004": {
+  "intent": {
+   "ko": "3일쯤 걸리고 테스트는 따로라고 말해보세요",
+   "en": "Give a rough number of days and mention that testing needs extra time."
+  },
+  "chips": [
+   {
+    "en": "roughly three days",
+    "gloss": {
+     "ko": "대략 3일",
+     "en": "about three days"
+    }
+   },
+   {
+    "en": "not including",
+    "gloss": {
+     "ko": "~은 빼고요",
+     "en": "leaving out"
+    }
+   },
+   {
+    "en": "a buffer for",
+    "gloss": {
+     "ko": "~을 위한 여유",
+     "en": "extra time for"
+    }
+   }
+  ],
+  "sample_en": "Roughly three days, not including testing. I'd add a buffer for the API changes.",
+  "sample_gloss": {
+   "ko": "테스트를 빼고 대략 3일이며, API 변경에 대비해 여유를 두고 싶다는 뜻이에요.",
+   "en": "About three days without testing, plus some extra time in case the API changes."
+  }
+ },
+ "tr_dev_005": {
+  "intent": {
+   "ko": "오래된 데이터 처리 방법이 궁금하다고 말해보세요",
+   "en": "Ask how the design deals with data that is out of date."
+  },
+  "chips": [
+   {
+    "en": "how would we handle",
+    "gloss": {
+     "ko": "어떻게 처리하나요",
+     "en": "what happens with"
+    }
+   },
+   {
+    "en": "stale data",
+    "gloss": {
+     "ko": "오래된 데이터",
+     "en": "out-of-date data"
+    }
+   },
+   {
+    "en": "walk me through",
+    "gloss": {
+     "ko": "차근차근 설명해 주세요",
+     "en": "explain step by step"
+    }
+   }
+  ],
+  "sample_en": "Nice work. How would we handle stale data? Could you walk me through that part?",
+  "sample_gloss": {
+   "ko": "잘했다고 한 뒤, 오래된 데이터는 어떻게 처리하는지 그 부분을 설명해 달라는 뜻이에요.",
+   "en": "You praise the work and ask them to explain step by step what happens with out-of-date data."
+  }
+ },
+ "tr_dev_006": {
+  "intent": {
+   "ko": "좋다며 먼저 테스트부터 쓰자고 말해보세요",
+   "en": "Agree to drive and suggest writing a test before anything else."
+  },
+  "chips": [
+   {
+    "en": "take over",
+    "gloss": {
+     "ko": "제가 이어서 할게요",
+     "en": "continue from here"
+    }
+   },
+   {
+    "en": "write a test",
+    "gloss": {
+     "ko": "테스트를 작성하다",
+     "en": "add a check first"
+    }
+   },
+   {
+    "en": "stop me if",
+    "gloss": {
+     "ko": "~하면 말려 주세요",
+     "en": "tell me when"
+    }
+   }
+  ],
+  "sample_en": "Sure, I'll take over. Let's write a test first, and stop me if I miss anything.",
+  "sample_gloss": {
+   "ko": "제가 이어서 하겠다며, 먼저 테스트를 쓰고 빠뜨린 게 있으면 말해 달라는 뜻이에요.",
+   "en": "You will continue from here, start with a test, and ask them to tell you when you miss something."
+  }
+ },
+ "tr_dev_007": {
+  "intent": {
+   "ko": "일부 안드로이드 사용자만 영향받는다고 말해보세요",
+   "en": "In simple words, say only some Android users are hit and when it will be fixed."
+  },
+  "chips": [
+   {
+    "en": "only affects",
+    "gloss": {
+     "ko": "~에만 영향이 있어요",
+     "en": "is limited to"
+    }
+   },
+   {
+    "en": "older Android phones",
+    "gloss": {
+     "ko": "구형 안드로이드폰",
+     "en": "old Android devices"
+    }
+   },
+   {
+    "en": "a fix by",
+    "gloss": {
+     "ko": "~까지 수정",
+     "en": "repaired by"
+    }
+   }
+  ],
+  "sample_en": "It only affects older Android phones, about 5% of users. We'll have a fix by Friday.",
+  "sample_gloss": {
+   "ko": "구형 안드로이드폰, 약 5% 사용자에게만 영향이 있고 금요일까지 고치겠다는 뜻이에요.",
+   "en": "The bug is limited to old Android devices, about 5% of users, and will be repaired by Friday."
+  }
+ },
+ "tr_dev_008": {
+  "intent": {
+   "ko": "알림은 해결됐고 하나만 지켜보라고 말해보세요",
+   "en": "Say last night's alert is resolved but one thing still needs watching."
+  },
+  "chips": [
+   {
+    "en": "fired once",
+    "gloss": {
+     "ko": "한 번 울렸어요",
+     "en": "went off one time"
+    }
+   },
+   {
+    "en": "keep an eye on",
+    "gloss": {
+     "ko": "지켜봐 주세요",
+     "en": "watch closely"
+    }
+   },
+   {
+    "en": "disk usage",
+    "gloss": {
+     "ko": "디스크 사용량",
+     "en": "storage space used"
+    }
+   }
+  ],
+  "sample_en": "One alert fired once around 2 a.m., and it's resolved. Just keep an eye on disk usage.",
+  "sample_gloss": {
+   "ko": "새벽 2시쯤 알림이 한 번 울렸지만 해결됐고, 디스크 사용량만 지켜봐 달라는 뜻이에요.",
+   "en": "An alert went off around 2 a.m. and was fixed, but they should watch the storage space."
+  }
+ },
+ "tr_dev_009": {
+  "intent": {
+   "ko": "관리 상태와 크기, 두 가지 이유를 말해보세요",
+   "en": "Give two reasons: it is still updated often and it is much smaller."
+  },
+  "chips": [
+   {
+    "en": "the main reason",
+    "gloss": {
+     "ko": "가장 큰 이유",
+     "en": "the key point"
+    }
+   },
+   {
+    "en": "actively maintained",
+    "gloss": {
+     "ko": "꾸준히 관리돼요",
+     "en": "still updated often"
+    }
+   },
+   {
+    "en": "half the size",
+    "gloss": {
+     "ko": "크기가 절반",
+     "en": "50% smaller"
+    }
+   }
+  ],
+  "sample_en": "The main reason is that it's actively maintained. It's also half the size of ours.",
+  "sample_gloss": {
+   "ko": "가장 큰 이유는 꾸준히 관리된다는 점이고, 크기도 지금 쓰는 것의 절반이라는 뜻이에요.",
+   "en": "The key point is that it is still updated often, and it is 50% smaller than the current one."
+  }
+ },
+ "tr_dev_010": {
+  "intent": {
+   "ko": "새 기능 하나와 버그 수정 두 개를 말해보세요",
+   "en": "Mention one new feature and the two problems that were fixed."
+  },
+  "chips": [
+   {
+    "en": "this release adds",
+    "gloss": {
+     "ko": "이번 버전에 추가돼요",
+     "en": "the new version brings"
+    }
+   },
+   {
+    "en": "dark mode",
+    "gloss": {
+     "ko": "다크 모드",
+     "en": "a dark theme"
+    }
+   },
+   {
+    "en": "two bug fixes",
+    "gloss": {
+     "ko": "버그 수정 두 개",
+     "en": "a couple of repairs"
+    }
+   }
+  ],
+  "sample_en": "This release adds dark mode, plus two bug fixes for login and search.",
+  "sample_gloss": {
+   "ko": "이번 버전에는 다크 모드가 추가됐고, 로그인과 검색 버그 두 개를 고쳤다는 뜻이에요.",
+   "en": "The new version brings a dark theme and repairs two problems in login and search."
+  }
+ },
+ "tr_sales_001": {
+  "intent": {
+   "ko": "가장 큰 고민부터 듣고 싶다고 말해보세요",
+   "en": "Say you want to hear how they work now and what their main problem is."
+  },
+  "chips": [
+   {
+    "en": "I'd love to hear",
+    "gloss": {
+     "ko": "듣고 싶어요",
+     "en": "I want to learn"
+    }
+   },
+   {
+    "en": "how you handle",
+    "gloss": {
+     "ko": "어떻게 처리하시는지",
+     "en": "your way of managing"
+    }
+   },
+   {
+    "en": "the biggest challenge",
+    "gloss": {
+     "ko": "가장 큰 어려움",
+     "en": "the main problem"
+    }
+   }
+  ],
+  "sample_en": "I'd love to hear how you handle orders today. What's the biggest challenge right now?",
+  "sample_gloss": {
+   "ko": "지금 주문을 어떻게 처리하는지, 가장 큰 어려움이 무엇인지 듣고 싶다는 뜻이에요.",
+   "en": "You want to learn how they manage orders now and what their main problem is."
+  }
+ },
+ "tr_sales_002": {
+  "intent": {
+   "ko": "차이를 인정하고 아껴 주는 비용을 말해보세요",
+   "en": "Accept that it costs more, then explain the savings it brings."
+  },
+  "chips": [
+   {
+    "en": "I understand",
+    "gloss": {
+     "ko": "이해합니다",
+     "en": "that makes sense"
+    }
+   },
+   {
+    "en": "saves you",
+    "gloss": {
+     "ko": "~을 아껴 드려요",
+     "en": "cuts your"
+    }
+   },
+   {
+    "en": "over a year",
+    "gloss": {
+     "ko": "1년으로 보면",
+     "en": "across twelve months"
+    }
+   }
+  ],
+  "sample_en": "I understand. But it saves you about ten hours a week, so it pays for itself over a year.",
+  "sample_gloss": {
+   "ko": "이해한다고 한 뒤, 주당 약 10시간을 아껴 주니 1년이면 비용이 회수된다는 뜻이에요.",
+   "en": "You accept the point, then explain it cuts about ten hours a week and pays back within twelve months."
+  }
+ },
+ "tr_sales_003": {
+  "intent": {
+   "ko": "추가 자료를 보내겠다고 말해보세요",
+   "en": "Offer to send more material and invite their questions."
+  },
+  "chips": [
+   {
+    "en": "send over",
+    "gloss": {
+     "ko": "보내 드릴게요",
+     "en": "email you"
+    }
+   },
+   {
+    "en": "pricing sheet",
+    "gloss": {
+     "ko": "가격표",
+     "en": "the price list"
+    }
+   },
+   {
+    "en": "any questions",
+    "gloss": {
+     "ko": "궁금한 점",
+     "en": "anything unclear"
+    }
+   }
+  ],
+  "sample_en": "Sure. I can send over our pricing sheet today. Any questions so far?",
+  "sample_gloss": {
+   "ko": "오늘 가격표를 보내 줄 수 있다며 지금까지 궁금한 점이 있는지 묻는 뜻이에요.",
+   "en": "You offer to email the price list today and ask if anything is unclear so far."
+  }
+ },
+ "tr_sales_004": {
+  "intent": {
+   "ko": "감사를 전하고 소개를 부탁한다고 말해보세요",
+   "en": "Thank them and ask whether they know another team who could use it."
+  },
+  "chips": [
+   {
+    "en": "that means a lot",
+    "gloss": {
+     "ko": "큰 힘이 돼요",
+     "en": "we really appreciate it"
+    }
+   },
+   {
+    "en": "anyone else",
+    "gloss": {
+     "ko": "다른 분",
+     "en": "another person"
+    }
+   },
+   {
+    "en": "might benefit",
+    "gloss": {
+     "ko": "도움이 될 만한",
+     "en": "could find it useful"
+    }
+   }
+  ],
+  "sample_en": "That means a lot. Is there anyone else in your network who might benefit from this?",
+  "sample_gloss": {
+   "ko": "큰 힘이 된다며, 주변에 이 서비스가 도움이 될 만한 분이 있는지 묻는 뜻이에요.",
+   "en": "You thank them warmly and ask if another person they know could find it useful."
+  }
+ },
+ "tr_sales_005": {
+  "intent": {
+   "ko": "클릭은 좋았지만 전환은 낮았다고 말해보세요",
+   "en": "Say many people clicked, but few of them actually bought."
+  },
+  "chips": [
+   {
+    "en": "click rate",
+    "gloss": {
+     "ko": "클릭률",
+     "en": "share of people who clicked"
+    }
+   },
+   {
+    "en": "above target",
+    "gloss": {
+     "ko": "목표보다 높아요",
+     "en": "better than planned"
+    }
+   },
+   {
+    "en": "conversions were low",
+    "gloss": {
+     "ko": "전환은 낮았어요",
+     "en": "few people bought"
+    }
+   }
+  ],
+  "sample_en": "The click rate was above target, but conversions were low. We're testing a new page.",
+  "sample_gloss": {
+   "ko": "클릭률은 목표보다 높았지만 전환은 낮아서 새 페이지를 시험 중이라는 뜻이에요.",
+   "en": "Many people clicked, better than planned, but few bought, so you are trying a new page."
+  }
+ },
+ "tr_sales_006": {
+  "intent": {
+   "ko": "회사가 하는 일을 한 줄로 말해보세요",
+   "en": "Introduce your company in one short sentence and offer to show something."
+  },
+  "chips": [
+   {
+    "en": "we make",
+    "gloss": {
+     "ko": "저희는 ~를 만들어요",
+     "en": "our company builds"
+    }
+   },
+   {
+    "en": "smart sensors",
+    "gloss": {
+     "ko": "스마트 센서",
+     "en": "connected sensors"
+    }
+   },
+   {
+    "en": "let me show you",
+    "gloss": {
+     "ko": "보여 드릴게요",
+     "en": "I can demo"
+    }
+   }
+  ],
+  "sample_en": "Hi! We make smart sensors for factories. Let me show you how they work.",
+  "sample_gloss": {
+   "ko": "공장용 스마트 센서를 만든다고 소개하고, 작동 방식을 보여 주겠다는 뜻이에요.",
+   "en": "Your company builds connected sensors for factories, and you offer to demo them."
+  }
+ },
+ "tr_sales_007": {
+  "intent": {
+   "ko": "사용률을 같이 높여 보자고 말해보세요",
+   "en": "Thank them for being honest and offer free training to raise usage."
+  },
+  "chips": [
+   {
+    "en": "thanks for being upfront",
+    "gloss": {
+     "ko": "솔직히 말씀해 주셔서 감사해요",
+     "en": "I appreciate the honesty"
+    }
+   },
+   {
+    "en": "free training session",
+    "gloss": {
+     "ko": "무료 교육",
+     "en": "a no-cost workshop"
+    }
+   },
+   {
+    "en": "before you decide",
+    "gloss": {
+     "ko": "결정하시기 전에",
+     "en": "ahead of your decision"
+    }
+   }
+  ],
+  "sample_en": "Thanks for being upfront. Could we run a free training session before you decide?",
+  "sample_gloss": {
+   "ko": "솔직히 말해 줘서 고맙다며, 결정 전에 무료 교육을 한번 해 보자는 뜻이에요.",
+   "en": "You appreciate the honesty and suggest a no-cost workshop ahead of their decision."
+  }
+ },
+ "tr_sales_008": {
+  "intent": {
+   "ko": "할인은 어렵지만 다른 혜택을 준다고 말해보세요",
+   "en": "Say the price stays the same, but offer something else of value."
+  },
+  "chips": [
+   {
+    "en": "can't move on price",
+    "gloss": {
+     "ko": "가격은 조정이 어려워요",
+     "en": "the price is fixed"
+    }
+   },
+   {
+    "en": "what I can do",
+    "gloss": {
+     "ko": "대신 가능한 건",
+     "en": "instead I can offer"
+    }
+   },
+   {
+    "en": "an extra month",
+    "gloss": {
+     "ko": "한 달 추가",
+     "en": "one more month"
+    }
+   }
+  ],
+  "sample_en": "I can't move on price, but what I can do is add an extra month of support for free.",
+  "sample_gloss": {
+   "ko": "가격은 조정이 어렵지만 대신 지원 기간을 한 달 무료로 늘려 줄 수 있다는 뜻이에요.",
+   "en": "The price is fixed, but you can offer one more month of support at no cost."
+  }
+ },
+ "tr_sales_009": {
+  "intent": {
+   "ko": "목표 고객과 원하는 결과를 말해보세요",
+   "en": "Explain who you want to reach and what result you want."
+  },
+  "chips": [
+   {
+    "en": "the main goal",
+    "gloss": {
+     "ko": "가장 큰 목표",
+     "en": "what we want most"
+    }
+   },
+   {
+    "en": "people in their 30s",
+    "gloss": {
+     "ko": "30대",
+     "en": "adults aged 30 to 39"
+    }
+   },
+   {
+    "en": "sign up for",
+    "gloss": {
+     "ko": "가입하다",
+     "en": "register for"
+    }
+   }
+  ],
+  "sample_en": "The main goal is to get people in their 30s to sign up for a free trial.",
+  "sample_gloss": {
+   "ko": "가장 큰 목표는 30대가 무료 체험에 가입하게 만드는 것이라는 뜻이에요.",
+   "en": "What you want most is for adults aged 30 to 39 to register for a free trial."
+  }
+ },
+ "tr_sales_010": {
+  "intent": {
+   "ko": "이름과 하는 일, 온 이유를 말해보세요",
+   "en": "Give your name, your job, and why you came, in a few words."
+  },
+  "chips": [
+   {
+    "en": "nice to meet you",
+    "gloss": {
+     "ko": "만나서 반가워요",
+     "en": "glad we met"
+    }
+   },
+   {
+    "en": "I work in",
+    "gloss": {
+     "ko": "~ 일을 해요",
+     "en": "my job is in"
+    }
+   },
+   {
+    "en": "looking to meet",
+    "gloss": {
+     "ko": "~을 만나고 싶어서요",
+     "en": "hoping to connect with"
+    }
+   }
+  ],
+  "sample_en": "Nice to meet you, I'm Jin. I work in sales, and I'm looking to meet new partners.",
+  "sample_gloss": {
+   "ko": "만나서 반갑다며, 영업 일을 하고 새 파트너를 만나러 왔다는 뜻이에요.",
+   "en": "You say hello, mention your sales job, and say you are hoping to connect with new partners."
+  }
+ },
+ "tr_pm_001": {
+  "intent": {
+   "ko": "다음 스프린트에 넣겠다고 말해보세요",
+   "en": "Say it can't fit now, but it will be first in line next time."
+  },
+  "chips": [
+   {
+    "en": "this sprint is full",
+    "gloss": {
+     "ko": "이번 스프린트는 꽉 찼어요",
+     "en": "no room this cycle"
+    }
+   },
+   {
+    "en": "top of the list",
+    "gloss": {
+     "ko": "목록 맨 위",
+     "en": "first in line"
+    }
+   },
+   {
+    "en": "next sprint",
+    "gloss": {
+     "ko": "다음 스프린트",
+     "en": "the following cycle"
+    }
+   }
+  ],
+  "sample_en": "This sprint is full, but I'll put it at the top of the list for next sprint.",
+  "sample_gloss": {
+   "ko": "이번 스프린트는 꽉 찼지만 다음 스프린트 맨 위에 넣겠다는 뜻이에요.",
+   "en": "There is no room in this cycle, but it will be first in line for the following one."
+  }
+ },
+ "tr_pm_002": {
+  "intent": {
+   "ko": "기능 하나를 빼면 날짜를 지킨다고 말해보세요",
+   "en": "Say you can keep the date if one feature moves to a later release."
+  },
+  "chips": [
+   {
+    "en": "hit the date",
+    "gloss": {
+     "ko": "날짜를 맞추다",
+     "en": "meet the deadline"
+    }
+   },
+   {
+    "en": "if we move",
+    "gloss": {
+     "ko": "~을 옮기면",
+     "en": "if we push"
+    }
+   },
+   {
+    "en": "to phase two",
+    "gloss": {
+     "ko": "2단계로",
+     "en": "into the second release"
+    }
+   }
+  ],
+  "sample_en": "We can hit the date if we move the export feature to phase two.",
+  "sample_gloss": {
+   "ko": "내보내기 기능을 2단계로 옮기면 출시 날짜를 맞출 수 있다는 뜻이에요.",
+   "en": "You can meet the deadline if the export feature is pushed into the second release."
+  }
+ },
+ "tr_pm_003": {
+  "intent": {
+   "ko": "외부 승인 때문에 늦어진다고 말해보세요",
+   "en": "Explain that you need an outside approval, and give the new date."
+  },
+  "chips": [
+   {
+    "en": "waiting on",
+    "gloss": {
+     "ko": "~을 기다리고 있어요",
+     "en": "still need"
+    }
+   },
+   {
+    "en": "approval from",
+    "gloss": {
+     "ko": "~의 승인",
+     "en": "sign-off from"
+    }
+   },
+   {
+    "en": "the new date is",
+    "gloss": {
+     "ko": "새 날짜는",
+     "en": "it will now be"
+    }
+   }
+  ],
+  "sample_en": "We're waiting on approval from the payment provider. The new date is May 20.",
+  "sample_gloss": {
+   "ko": "결제 대행사의 승인을 기다리는 중이고, 새 출시 날짜는 5월 20일이라는 뜻이에요.",
+   "en": "You still need sign-off from the payment company, and it will now launch on May 20."
+  }
+ },
+ "tr_pm_004": {
+  "intent": {
+   "ko": "평소처럼 써 보시면 된다고 말해보세요",
+   "en": "Say any answer is fine and ask them to use the app the usual way."
+  },
+  "chips": [
+   {
+    "en": "no right or wrong",
+    "gloss": {
+     "ko": "정답은 없어요",
+     "en": "any answer is fine"
+    }
+   },
+   {
+    "en": "just show me",
+    "gloss": {
+     "ko": "그냥 보여 주세요",
+     "en": "simply let me see"
+    }
+   },
+   {
+    "en": "as you normally would",
+    "gloss": {
+     "ko": "평소처럼",
+     "en": "the usual way"
+    }
+   }
+  ],
+  "sample_en": "There's no right or wrong. Just show me how you book a room, as you normally would.",
+  "sample_gloss": {
+   "ko": "정답은 없으니 평소처럼 회의실을 예약하는 과정을 보여 달라는 뜻이에요.",
+   "en": "Any answer is fine, so they should simply let you see how they book a room the usual way."
+  }
+ },
+ "tr_pm_005": {
+  "intent": {
+   "ko": "끝낸 것 두 개와 넘어간 것 하나를 말해보세요",
+   "en": "Name two finished items and one that moved to the next sprint."
+  },
+  "chips": [
+   {
+    "en": "we shipped",
+    "gloss": {
+     "ko": "출시했어요",
+     "en": "we released"
+    }
+   },
+   {
+    "en": "carried over",
+    "gloss": {
+     "ko": "다음으로 넘겼어요",
+     "en": "moved forward"
+    }
+   },
+   {
+    "en": "due to",
+    "gloss": {
+     "ko": "~ 때문에",
+     "en": "because of"
+    }
+   }
+  ],
+  "sample_en": "We shipped filters and saved lists. Sharing was carried over due to a design change.",
+  "sample_gloss": {
+   "ko": "필터와 저장 목록은 출시했고, 공유 기능은 디자인 변경 때문에 넘겼다는 뜻이에요.",
+   "en": "You released filters and saved lists, and sharing moved forward because of a design change."
+  }
+ },
+ "tr_pm_006": {
+  "intent": {
+   "ko": "무엇이 왜 바뀌었는지 짧게 말해보세요",
+   "en": "Explain the one key change and the reason behind it."
+  },
+  "chips": [
+   {
+    "en": "the main change",
+    "gloss": {
+     "ko": "가장 큰 변화",
+     "en": "the biggest difference"
+    }
+   },
+   {
+    "en": "instead of",
+    "gloss": {
+     "ko": "~ 대신",
+     "en": "rather than"
+    }
+   },
+   {
+    "en": "based on feedback",
+    "gloss": {
+     "ko": "피드백을 반영해서",
+     "en": "because users asked"
+    }
+   }
+  ],
+  "sample_en": "The main change is one sign-up page instead of three, based on feedback from users.",
+  "sample_gloss": {
+   "ko": "사용자 피드백을 반영해서 가입 화면을 세 장 대신 한 장으로 바꿨다는 뜻이에요.",
+   "en": "The biggest difference is a single sign-up page rather than three, because users asked for it."
+  }
+ },
+ "tr_pm_007": {
+  "intent": {
+   "ko": "지금은 어렵고 대안이 있다고 말해보세요",
+   "en": "Say no for now, explain why, and suggest a workaround."
+  },
+  "chips": [
+   {
+    "en": "not on our roadmap",
+    "gloss": {
+     "ko": "로드맵에 없어요",
+     "en": "not in our plan"
+    }
+   },
+   {
+    "en": "this quarter",
+    "gloss": {
+     "ko": "이번 분기",
+     "en": "these three months"
+    }
+   },
+   {
+    "en": "in the meantime",
+    "gloss": {
+     "ko": "그동안은",
+     "en": "until then"
+    }
+   }
+  ],
+  "sample_en": "It's not on our roadmap this quarter. In the meantime, the export tool could cover it.",
+  "sample_gloss": {
+   "ko": "이번 분기 로드맵에는 없고, 그동안은 내보내기 기능으로 해결할 수 있다는 뜻이에요.",
+   "en": "It is not in your plan for these three months, but until then the export tool could help."
+  }
+ },
+ "tr_pm_008": {
+  "intent": {
+   "ko": "대략 얼마나 걸릴지 알려 달라고 말해보세요",
+   "en": "Ask for a rough idea of how long it would take."
+  },
+  "chips": [
+   {
+    "en": "a rough estimate",
+    "gloss": {
+     "ko": "대략적인 예상",
+     "en": "a ballpark number"
+    }
+   },
+   {
+    "en": "for the new alerts",
+    "gloss": {
+     "ko": "새 알림 기능",
+     "en": "for the notification feature"
+    }
+   },
+   {
+    "en": "by Thursday",
+    "gloss": {
+     "ko": "목요일까지",
+     "en": "no later than Thursday"
+    }
+   }
+  ],
+  "sample_en": "Could I get a rough estimate for the new alerts by Thursday?",
+  "sample_gloss": {
+   "ko": "새 알림 기능에 대한 대략적인 기간 예상을 목요일까지 받을 수 있는지 묻는 뜻이에요.",
+   "en": "You ask for a ballpark number for the notification feature no later than Thursday."
+  }
+ },
+ "tr_pm_009": {
+  "intent": {
+   "ko": "베타는 3분기, 정식은 연말이라고 말해보세요",
+   "en": "Give the timing for the test version first, then for everyone."
+  },
+  "chips": [
+   {
+    "en": "a beta in",
+    "gloss": {
+     "ko": "~에 베타",
+     "en": "a test version in"
+    }
+   },
+   {
+    "en": "the third quarter",
+    "gloss": {
+     "ko": "3분기",
+     "en": "Q3"
+    }
+   },
+   {
+    "en": "full launch",
+    "gloss": {
+     "ko": "정식 출시",
+     "en": "release to everyone"
+    }
+   }
+  ],
+  "sample_en": "We plan a beta in the third quarter, with a full launch by the end of the year.",
+  "sample_gloss": {
+   "ko": "3분기에 베타를 내고, 연말까지 정식 출시할 계획이라는 뜻이에요.",
+   "en": "A test version comes in Q3, and the release to everyone is planned by year-end."
+  }
+ },
+ "tr_pm_010": {
+  "intent": {
+   "ko": "잘된 점 하나와 고마운 사람을 말해보세요",
+   "en": "Share one good thing and credit the person who made it happen."
+  },
+  "chips": [
+   {
+    "en": "went really well",
+    "gloss": {
+     "ko": "정말 잘됐어요",
+     "en": "worked great"
+    }
+   },
+   {
+    "en": "thanks to",
+    "gloss": {
+     "ko": "~ 덕분이에요",
+     "en": "because of help from"
+    }
+   },
+   {
+    "en": "the daily check-ins",
+    "gloss": {
+     "ko": "매일 짧은 점검",
+     "en": "our short daily meetings"
+    }
+   }
+  ],
+  "sample_en": "The daily check-ins went really well, thanks to Mina for keeping them short.",
+  "sample_gloss": {
+   "ko": "매일 짧은 점검이 정말 잘됐고, 짧게 진행해 준 미나 덕분이라는 뜻이에요.",
+   "en": "Your short daily meetings worked great because Mina kept them brief."
+  }
+ },
+ "tr_hr_001": {
+  "intent": {
+   "ko": "가능한 시간 두 개를 말해보세요",
+   "en": "Offer two time slots and let them choose."
+  },
+  "chips": [
+   {
+    "en": "how about",
+    "gloss": {
+     "ko": "~ 어떠세요",
+     "en": "would it work"
+    }
+   },
+   {
+    "en": "Korea time",
+    "gloss": {
+     "ko": "한국 시간",
+     "en": "time in Seoul"
+    }
+   },
+   {
+    "en": "whichever works",
+    "gloss": {
+     "ko": "편하신 쪽으로",
+     "en": "the one you prefer"
+    }
+   }
+  ],
+  "sample_en": "How about Tuesday or Wednesday at 9 a.m. Korea time? Whichever works for you.",
+  "sample_gloss": {
+   "ko": "한국 시간 화요일이나 수요일 오전 9시 중 편한 쪽으로 고르라는 뜻이에요.",
+   "en": "You offer Tuesday or Wednesday at 9 a.m. in Seoul and let them pick the one they prefer."
+  }
+ },
+ "tr_hr_002": {
+  "intent": {
+   "ko": "오늘은 서류, 내일부터 교육이라고 말해보세요",
+   "en": "Say today is for forms and getting set up, and training starts tomorrow."
+  },
+  "chips": [
+   {
+    "en": "today is mostly",
+    "gloss": {
+     "ko": "오늘은 주로",
+     "en": "for today it's largely"
+    }
+   },
+   {
+    "en": "paperwork and setup",
+    "gloss": {
+     "ko": "서류와 장비 세팅",
+     "en": "forms and getting ready"
+    }
+   },
+   {
+    "en": "starting tomorrow",
+    "gloss": {
+     "ko": "내일부터",
+     "en": "from tomorrow on"
+    }
+   }
+  ],
+  "sample_en": "Today is mostly paperwork and setup. Starting tomorrow, you'll have training each morning.",
+  "sample_gloss": {
+   "ko": "오늘은 주로 서류와 장비 세팅이고, 내일부터는 매일 아침 교육이 있다는 뜻이에요.",
+   "en": "For today it's largely forms and getting ready, and from tomorrow on there's training every morning."
+  }
+ },
+ "tr_hr_003": {
+  "intent": {
+   "ko": "15일이고 5일까지 이월된다고 말해보세요",
+   "en": "Give the number of days and explain the limit on moving them to next year."
+  },
+  "chips": [
+   {
+    "en": "you get 15 days",
+    "gloss": {
+     "ko": "15일이 있어요",
+     "en": "you have fifteen days"
+    }
+   },
+   {
+    "en": "carry over",
+    "gloss": {
+     "ko": "이월하다",
+     "en": "move to next year"
+    }
+   },
+   {
+    "en": "up to five",
+    "gloss": {
+     "ko": "최대 5일",
+     "en": "no more than five"
+    }
+   }
+  ],
+  "sample_en": "You get 15 days a year, and you can carry over up to five into next year.",
+  "sample_gloss": {
+   "ko": "1년에 15일이 있고, 그중 최대 5일까지 다음 해로 이월할 수 있다는 뜻이에요.",
+   "en": "You have fifteen days a year and can move no more than five to the next year."
+  }
+ },
+ "tr_hr_004": {
+  "intent": {
+   "ko": "수리를 불렀으니 다른 방을 쓰라고 말해보세요",
+   "en": "Say a repair is on the way and suggest another room for now."
+  },
+  "chips": [
+   {
+    "en": "already called",
+    "gloss": {
+     "ko": "이미 불렀어요",
+     "en": "have contacted"
+    }
+   },
+   {
+    "en": "this afternoon",
+    "gloss": {
+     "ko": "오늘 오후",
+     "en": "later today"
+    }
+   },
+   {
+    "en": "use Room C",
+    "gloss": {
+     "ko": "C 회의실을 쓰세요",
+     "en": "move to Room C"
+    }
+   }
+  ],
+  "sample_en": "I've already called the repair team. They'll come this afternoon, so please use Room C.",
+  "sample_gloss": {
+   "ko": "이미 수리팀을 불렀고 오후에 오니 그동안 C 회의실을 써 달라는 뜻이에요.",
+   "en": "You have contacted the repair team, they come later today, and they should move to Room C."
+  }
+ },
+ "tr_hr_005": {
+  "intent": {
+   "ko": "배우자도 되지만 신청 기한이 있다고 말해보세요",
+   "en": "Say spouses are included, but there is a deadline to apply."
+  },
+  "chips": [
+   {
+    "en": "yes it covers",
+    "gloss": {
+     "ko": "네, 포함돼요",
+     "en": "it does include"
+    }
+   },
+   {
+    "en": "sign up by",
+    "gloss": {
+     "ko": "~까지 신청하세요",
+     "en": "register before"
+    }
+   },
+   {
+    "en": "the HR portal",
+    "gloss": {
+     "ko": "인사 포털",
+     "en": "the HR website"
+    }
+   }
+  ],
+  "sample_en": "Yes, it covers your spouse. Just sign up by March 31 on the HR portal.",
+  "sample_gloss": {
+   "ko": "배우자도 포함되니 3월 31일까지 인사 포털에서 신청하라는 뜻이에요.",
+   "en": "It does include their spouse; they need to register before March 31 on the HR website."
+  }
+ },
+ "tr_hr_006": {
+  "intent": {
+   "ko": "함께 일한 기간과 강점이 궁금하다고 말해보세요",
+   "en": "Thank them, then ask about the period they worked together and what she does best."
+  },
+  "chips": [
+   {
+    "en": "thanks for your time",
+    "gloss": {
+     "ko": "시간 내 주셔서 감사해요",
+     "en": "I appreciate the call"
+    }
+   },
+   {
+    "en": "how long",
+    "gloss": {
+     "ko": "얼마나 오래",
+     "en": "for what length of time"
+    }
+   },
+   {
+    "en": "her main strengths",
+    "gloss": {
+     "ko": "그분의 주요 강점",
+     "en": "what she does best"
+    }
+   }
+  ],
+  "sample_en": "Thanks for your time. How long did you work with her, and what are her main strengths?",
+  "sample_gloss": {
+   "ko": "시간 내 줘서 고맙다며, 얼마나 함께 일했고 주요 강점이 무엇인지 묻는 뜻이에요.",
+   "en": "You appreciate them taking the call and ask about the period they worked together and what she does best."
+  }
+ },
+ "tr_hr_007": {
+  "intent": {
+   "ko": "후보 날짜와 투표 마감을 말해보세요",
+   "en": "Give the possible dates and say when the vote closes."
+  },
+  "chips": [
+   {
+    "en": "two options",
+    "gloss": {
+     "ko": "후보 두 개",
+     "en": "a couple of choices"
+    }
+   },
+   {
+    "en": "please vote",
+    "gloss": {
+     "ko": "투표해 주세요",
+     "en": "choose one in the poll"
+    }
+   },
+   {
+    "en": "by Friday",
+    "gloss": {
+     "ko": "금요일까지",
+     "en": "before the weekend"
+    }
+   }
+  ],
+  "sample_en": "Not yet. We have two options, June 12 or 19. Please vote in the poll by Friday.",
+  "sample_gloss": {
+   "ko": "아직이고, 6월 12일과 19일 두 후보 중 금요일까지 투표해 달라는 뜻이에요.",
+   "en": "There are a couple of choices, June 12 or 19, and they should choose in the poll before the weekend."
+  }
+ },
+ "tr_hr_008": {
+  "intent": {
+   "ko": "필요한 서류 두 가지와 기한을 말해보세요",
+   "en": "Name the two documents and say when you need them."
+  },
+  "chips": [
+   {
+    "en": "a copy of",
+    "gloss": {
+     "ko": "~의 사본",
+     "en": "a scan of"
+    }
+   },
+   {
+    "en": "your degree certificate",
+    "gloss": {
+     "ko": "학위 증명서",
+     "en": "proof of your degree"
+    }
+   },
+   {
+    "en": "by next Monday",
+    "gloss": {
+     "ko": "다음 주 월요일까지",
+     "en": "before Monday next week"
+    }
+   }
+  ],
+  "sample_en": "We need a copy of your passport and your degree certificate by next Monday.",
+  "sample_gloss": {
+   "ko": "다음 주 월요일까지 여권 사본과 학위 증명서가 필요하다는 뜻이에요.",
+   "en": "You need a scan of their passport and proof of their degree before Monday next week."
+  }
+ },
+ "tr_hr_009": {
+  "intent": {
+   "ko": "출장 중 화상 면담도 된다고 말해보세요",
+   "en": "Say the date can't change, but video meetings during the trip are fine."
+  },
+  "chips": [
+   {
+    "en": "the deadline is fixed",
+    "gloss": {
+     "ko": "기한은 바꿀 수 없어요",
+     "en": "the date can't change"
+    }
+   },
+   {
+    "en": "over video",
+    "gloss": {
+     "ko": "화상으로",
+     "en": "on a video call"
+    }
+   },
+   {
+    "en": "before you leave",
+    "gloss": {
+     "ko": "떠나시기 전에",
+     "en": "ahead of your trip"
+    }
+   }
+  ],
+  "sample_en": "The deadline is fixed, but you can do them over video or before you leave.",
+  "sample_gloss": {
+   "ko": "기한은 바꿀 수 없지만 화상으로 하거나 출장 전에 해도 된다는 뜻이에요.",
+   "en": "The date can't change, but they can hold them on a video call or ahead of the trip."
+  }
+ },
+ "tr_hr_010": {
+  "intent": {
+   "ko": "시작일과 바뀌는 핵심 하나를 말해보세요",
+   "en": "Give the start date and the one main change."
+  },
+  "chips": [
+   {
+    "en": "takes effect",
+    "gloss": {
+     "ko": "시행돼요",
+     "en": "begins"
+    }
+   },
+   {
+    "en": "from March 1",
+    "gloss": {
+     "ko": "3월 1일부터",
+     "en": "starting on the first of March"
+    }
+   },
+   {
+    "en": "two office days",
+    "gloss": {
+     "ko": "주 2일 출근",
+     "en": "two days at the office"
+    }
+   }
+  ],
+  "sample_en": "It takes effect from March 1. The key change is two office days a week.",
+  "sample_gloss": {
+   "ko": "3월 1일부터 시행되고, 핵심은 주 2일 사무실 출근이라는 뜻이에요.",
+   "en": "It begins on the first of March, and the main change is two days at the office each week."
+  }
+ },
+ "tr_finance_001": {
+  "intent": {
+   "ko": "차액은 송금 수수료일 수 있다고 말해보세요",
+   "en": "Say the gap may be a transfer charge and promise to check."
+  },
+  "chips": [
+   {
+    "en": "the difference",
+    "gloss": {
+     "ko": "차액",
+     "en": "the gap"
+    }
+   },
+   {
+    "en": "a bank fee",
+    "gloss": {
+     "ko": "은행 수수료",
+     "en": "a transfer charge"
+    }
+   },
+   {
+    "en": "let me confirm",
+    "gloss": {
+     "ko": "확인해 볼게요",
+     "en": "I'll check"
+    }
+   }
+  ],
+  "sample_en": "The difference might be a bank fee. Let me confirm with our bank and get back to you.",
+  "sample_gloss": {
+   "ko": "차액은 은행 수수료일 수 있으니 은행에 확인하고 다시 연락하겠다는 뜻이에요.",
+   "en": "The gap could be a transfer charge, so you'll check with the bank and reply."
+  }
+ },
+ "tr_finance_002": {
+  "intent": {
+   "ko": "금액과 줄어드는 작업 시간을 말해보세요",
+   "en": "Give the cost and explain how much time it will save."
+  },
+  "chips": [
+   {
+    "en": "costs about",
+    "gloss": {
+     "ko": "약 ~ 들어요",
+     "en": "is priced around"
+    }
+   },
+   {
+    "en": "a year",
+    "gloss": {
+     "ko": "1년에",
+     "en": "annually"
+    }
+   },
+   {
+    "en": "cut closing time",
+    "gloss": {
+     "ko": "마감 시간을 줄이다",
+     "en": "shorten month-end work"
+    }
+   }
+  ],
+  "sample_en": "It costs about $12,000 a year, and it would cut closing time by three days.",
+  "sample_gloss": {
+   "ko": "1년에 약 1만 2천 달러가 들고, 월 마감을 사흘 줄여 준다는 뜻이에요.",
+   "en": "It is priced around $12,000 annually and would shorten month-end work by three days."
+  }
+ },
+ "tr_finance_003": {
+  "intent": {
+   "ko": "영수증이 있으면 된다고 말해보세요",
+   "en": "Say yes, provided they have proof of payment."
+  },
+  "chips": [
+   {
+    "en": "as long as",
+    "gloss": {
+     "ko": "~하기만 하면",
+     "en": "provided that"
+    }
+   },
+   {
+    "en": "keep the receipts",
+    "gloss": {
+     "ko": "영수증을 챙기세요",
+     "en": "save proof of payment"
+    }
+   },
+   {
+    "en": "submit them",
+    "gloss": {
+     "ko": "제출하세요",
+     "en": "send them in"
+    }
+   }
+  ],
+  "sample_en": "Yes, as long as you keep the receipts. Submit them within two weeks.",
+  "sample_gloss": {
+   "ko": "영수증만 있으면 되고, 2주 안에 제출하라는 뜻이에요.",
+   "en": "Yes, provided that they save proof of payment and send it in within two weeks."
+  }
+ },
+ "tr_finance_004": {
+  "intent": {
+   "ko": "하루 늦어진다고 이유와 함께 말해보세요",
+   "en": "Say it will be a day behind and briefly explain why."
+  },
+  "chips": [
+   {
+    "en": "one day late",
+    "gloss": {
+     "ko": "하루 늦어요",
+     "en": "a day behind"
+    }
+   },
+   {
+    "en": "still waiting for",
+    "gloss": {
+     "ko": "아직 ~을 기다려요",
+     "en": "have not received"
+    }
+   },
+   {
+    "en": "the Busan branch",
+    "gloss": {
+     "ko": "부산 지점",
+     "en": "our Busan office"
+    }
+   }
+  ],
+  "sample_en": "It'll be one day late, sorry. We're still waiting for sales data from the Busan branch.",
+  "sample_gloss": {
+   "ko": "부산 지점의 매출 자료를 아직 기다리고 있어서 하루 늦어진다는 뜻이에요.",
+   "en": "It will be a day behind because sales data from the Busan office has not arrived."
+  }
+ },
+ "tr_finance_005": {
+  "intent": {
+   "ko": "일회성 비용 때문이라고 이유를 말해보세요",
+   "en": "Explain that most of it came from a single expense."
+  },
+  "chips": [
+   {
+    "en": "mainly due to",
+    "gloss": {
+     "ko": "주로 ~ 때문이에요",
+     "en": "mostly because of"
+    }
+   },
+   {
+    "en": "a one-time cost",
+    "gloss": {
+     "ko": "일회성 비용",
+     "en": "a single expense"
+    }
+   },
+   {
+    "en": "back on budget",
+    "gloss": {
+     "ko": "예산 안으로 돌아와요",
+     "en": "within plan again"
+    }
+   }
+  ],
+  "sample_en": "It's mainly due to a one-time cost for the expo. We'll be back on budget next quarter.",
+  "sample_gloss": {
+   "ko": "주로 박람회 일회성 비용 때문이고, 다음 분기에는 예산 안으로 돌아온다는 뜻이에요.",
+   "en": "Mostly because of a single expense for the expo, and spending will be within plan again next quarter."
+  }
+ },
+ "tr_finance_006": {
+  "intent": {
+   "ko": "대부분은 내일, 나머지는 금요일이라고 말해보세요",
+   "en": "Say the majority will come tomorrow and what's left later this week."
+  },
+  "chips": [
+   {
+    "en": "most of them",
+    "gloss": {
+     "ko": "대부분",
+     "en": "the majority"
+    }
+   },
+   {
+    "en": "the rest",
+    "gloss": {
+     "ko": "나머지",
+     "en": "what's left"
+    }
+   },
+   {
+    "en": "by Friday",
+    "gloss": {
+     "ko": "금요일까지",
+     "en": "no later than Friday"
+    }
+   }
+  ],
+  "sample_en": "I can send most of them tomorrow. The rest need a signature, so by Friday.",
+  "sample_gloss": {
+   "ko": "대부분은 내일 보내고, 나머지는 서명이 필요해서 금요일까지 보내겠다는 뜻이에요.",
+   "en": "The majority go out tomorrow, and what's left needs a signature, so no later than Friday."
+  }
+ },
+ "tr_finance_007": {
+  "intent": {
+   "ko": "기준은 45일이지만 조기 지급도 된다고 말해보세요",
+   "en": "Explain your usual policy, then mention an option to pay sooner."
+  },
+  "chips": [
+   {
+    "en": "our standard terms",
+    "gloss": {
+     "ko": "저희 기준 조건",
+     "en": "our usual policy"
+    }
+   },
+   {
+    "en": "net 45",
+    "gloss": {
+     "ko": "45일 후 지급",
+     "en": "payment in 45 days"
+    }
+   },
+   {
+    "en": "early payment discount",
+    "gloss": {
+     "ko": "조기 지급 할인",
+     "en": "a reduction for paying sooner"
+    }
+   }
+  ],
+  "sample_en": "Our standard terms are net 45. We could pay sooner with an early payment discount.",
+  "sample_gloss": {
+   "ko": "기준 조건은 45일 후 지급이지만, 조기 지급 할인을 해 주면 더 빨리 낼 수 있다는 뜻이에요.",
+   "en": "Your usual policy is payment in 45 days, but you could pay sooner for a small reduction."
+  }
+ },
+ "tr_finance_008": {
+  "intent": {
+   "ko": "달러 환율이 올라서라고 말해보세요",
+   "en": "Explain that it is mostly because the dollar got stronger."
+  },
+  "chips": [
+   {
+    "en": "the exchange rate",
+    "gloss": {
+     "ko": "환율",
+     "en": "the currency rate"
+    }
+   },
+   {
+    "en": "went up",
+    "gloss": {
+     "ko": "올랐어요",
+     "en": "rose"
+    }
+   },
+   {
+    "en": "against the won",
+    "gloss": {
+     "ko": "원화 대비",
+     "en": "compared with the won"
+    }
+   }
+  ],
+  "sample_en": "Mostly the exchange rate. The dollar went up about 5% against the won.",
+  "sample_gloss": {
+   "ko": "주로 환율 때문이고, 달러가 원화 대비 약 5% 올랐다는 뜻이에요.",
+   "en": "Mostly the currency rate: the dollar rose roughly five percent compared with the won."
+  }
+ },
+ "tr_finance_009": {
+  "intent": {
+   "ko": "번호가 틀렸으니 다시 보내 달라고 말해보세요",
+   "en": "Point out the wrong number and ask them to send it again."
+  },
+  "chips": [
+   {
+    "en": "tax ID",
+    "gloss": {
+     "ko": "사업자 번호",
+     "en": "business registration number"
+    }
+   },
+   {
+    "en": "is incorrect",
+    "gloss": {
+     "ko": "틀렸어요",
+     "en": "is wrong"
+    }
+   },
+   {
+    "en": "a corrected invoice",
+    "gloss": {
+     "ko": "수정한 청구서",
+     "en": "a fixed bill"
+    }
+   }
+  ],
+  "sample_en": "Yes, the tax ID is incorrect. Could you send us a corrected invoice?",
+  "sample_gloss": {
+   "ko": "사업자 번호가 틀렸으니 수정한 청구서를 다시 보내 달라는 뜻이에요.",
+   "en": "The business number is wrong, so you ask them to send a fixed bill."
+  }
+ },
+ "tr_finance_010": {
+  "intent": {
+   "ko": "위험 요인을 들어 신중하게 말해보세요",
+   "en": "Say you would rather stay cautious and name the main risk."
+  },
+  "chips": [
+   {
+    "en": "I'd be careful",
+    "gloss": {
+     "ko": "신중하고 싶어요",
+     "en": "I'd rather be cautious"
+    }
+   },
+   {
+    "en": "the biggest risk",
+    "gloss": {
+     "ko": "가장 큰 위험",
+     "en": "the main danger"
+    }
+   },
+   {
+    "en": "a smaller increase",
+    "gloss": {
+     "ko": "더 작은 상향",
+     "en": "a lower raise"
+    }
+   }
+  ],
+  "sample_en": "I'd be careful. The biggest risk is weaker demand in Europe, so maybe a smaller increase.",
+  "sample_gloss": {
+   "ko": "유럽 수요 둔화가 가장 큰 위험이라 신중하고 싶고, 조금만 올리자는 뜻이에요.",
+   "en": "You'd rather be cautious because demand in Europe may drop, so you suggest a lower raise."
+  }
+ },
+ "tr_trade_001": {
+  "intent": {
+   "ko": "품목과 수량, 납품 장소를 말해보세요",
+   "en": "Give the item, the quantity, and where it should be shipped."
+  },
+  "chips": [
+   {
+    "en": "a quote for",
+    "gloss": {
+     "ko": "~ 견적",
+     "en": "pricing for"
+    }
+   },
+   {
+    "en": "five thousand units",
+    "gloss": {
+     "ko": "5천 개",
+     "en": "5,000 pieces"
+    }
+   },
+   {
+    "en": "delivered to",
+    "gloss": {
+     "ko": "~로 납품",
+     "en": "shipped to"
+    }
+   }
+  ],
+  "sample_en": "We'd like a quote for five thousand units of the blue cases, delivered to Busan.",
+  "sample_gloss": {
+   "ko": "파란 케이스 5천 개를 부산으로 납품하는 조건의 견적을 원한다는 뜻이에요.",
+   "en": "You want pricing for 5,000 blue cases shipped to Busan."
+  }
+ },
+ "tr_trade_002": {
+  "intent": {
+   "ko": "일부라도 먼저 보내 달라고 말해보세요",
+   "en": "Say it hurts your plans and ask them to ship part of the order first."
+  },
+  "chips": [
+   {
+    "en": "that's a problem",
+    "gloss": {
+     "ko": "곤란해요",
+     "en": "that hurts us"
+    }
+   },
+   {
+    "en": "a partial shipment",
+    "gloss": {
+     "ko": "일부 선적",
+     "en": "part of the order"
+    }
+   },
+   {
+    "en": "by the original date",
+    "gloss": {
+     "ko": "원래 날짜까지",
+     "en": "on the planned date"
+    }
+   }
+  ],
+  "sample_en": "That's a problem for us. Could you send a partial shipment by the original date?",
+  "sample_gloss": {
+   "ko": "곤란하다며 원래 날짜까지 일부라도 먼저 보내 줄 수 있는지 묻는 뜻이에요.",
+   "en": "It hurts your plans, so you ask for part of the order on the planned date."
+  }
+ },
+ "tr_trade_003": {
+  "intent": {
+   "ko": "파손 수량과 사진이 있다고 말해보세요",
+   "en": "Say how many cartons were ruined and that you have pictures."
+  },
+  "chips": [
+   {
+    "en": "twelve boxes",
+    "gloss": {
+     "ko": "12상자",
+     "en": "a dozen cartons"
+    }
+   },
+   {
+    "en": "water damage",
+    "gloss": {
+     "ko": "물에 젖은 손상",
+     "en": "harm from getting wet"
+    }
+   },
+   {
+    "en": "photos attached",
+    "gloss": {
+     "ko": "사진 첨부",
+     "en": "pictures included"
+    }
+   }
+  ],
+  "sample_en": "Twelve boxes have water damage. I've emailed you the details with photos attached.",
+  "sample_gloss": {
+   "ko": "12상자가 물에 젖어 손상됐고, 사진을 첨부해 이메일로 보냈다는 뜻이에요.",
+   "en": "A dozen cartons got wet and were ruined, and you've emailed details with pictures included."
+  }
+ },
+ "tr_trade_004": {
+  "intent": {
+   "ko": "선적 후엔 구매자 책임이라고 말해보세요",
+   "en": "Explain that the buyer takes over once the cargo is loaded."
+  },
+  "chips": [
+   {
+    "en": "under FOB",
+    "gloss": {
+     "ko": "FOB 조건에서는",
+     "en": "with FOB terms"
+    }
+   },
+   {
+    "en": "once the goods",
+    "gloss": {
+     "ko": "물건이 ~하면",
+     "en": "after the cargo"
+    }
+   },
+   {
+    "en": "on our side",
+    "gloss": {
+     "ko": "저희 쪽 책임",
+     "en": "our responsibility"
+    }
+   }
+  ],
+  "sample_en": "Under FOB, once the goods are on board, insurance is on our side as the buyer.",
+  "sample_gloss": {
+   "ko": "FOB 조건에서는 물건이 배에 실린 뒤 보험은 구매자인 저희 책임이라는 뜻이에요.",
+   "en": "With FOB terms, after the cargo is loaded, insurance is your responsibility as the buyer."
+  }
+ },
+ "tr_trade_005": {
+  "intent": {
+   "ko": "원산지 증명서가 빠졌다고 말해보세요",
+   "en": "Say one certificate wasn't included and ask them to email it right away."
+  },
+  "chips": [
+   {
+    "en": "is missing",
+    "gloss": {
+     "ko": "빠져 있어요",
+     "en": "wasn't included"
+    }
+   },
+   {
+    "en": "certificate of origin",
+    "gloss": {
+     "ko": "원산지 증명서",
+     "en": "proof of where it was made"
+    }
+   },
+   {
+    "en": "as soon as possible",
+    "gloss": {
+     "ko": "최대한 빨리",
+     "en": "right away"
+    }
+   }
+  ],
+  "sample_en": "The certificate of origin is missing. Could you email it as soon as possible?",
+  "sample_gloss": {
+   "ko": "원산지 증명서가 빠져 있으니 최대한 빨리 이메일로 보내 달라는 뜻이에요.",
+   "en": "The proof of where it was made wasn't included, so you ask them to email it right away."
+  }
+ },
+ "tr_trade_006": {
+  "intent": {
+   "ko": "색이 달라 새 샘플이 필요하다고 말해보세요",
+   "en": "Say the color doesn't match your order and ask for a new one."
+  },
+  "chips": [
+   {
+    "en": "a bit darker",
+    "gloss": {
+     "ko": "조금 더 어두워요",
+     "en": "slightly too dark"
+    }
+   },
+   {
+    "en": "than we ordered",
+    "gloss": {
+     "ko": "주문한 것보다",
+     "en": "compared to our order"
+    }
+   },
+   {
+    "en": "another sample",
+    "gloss": {
+     "ko": "샘플 하나 더",
+     "en": "a new one"
+    }
+   }
+  ],
+  "sample_en": "The color is a bit darker than we ordered. Could you send another sample?",
+  "sample_gloss": {
+   "ko": "색이 주문한 것보다 조금 어두우니 샘플을 다시 보내 달라는 뜻이에요.",
+   "en": "The color is slightly too dark compared to your order, so you ask for a new one."
+  }
+ },
+ "tr_trade_007": {
+  "intent": {
+   "ko": "첫 주문만 3천 개로 해 달라고 말해보세요",
+   "en": "Ask them to accept a smaller trial order and mention bigger volumes later."
+  },
+  "chips": [
+   {
+    "en": "for a first order",
+    "gloss": {
+     "ko": "첫 주문으로",
+     "en": "as a trial"
+    }
+   },
+   {
+    "en": "three thousand units",
+    "gloss": {
+     "ko": "3천 개",
+     "en": "3,000 pieces"
+    }
+   },
+   {
+    "en": "larger orders later",
+    "gloss": {
+     "ko": "나중에 더 큰 주문",
+     "en": "bigger volumes after that"
+    }
+   }
+  ],
+  "sample_en": "Could you accept three thousand units for a first order? We'd plan larger orders later.",
+  "sample_gloss": {
+   "ko": "첫 주문은 3천 개로 받아 주면 나중에 더 큰 주문을 하겠다는 뜻이에요.",
+   "en": "You ask them to take 3,000 pieces as a trial and promise bigger volumes after that."
+  }
+ },
+ "tr_trade_008": {
+  "intent": {
+   "ko": "불량률과 원하는 조치를 말해보세요",
+   "en": "Give the share of faulty items and say what you want them to do."
+  },
+  "chips": [
+   {
+    "en": "defect rate",
+    "gloss": {
+     "ko": "불량률",
+     "en": "share of faulty items"
+    }
+   },
+   {
+    "en": "eight percent",
+    "gloss": {
+     "ko": "8%",
+     "en": "8 out of 100"
+    }
+   },
+   {
+    "en": "a root cause report",
+    "gloss": {
+     "ko": "원인 분석 보고서",
+     "en": "an explanation of why"
+    }
+   }
+  ],
+  "sample_en": "The defect rate was eight percent. We need a root cause report by next week.",
+  "sample_gloss": {
+   "ko": "불량률이 8%였으니 다음 주까지 원인 분석 보고서를 달라는 뜻이에요.",
+   "en": "Eight out of 100 items were faulty, so you want an explanation of why by next week."
+  }
+ },
+ "tr_trade_009": {
+  "intent": {
+   "ko": "날짜와 함께 갈 인원을 말해보세요",
+   "en": "Give the dates and how many people are coming."
+  },
+  "chips": [
+   {
+    "en": "the week of",
+    "gloss": {
+     "ko": "~이 있는 주",
+     "en": "during the week starting"
+    }
+   },
+   {
+    "en": "two of us",
+    "gloss": {
+     "ko": "저희 두 명",
+     "en": "a pair of us"
+    }
+   },
+   {
+    "en": "the production line",
+    "gloss": {
+     "ko": "생산 라인",
+     "en": "the factory floor"
+    }
+   }
+  ],
+  "sample_en": "We're thinking the week of May 12. Two of us will come to see the production line.",
+  "sample_gloss": {
+   "ko": "5월 12일이 있는 주에 두 명이 생산 라인을 보러 가겠다는 뜻이에요.",
+   "en": "You plan the week starting May 12, and a pair of you will visit the factory floor."
+  }
+ },
+ "tr_trade_010": {
+  "intent": {
+   "ko": "이틀 전 송금했고 증빙을 보낸다고 말해보세요",
+   "en": "Say the money went out two days ago and you'll share proof."
+  },
+  "chips": [
+   {
+    "en": "wired it",
+    "gloss": {
+     "ko": "송금했어요",
+     "en": "sent the money"
+    }
+   },
+   {
+    "en": "the remittance slip",
+    "gloss": {
+     "ko": "송금 증빙",
+     "en": "the transfer receipt"
+    }
+   },
+   {
+    "en": "two to three days",
+    "gloss": {
+     "ko": "2~3일",
+     "en": "a few business days"
+    }
+   }
+  ],
+  "sample_en": "We wired it on Monday. I'll send the remittance slip; it can take two to three days.",
+  "sample_gloss": {
+   "ko": "월요일에 송금했고 송금 증빙을 보내 줄 테니, 2~3일 걸릴 수 있다는 뜻이에요.",
+   "en": "The money went out Monday, you'll share the transfer receipt, and it may take a few business days."
+  }
  }
 }
