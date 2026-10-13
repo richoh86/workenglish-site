@@ -98,6 +98,7 @@
     <li>저장하는 이유는 하나예요. 사용자가 자신의 기록을 나중에 다시 보기 위해서예요.</li>
     <li>이 기록은 익명 기기 ID에 연결되고, 이름이나 연락처와는 연결되지 않아요.</li>
     <li>피드백을 만들 때는 Anthropic Claude API를 사용하고, 이때 전사 텍스트가 전달돼요.</li>
+    <li>앱 사용 기록(화면이 열린 때, 마이크·텍스트 버튼을 누른 때, 세션을 끝낸 때, 리마인더 설정 여부)을 기기 ID와 함께 저장해요. 어느 단계에서 그만두는지 보고 앱을 고치는 데만 쓰고, 광고나 추적에는 쓰지 않아요. 아래 삭제 방법으로 함께 지워져요.</li>
   </ul>
 
   <h2>제3자 처리자</h2>
@@ -147,6 +148,10 @@
       XP), linked to the anonymous device ID, so that you can look back at your own
       history. Feedback is generated with the Anthropic Claude API, which receives
       the transcribed text.</li>
+    <li><strong>Usage events.</strong> When a screen opens, when you tap the microphone
+      or text button, when you finish a session, and whether the reminder is on, stored with
+      the device ID. They are used only to see where people stop and improve the app, never
+      for advertising or tracking, and they are deleted together with everything else.</li>
   </ul>
   <div class="table-scroll">
     <table>
