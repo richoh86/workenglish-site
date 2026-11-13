@@ -74,10 +74,10 @@
 
 <section>
   <h1>개인정보 처리방침</h1>
-  <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 22 October 2026</p>
+  <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 5 November 2026</p>
 
   <div class="card muted-card">
-    <p>시행일: 2026년 10월 22일</p>
+    <p>시행일: 2026년 11월 5일</p>
     <p>출근영어는 계정도 로그인도 없이 쓰는 앱이에요. 이름, 이메일, 전화번호, 위치를 수집하지 않고,
     광고·트래킹·제3자 분석 SDK도 넣지 않았어요. 기록은 기기에서 만들어진 익명 기기 ID 하나로만 구분해요.</p>
   </div>
@@ -100,27 +100,29 @@
     <li>피드백을 만들 때는 Anthropic Claude API를 사용하고, 이때 전사 텍스트가 전달돼요.</li>
     <li>앱 사용 기록(화면이 열린 때, 마이크·텍스트 버튼을 누른 때, 세션을 끝낸 때, 리마인더 설정 여부)을 기기 ID와 함께 저장해요. 어느 단계에서 그만두는지 보고 앱을 고치는 데만 쓰고, 광고나 추적에는 쓰지 않아요. 아래 삭제 방법으로 함께 지워져요.</li>
     <li>표현 카드 활동(카드를 연 때, 표현을 확인·남기거나 넘긴 때, 복습 자기평가)은 카드·표현 ID와 버전만 기기 ID와 함께 저장해요. 영어 문장이나 검색어는 보내지 않고, 남긴 표현과 검색은 기기 안에서만 처리돼요.</li>
+    <li>내 상황 텍스트: 「+ 내 상황」에 적은 글(최대 200자)과 그 글로 만든 카드를 익명 기기 ID에 연결해 저장해요. 카드를 만들 때는 Anthropic Claude API를 사용하고, 이때 적은 글이 전달돼요. 적은 글은 30일이 지나면 서버에서 지워지고, 만들어진 카드는 내 기록으로 남아요. 회사명이나 사람 이름은 넣지 마세요.</li>
+    <li>학습 프로필: 처음 고르기나 설정에서 고른 직무·영어가 필요한 순간·상대를 정해진 코드로만 익명 기기 ID에 연결해 저장해요. 문장은 저장하지 않아요.</li>
   </ul>
 
   <h2>제3자 처리자</h2>
   <div class="table-scroll">
     <table>
       <tr><th>처리자</th><th>하는 일</th><th>전달되는 것</th></tr>
-      <tr><td>Anthropic</td><td>피드백 생성</td><td>전사 텍스트</td></tr>
+      <tr><td>Anthropic</td><td>피드백·내 상황 카드 생성</td><td>전사 텍스트, 내 상황에 적은 글</td></tr>
       <tr><td>GitHub Pages</td><td>이 웹사이트 제공</td><td>이 페이지 방문 기록 — 앱 데이터는 전달되지 않아요</td></tr>
     </table>
   </div>
 
   <h2>보관 기간</h2>
   <p>서버에 저장된 기록은 삭제를 요청하시면 그 시점에, 요청이 없으면 마지막 사용으로부터 12개월이
-  지날 때 삭제돼요. 음성 파일은 앞서 적은 대로 서버로 보내지 않으므로 서버에 보관하는 음성도 없어요.</p>
+  지날 때 삭제돼요. 단, 내 상황에 적은 글은 30일이 지나면 지워져요(만들어진 카드는 남아요). 음성 파일은 앞서 적은 대로 서버로 보내지 않으므로 서버에 보관하는 음성도 없어요.</p>
 
   <h2>삭제하는 방법</h2>
-  <p>앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록이 즉시 전부 삭제돼요.
+  <p>앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록(내 상황 글·카드와 학습 프로필 포함)이 즉시 전부 삭제돼요.
   기기에 남아 있는 녹음 파일은 앱 설정에서 전체 삭제할 수 있어요.</p>
 
   <h2>결제</h2>
-  <p>현재 앱 안에서 구독을 판매하지 않아요. 이전 구독은 App Store에서 관리돼요. iPhone 설정 &gt; Apple 계정 &gt; 구독에서 확인하거나 언제든 해지할 수 있어요. 결제는 Apple이 처리하며, 카드 번호 같은 결제 정보는 저희 서버에 전달되지 않아요. 저희 서버에는 익명 기기 ID에 연결된 구독 상태(체험·유료·만료 여부, 만료일, 적용 중인 할인)만 저장돼요.</p>
+  <p>출근영어 Pro는 App Store 자동 갱신 구독이에요(월 6,900원 또는 연 39,000원). 설치 후 14일 체험은 Apple 결제 없이 시작되므로 아무것도 결제되지 않고, 체험이 끝나도 자동으로 결제되지 않아요. 체험이 끝난 뒤 앱 안에서 안내하는 할인(하루 동안 50%, 그 주 안에 30%)은 직접 골라 구매할 때만 적용돼요. 구독은 iPhone 설정 &gt; Apple 계정 &gt; 구독에서 언제든 해지할 수 있어요. 결제는 Apple이 처리하며, 카드 번호 같은 결제 정보는 저희 서버에 전달되지 않아요. 저희 서버에는 익명 기기 ID에 연결된 구독 상태(체험·유료·만료 여부, 만료일, 적용 중인 할인)만 저장돼요.</p>
 
   <h2>아동</h2>
   <p>이 앱의 연령 등급은 만 4세 이상이지만, 직장 생활을 하는 성인을 위해 만들었어요.
@@ -134,7 +136,7 @@
 
 <section class="en">
   <h2>English</h2>
-  <p>Effective 22 October 2026. 출근영어 is used without an account or sign-in. It
+  <p>Effective 5 November 2026. 출근영어 is used without an account or sign-in. It
   does not collect your name, email address, phone number or location, and contains
   no advertising, tracking or third-party analytics SDKs. Records are tied only to
   an anonymous device ID generated on the device.</p>
@@ -156,21 +158,29 @@
     <li><strong>Card activity.</strong> When you open a card, reveal, keep or skip an expression, or rate a
       review, only the card and expression IDs and versions are stored with the device ID. No English
       sentences or search terms are sent; kept expressions and search stay on the device.</li>
+    <li><strong>My situation text.</strong> What you write under &quot;+ My situation&quot; (up to 200
+      characters) and the card made from it are stored with the anonymous device ID. The card is generated
+      with the Anthropic Claude API, which receives the text you wrote. The text is deleted from the server
+      after 30 days; the card stays in your record. Leave out company and people's names.</li>
+    <li><strong>Learning profile.</strong> The job, the moments you need English and the people you talk to,
+      picked during setup or in Settings, are stored only as fixed codes with the device ID. No sentences are
+      stored.</li>
   </ul>
   <div class="table-scroll">
     <table>
       <tr><th>Processor</th><th>Purpose</th><th>What it receives</th></tr>
-      <tr><td>Anthropic</td><td>Feedback generation</td><td>The transcribed text</td></tr>
+      <tr><td>Anthropic</td><td>Feedback and My situation card generation</td><td>The transcribed text and the text you write for My situation</td></tr>
       <tr><td>GitHub Pages</td><td>Hosting this website</td><td>Visits to this page — no app data</td></tr>
     </table>
   </div>
   <p><strong>Retention.</strong> Server records are deleted when you ask for them to
-  be deleted, or 12 months after your last use if you do not. No audio is kept on
+  be deleted, or 12 months after your last use if you do not. Text you write for My situation is
+  deleted after 30 days (the card stays). No audio is kept on
   the server, because audio is never sent to it.</p>
   <p><strong>Deletion.</strong> <em>내 데이터 삭제</em> (Delete my data) in the app removes
-  everything stored on the server immediately. Recordings on the device can be
+  everything stored on the server immediately, including My situation text and cards and the learning profile. Recordings on the device can be
   deleted in the app settings.</p>
-  <p><strong>Payments.</strong> Subscriptions are currently not sold in the app. Earlier subscriptions are managed by the App Store: review or cancel them any time in iPhone Settings &gt; Apple Account &gt; Subscriptions. Apple processes the payment; card details never reach our server. We store only the subscription state tied to the anonymous device ID (trial, active or expired, the expiry date, and any promotional offer in effect).</p>
+  <p><strong>Payments.</strong> WorkEnglish Pro is an App Store auto-renewable subscription (KRW 6,900 per month or KRW 39,000 per year). The 14-day trial after install starts without any Apple payment, so nothing is charged and nothing renews when it ends. Discounts offered in the app after the trial (50% for a day, 30% for the rest of that week) apply only when you choose to buy. Cancel any time in iPhone Settings &gt; Apple Account &gt; Subscriptions. Apple processes the payment; card details never reach our server. We store only the subscription state tied to the anonymous device ID (trial, active or expired, the expiry date, and any promotional offer in effect).</p>
   <p><strong>Children.</strong> The app is rated 4+, but it is made for working
   adults. It is not directed at children and does not knowingly collect personal
   information from them.</p>
