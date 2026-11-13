@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>출근영어 앱: 소리 없이 한 장부터, 출퇴근길 영어 표현 카드</title>
-<meta name="description" content="소리 없이 한 장부터. 출퇴근길에 업무 상황을 보고 속으로 떠올린 뒤 탭해서 영어 표현을 확인하고 남겨요. 마이크·로그인·결제 없이, 지금은 모든 기능 무료.">
+<meta name="description" content="소리 없이 한 장부터. 출퇴근길에 업무 상황을 보고 탭해서 영어 표현을 확인하고 남겨요. 한 줄 적으면 내 상황 카드도 만들어져요. 설치 후 14일 무료 체험.">
 <link rel="canonical" href="https://richoh86.github.io/workenglish-site/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="출근영어 앱: 소리 없이 한 장부터, 출퇴근길 영어 표현 카드">
-<meta property="og:description" content="소리 없이 한 장부터. 출퇴근길에 업무 상황을 보고 속으로 떠올린 뒤 탭해서 영어 표현을 확인하고 남겨요. 마이크·로그인·결제 없이, 지금은 모든 기능 무료.">
+<meta property="og:description" content="소리 없이 한 장부터. 출퇴근길에 업무 상황을 보고 탭해서 영어 표현을 확인하고 남겨요. 한 줄 적으면 내 상황 카드도 만들어져요. 설치 후 14일 무료 체험.">
 <meta property="og:image" content="https://richoh86.github.io/workenglish-site/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
       "alternateName": "WorkEnglish",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "iOS",
-      "description": "소리 없이 한 장부터. 출퇴근길에 한 손으로 보는 영어 표현 카드 iOS 앱이에요. 업무 상황을 보고 속으로 떠올린 뒤 탭해서 표현 하나를 확인하고, 남긴 표현은 내 표현에서 찾아 한 장부터 복습해요. 마이크·키보드·로그인·결제가 필요 없고, 말하거나 적어 보는 AI 연습은 선택이에요. 현재 모든 기능 무료예요.",
+      "description": "소리 없이 한 장부터. 출퇴근길에 한 손으로 보는 영어 표현 카드 iOS 앱이에요. 업무 상황을 보고 속으로 떠올린 뒤 탭해서 표현 하나를 확인하고, 남긴 표현은 내 표현에서 찾아 한 장부터 복습해요. 마이크·키보드·로그인 없이 시작하고, 한 줄로 적은 내 상황은 그 상황의 표현 카드가 돼요. 말하거나 적어 보는 AI 연습은 선택이에요. 설치 후 14일은 모든 기능이 무료이고, 그 뒤 Pro는 월 6,900원 또는 연 39,000원(자동 갱신)이에요. 체험이 끝나도 남긴 표현·기록·복습과 하루 카드 한 장은 무료예요.",
       "image": "https://richoh86.github.io/workenglish-site/assets/app-icon-1024.png",
       "screenshot": [
         "https://richoh86.github.io/workenglish-site/assets/release-1.5.0/ko-quietRecord.webp",
@@ -51,12 +51,49 @@
       "publisher": {
         "@id": "https://richoh86.github.io/workenglish-site/#organization"
       },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "KRW",
-        "description": "현재 모든 기능 무료"
-      }
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "무료",
+          "price": "0",
+          "priceCurrency": "KRW",
+          "description": "설치 후 14일은 모든 기능 무료 체험(결제 없음). 체험이 끝나도 남긴 표현·기록·복습과 하루 카드 한 장은 무료예요."
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro 월간",
+          "price": "6900",
+          "priceCurrency": "KRW",
+          "description": "자동 갱신 구독. 내 상황 카드 하루 10장, AI 연습, 카드 무제한.",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "6900",
+            "priceCurrency": "KRW",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "MON"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro 연간",
+          "price": "39000",
+          "priceCurrency": "KRW",
+          "description": "자동 갱신 구독. 연 39,000원(월 3,250원꼴).",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "39000",
+            "priceCurrency": "KRW",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN"
+            }
+          }
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -107,7 +144,7 @@
           "name": "하루에 몇 장 볼 수 있나요?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "카드는 무제한이에요. 원하는 만큼 보고 남기고 복습할 수 있어요. 말하거나 적어서 피드백을 받는 AI 연습은 원할 때만 쓰는 선택 기능이에요. 지금은 모든 기능이 무료예요."
+            "text": "설치 후 14일 체험과 Pro에서는 카드가 무제한이에요. 체험이 끝난 뒤 무료로는 하루 한 장씩 새 카드를 볼 수 있고, 남긴 표현·검색·복습·기록은 그대로 제한 없이 써요. 말하거나 적어서 피드백을 받는 AI 연습은 원할 때만 쓰는 선택 기능이에요."
           }
         },
         {
@@ -116,6 +153,38 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "기본 카드는 녹음하지 않아요. 선택 연습에서 말로 답하면 iPhone 안에서 Apple 음성 인식으로 텍스트가 되고, 음성 파일은 기기를 떠나지 않아요. 서버로는 텍스트만 가고, 피드백 문장은 Anthropic의 Claude가 써요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "무료 체험은 어떻게 시작되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "설치하면 바로 14일 체험이 시작돼요. Apple 결제나 카드 등록이 없어서, 체험이 끝나도 자동으로 결제되지 않아요. 체험 중에는 모든 기능을 쓸 수 있고, 내 상황 카드는 하루 3장까지 만들 수 있어요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "체험이 끝나면 어떻게 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "남긴 표현·기록·복습과 하루 카드 한 장은 계속 무료예요. 내 상황 카드와 AI 연습을 이어 쓰려면 Pro(월 6,900원 또는 연 39,000원, 자동 갱신)를 시작하면 돼요. 체험이 끝난 뒤 하루 동안은 50%, 그 주 안에는 30% 할인된 가격으로 시작할 수 있고, 그 뒤에는 정가예요. 모든 가격과 할인은 앱 안 요금 화면에 표시돼요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "구독은 어떻게 해지하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iPhone 설정 > Apple 계정 > 구독에서 언제든 해지할 수 있어요. 갱신일 24시간 전까지 해지하면 다음 결제가 되지 않고, 이미 결제한 기간은 끝날 때까지 쓸 수 있어요. 결제는 Apple이 처리하고, 앱 설정에서 구매를 복원할 수 있어요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "내 상황 카드에 적은 글은 어떻게 쓰이나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "적은 글은 카드를 만들기 위해 서버로 보내지고, 표현은 Anthropic의 Claude가 써요. 글은 익명 기기 ID 아래 저장되고 30일이 지나면 지워지며, 만들어진 카드만 내 기록으로 남아요. 앱의 「내 데이터 삭제」를 누르면 바로 전부 지워져요. 회사명이나 사람 이름은 넣지 마세요."
           }
         }
       ]
@@ -241,6 +310,28 @@
 
 <hr>
 
+<!-- 2-1. 내 상황 카드 (1.7) -->
+<section id="my-situation">
+  <h2>내 상황 카드</h2>
+  <p class="muted small">준비된 카드에 없는 상황도 한 줄이면 돼요.</p>
+
+  <div class="card">
+    <p class="label">한 줄 적기</p>
+    <h3>적은 상황이 표현 카드가 돼요</h3>
+    <p>오늘 탭의 「+ 내 상황」에 &quot;내일 고객에게 납기가 늦는다고 말해야 해요&quot;처럼 한 줄만 적으면, 그 상황에 맞는 영어 표현 카드가 바로 만들어져요.
+    보는 방법은 다른 카드와 같고, 남기면 「내 표현」의 「내가 만든 상황」에 모여요.</p>
+    <p class="small muted">체험 중에는 하루 3장, Pro는 하루 10장까지 만들 수 있어요. 회사명이나 사람 이름은 넣지 마세요.</p>
+  </div>
+
+  <div class="card">
+    <p class="label">처음 고르기</p>
+    <h3>잘 모르겠으면 탭으로 골라요</h3>
+    <p>첫 카드를 본 뒤 하는 일·영어가 필요한 순간·주로 말하는 상대를 탭으로 고르면, 그 순간에 맞춘 첫 카드 3장을 만들어 드려요. 건너뛰어도 돼요.</p>
+  </div>
+</section>
+
+<hr>
+
 <!-- 3. 처음 시작 -->
 <section id="start">
   <h2>처음 시작은 이렇게</h2>
@@ -264,7 +355,7 @@
     </li>
   </ol>
 
-  <p class="small"><a href="#pricing">지금은 모든 기능 무료</a></p>
+  <p class="small"><a href="#pricing">설치 후 14일은 모든 기능 무료</a></p>
 </section>
 
 <hr>
@@ -359,8 +450,8 @@
 
   <div class="card">
     <p class="label">셋</p>
-    <h3>지금은 무료</h3>
-    <p>앱 안에서 구독을 팔지 않아요. 계정도 카드 등록도 없이 모든 기능을 쓸 수 있어요.</p>
+    <h3>14일은 전부 무료</h3>
+    <p>계정도 카드 등록도 없이 14일 동안 모든 기능을 써 봐요. 체험이 끝나도 남긴 표현·기록·복습과 하루 카드 한 장은 무료로 남아요.</p>
   </div>
 </section>
 
@@ -369,19 +460,38 @@
 <!-- 6. 요금 -->
 <section id="pricing">
   <h2>요금</h2>
-  <p class="chip">무료</p>
+  <p class="chip">14일 무료 체험</p>
 
   <div class="card">
-    <h3>지금은 모든 기능이 무료예요</h3>
+    <p class="label">설치 후 14일</p>
+    <h3>모든 기능을 무료로 써 봐요</h3>
     <ul class="small">
-      <li>표현 카드 보기 · 남기기 · 검색 · 복습 · 기록은 무제한</li>
-      <li>더 연습하기(말하거나 적어서 받는 AI 피드백)는 원할 때만 쓰는 선택 기능</li>
-      <li>계정 · 로그인 · 카드 등록이 필요 없어요</li>
+      <li>카드 무제한, 내 상황 카드 하루 3장, AI 연습까지 전부</li>
+      <li>Apple 결제나 카드 등록 없이 시작하고, 체험이 끝나도 자동으로 결제되지 않아요</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <p class="label">체험이 끝난 뒤에도 무료</p>
+    <h3>쌓은 것은 그대로 남아요</h3>
+    <ul class="small">
+      <li>남긴 표현 · 검색 · 복습 · 기록은 계속 무료</li>
+      <li>새 카드는 하루 한 장씩 무료로 볼 수 있어요</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <p class="label">Pro</p>
+    <h3>월 6,900원 · 연 39,000원</h3>
+    <ul class="small">
+      <li>카드 무제한, 내 상황 카드 하루 10장, AI 연습</li>
+      <li>연간은 월 3,250원꼴이에요. 월간·연간 모두 자동 갱신 구독이에요</li>
+      <li>체험이 끝난 뒤 하루 동안은 50%, 그 주 안에는 30% 할인된 가격으로 시작할 수 있어요</li>
     </ul>
   </div>
 
   <div class="notice">
-    <p>이전에 구독하셨다면 iPhone <em>설정 &gt; Apple 계정 &gt; 구독</em>에서 관리할 수 있어요. 앱 안에서는 새 구독을 판매하지 않아요.</p>
+    <p>모든 가격과 할인은 앱 안 요금 화면에 표시돼요. 구독은 iPhone <em>설정 &gt; Apple 계정 &gt; 구독</em>에서 언제든 해지할 수 있고, 갱신일 24시간 전까지 해지하면 다음 결제가 되지 않아요.</p>
   </div>
 
   <div class="actions">
@@ -427,13 +537,33 @@
 
   <details class="qa">
     <summary>하루에 몇 장 볼 수 있나요?</summary>
-    <p>카드는 무제한이에요. 원하는 만큼 보고 남기고 복습할 수 있어요. 말하거나 적어서 피드백을 받는 AI 연습은 원할 때만 쓰는 선택 기능이에요. 지금은 모든 기능이 무료예요.</p>
+    <p>설치 후 14일 체험과 Pro에서는 카드가 무제한이에요. 체험이 끝난 뒤 무료로는 하루 한 장씩 새 카드를 볼 수 있고, 남긴 표현·검색·복습·기록은 그대로 제한 없이 써요. 말하거나 적어서 피드백을 받는 AI 연습은 원할 때만 쓰는 선택 기능이에요.</p>
   </details>
 
   <details class="qa">
     <summary>녹음은 어디에 저장되나요?</summary>
     <p>기본 카드는 녹음하지 않아요. 선택 연습에서 말로 답하면 iPhone 안에서 Apple 음성 인식으로 텍스트가 되고,
     음성 파일은 기기를 떠나지 않아요. 서버로는 텍스트만 가고, 피드백 문장은 Anthropic의 Claude가 써요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>무료 체험은 어떻게 시작되나요?</summary>
+    <p>설치하면 바로 14일 체험이 시작돼요. Apple 결제나 카드 등록이 없어서, 체험이 끝나도 자동으로 결제되지 않아요. 체험 중에는 모든 기능을 쓸 수 있고, 내 상황 카드는 하루 3장까지 만들 수 있어요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>체험이 끝나면 어떻게 되나요?</summary>
+    <p>남긴 표현·기록·복습과 하루 카드 한 장은 계속 무료예요. 내 상황 카드와 AI 연습을 이어 쓰려면 Pro(월 6,900원 또는 연 39,000원, 자동 갱신)를 시작하면 돼요. 체험이 끝난 뒤 하루 동안은 50%, 그 주 안에는 30% 할인된 가격으로 시작할 수 있고, 그 뒤에는 정가예요. 모든 가격과 할인은 앱 안 요금 화면에 표시돼요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>구독은 어떻게 해지하나요?</summary>
+    <p>iPhone 설정 &gt; Apple 계정 &gt; 구독에서 언제든 해지할 수 있어요. 갱신일 24시간 전까지 해지하면 다음 결제가 되지 않고, 이미 결제한 기간은 끝날 때까지 쓸 수 있어요. 결제는 Apple이 처리하고, 앱 설정에서 구매를 복원할 수 있어요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>내 상황 카드에 적은 글은 어떻게 쓰이나요?</summary>
+    <p>적은 글은 카드를 만들기 위해 서버로 보내지고, 표현은 Anthropic의 Claude가 써요. 글은 익명 기기 ID 아래 저장되고 30일이 지나면 지워지며, 만들어진 카드만 내 기록으로 남아요. 앱의 「내 데이터 삭제」를 누르면 바로 전부 지워져요. 회사명이나 사람 이름은 넣지 마세요.</p>
   </details>
 
   <div class="actions">
@@ -448,6 +578,7 @@
   <h2>개인정보</h2>
   <ul>
     <li><strong>기본 카드는 녹음도 입력도 없어요.</strong> 선택 연습에서 말로 답하면 iPhone 안에서 텍스트로 바뀌고, 음성 파일은 서버로 보내지 않아요.</li>
+    <li><strong>내 상황에 적은 글은 30일 뒤 지워져요.</strong> 카드를 만드는 데만 쓰고, 만들어진 카드만 내 기록으로 남아요. 회사명이나 사람 이름은 넣지 마세요.</li>
     <li><strong>계정도 로그인도 없어요.</strong> 기록은 기기에서 만든 익명 기기 ID 하나로만 구분해요.</li>
     <li><strong>언제든 지울 수 있어요.</strong> 앱의 '내 데이터 삭제'를 누르면 서버 기록이 즉시 전부 삭제돼요.</li>
   </ul>
@@ -460,7 +591,7 @@
 <section class="en">
   <h2>English</h2>
   <p>출근영어 (Workday English) is a silent, one-handed English expression-card app for Korean
-  office workers' commutes: start with a single card, no microphone, keyboard, sign-in or payment needed.</p>
+  office workers' commutes: start with a single card, no microphone, keyboard or sign-in needed.</p>
   <div class="device">
     <img src="assets/release-1.5.0/en-quietRevealed.webp" width="760" height="1652" loading="lazy" decoding="async"
          alt="The Today tab in English after Reveal: the situation 'Two meetings at once', the expression 'Could we move the meeting to four?' with its meaning and a tip, Other tones, and the Keep this expression and Practice more buttons.">
@@ -470,10 +601,19 @@
       or skip it. Find kept expressions in My Expressions, review from a single card, and watch your record grow.</li>
     <li>No big resolution. One sentence a day, and a record that grows.</li>
     <li>Nothing piles up. Take a few days off and you resume with the card you were on, not a backlog.</li>
-    <li>Cards are unlimited. AI practice (answer by voice or text and get feedback) is an optional deep-dive
-      under Practice more; the cards never need it. All features are currently free.</li>
-    <li>Pricing: free. Subscription sales are paused; existing subscribers keep access and can manage it in
+    <li>My situation: write one line (&quot;I have to tell a client the delivery will be late&quot;) and a card with
+      the English for exactly that situation is made for you. After your first card, pick your job, the moments
+      you need English and who you talk to, and your first three cards are made for those moments (or skip it).</li>
+    <li>AI practice (answer by voice or text and get feedback) is an optional deep-dive under Practice more;
+      the cards never need it.</li>
+    <li>Pricing: every feature is free for 14 days after install, with no Apple payment and no automatic charge
+      when it ends. After the trial, kept expressions, your record, review and one card a day stay free.
+      Pro (KRW 6,900 a month or KRW 39,000 a year, auto-renewing) adds unlimited cards, up to 10 situation cards
+      a day and AI practice; right after the trial it starts at 50% off for a day, or 30% off that week. All
+      prices are shown on the plans screen in the app. Cancel any time in
       <em>Settings &gt; Apple Account &gt; Subscriptions</em>.</li>
+    <li>Text you write for My situation is stored with the anonymous device ID, sent to Anthropic's Claude to
+      write the card, and deleted from the server after 30 days. Leave out company and people's names.</li>
     <li>In optional practice, speech is transcribed on the iPhone by Apple's speech recognition, and the audio never leaves
       the device. Only the text is sent to the server, where the feedback is written by Anthropic's
       Claude. There is no account or sign-in — records are tied to an anonymous device ID and can be
