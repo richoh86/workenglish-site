@@ -74,10 +74,10 @@
 
 <section>
   <h1>개인정보 처리방침</h1>
-  <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 5 November 2026</p>
+  <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 15 November 2026</p>
 
   <div class="card muted-card">
-    <p>시행일: 2026년 11월 5일</p>
+    <p>시행일: 2026년 11월 15일</p>
     <p>출근영어는 계정도 로그인도 없이 쓰는 앱이에요. 이름, 이메일, 전화번호, 위치를 수집하지 않고,
     광고·트래킹·제3자 분석 SDK도 넣지 않았어요. 기록은 기기에서 만들어진 익명 기기 ID 하나로만 구분해요.</p>
   </div>
@@ -92,6 +92,14 @@
     <li>녹음 파일 원본은 사용자 기기에만 저장되고, 앱 설정에서 전체 삭제할 수 있어요.</li>
   </ul>
 
+  <h2>기기 안에서만 처리하는 것</h2>
+  <ul>
+    <li>알림: 고른 시간의 알림은 iPhone 안에서 예약돼요. 푸시 토큰을 서버로 보내지 않고, 서버에서 알림을 보내지도 않아요. 알림에는 오늘 카드의 상황만 담기고 영어 표현은 담기지 않아요.</li>
+    <li>위젯: 앱이 오늘 카드의 제목·의도와 누적 숫자(남긴 표현 수 등) 같은 짧은 요약을 기기 안의 앱 그룹(App Group) 저장 공간에 적어 두고, 위젯은 그 요약만 읽어요. 이 요약은 어디로도 보내지 않아요.</li>
+    <li>들어보기: 표현 소리는 iPhone에 내장된 음성으로 기기 안에서 만들어요. 인터넷이 없어도 되고, 서버로 보내는 것은 없어요.</li>
+    <li>주간 돌아보기 이미지: 저장하거나 공유할 때 기기 안에서 만들어지고, 어디로 보낼지는 직접 골라요.</li>
+  </ul>
+
   <h2>서버에 저장하는 것</h2>
   <ul>
     <li>전사 텍스트, 피드백 텍스트, 세션 기록(상황 ID, 시도 횟수, 완료 시각, XP)을 저장해요.</li>
@@ -102,13 +110,15 @@
     <li>표현 카드 활동(카드를 연 때, 표현을 확인·남기거나 넘긴 때, 복습 자기평가)은 카드·표현 ID와 버전만 기기 ID와 함께 저장해요. 영어 문장이나 검색어는 보내지 않고, 남긴 표현과 검색은 기기 안에서만 처리돼요.</li>
     <li>내 상황 텍스트: 「+ 내 상황」에 적은 글(최대 200자)과 그 글로 만든 카드를 익명 기기 ID에 연결해 저장해요. 카드를 만들 때는 Anthropic Claude API를 사용하고, 이때 적은 글이 전달돼요. 적은 글은 30일이 지나면 서버에서 지워지고, 만들어진 카드는 내 기록으로 남아요. 회사명이나 사람 이름은 넣지 마세요.</li>
     <li>학습 프로필: 처음 고르기나 설정에서 고른 직무·영어가 필요한 순간·상대를 정해진 코드로만 익명 기기 ID에 연결해 저장해요. 문장은 저장하지 않아요.</li>
+    <li>이번 주 제안 카드: 매주 월요일 「이런 상황도 있어요」 카드 3장을 만들 때, 앱 언어와 학습 프로필·아직 안 본 상황 종류를 정해진 코드로만 서버로 보내요. 내 상황 카드와 같은 방식이고, 직접 적은 글은 보내지 않아요. 카드를 만들 때는 Anthropic Claude API를 사용하고, 만들어진 카드는 익명 기기 ID에 연결해 저장해요.</li>
+    <li>1.8에서 늘어난 앱 사용 기록: 표현 복사, 「실제로 썼어요」, 들어보기, 알림·위젯으로 연 때, 이번 주 제안 카드를 보거나 연 때, 주간 돌아보기 공유, 알림 시간 설정, 서랍 칸이 찬 때(expression_copied, expression_used, tts_played, notification_opened, suggestion_shown, suggestion_opened, weekly_review_shared, widget_opened, reminder_time_set, drawer_filled). 카드·표현 ID와 상황 종류만 담기고, 문장은 담기지 않아요.</li>
   </ul>
 
   <h2>제3자 처리자</h2>
   <div class="table-scroll">
     <table>
       <tr><th>처리자</th><th>하는 일</th><th>전달되는 것</th></tr>
-      <tr><td>Anthropic</td><td>피드백·내 상황 카드 생성</td><td>전사 텍스트, 내 상황에 적은 글</td></tr>
+      <tr><td>Anthropic</td><td>피드백·내 상황 카드·이번 주 제안 카드 생성</td><td>전사 텍스트, 내 상황에 적은 글, 제안 카드용 언어·프로필 코드</td></tr>
       <tr><td>GitHub Pages</td><td>이 웹사이트 제공</td><td>이 페이지 방문 기록 — 앱 데이터는 전달되지 않아요</td></tr>
     </table>
   </div>
@@ -136,7 +146,7 @@
 
 <section class="en">
   <h2>English</h2>
-  <p>Effective 5 November 2026. 출근영어 is used without an account or sign-in. It
+  <p>Effective 15 November 2026. 출근영어 is used without an account or sign-in. It
   does not collect your name, email address, phone number or location, and contains
   no advertising, tracking or third-party analytics SDKs. Records are tied only to
   an anonymous device ID generated on the device.</p>
@@ -165,11 +175,24 @@
     <li><strong>Learning profile.</strong> The job, the moments you need English and the people you talk to,
       picked during setup or in Settings, are stored only as fixed codes with the device ID. No sentences are
       stored.</li>
+    <li><strong>Weekly suggestions.</strong> To make the three &quot;Situations you might meet&quot; cards each Monday,
+      the app sends the app language, the learning profile and the situation types you have not seen yet, as
+      fixed codes only, the same way as My situation cards; no text you wrote is sent. The cards are generated
+      with the Anthropic Claude API and stored with the anonymous device ID.</li>
+    <li><strong>Usage events added in 1.8.</strong> Copying an expression, &quot;I used it&quot;, listening, opening a card
+      from a notification or the widget, seeing or opening the weekly suggestions, sharing the weekly look-back,
+      setting a reminder time and filling a drawer slot (expression_copied, expression_used, tts_played, notification_opened, suggestion_shown, suggestion_opened, weekly_review_shared, widget_opened, reminder_time_set, drawer_filled). They carry only card and expression
+      IDs and situation types, never sentences.</li>
+    <li><strong>On the device only.</strong> Notifications are scheduled on the iPhone; no push token is sent and
+      our server sends no notifications. They show today's card situation, never the English. The widget reads a
+      small summary (today's card title and intent, and counts such as kept expressions) that the app writes into
+      an App Group container on the device; it is not sent anywhere. Listening uses the iPhone's built-in voice on
+      the device and works offline. The weekly look-back image is made on the device when you save or share it.</li>
   </ul>
   <div class="table-scroll">
     <table>
       <tr><th>Processor</th><th>Purpose</th><th>What it receives</th></tr>
-      <tr><td>Anthropic</td><td>Feedback and My situation card generation</td><td>The transcribed text and the text you write for My situation</td></tr>
+      <tr><td>Anthropic</td><td>Feedback, My situation and weekly suggestion card generation</td><td>The transcribed text, the text you write for My situation, and the language and profile codes for weekly suggestions</td></tr>
       <tr><td>GitHub Pages</td><td>Hosting this website</td><td>Visits to this page — no app data</td></tr>
     </table>
   </div>
