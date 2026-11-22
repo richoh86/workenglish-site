@@ -74,10 +74,10 @@
 
 <section>
   <h1>개인정보 처리방침</h1>
-  <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 18 November 2026</p>
+  <p class="tagline">출근영어: 직장인 AI 영어회화 · Last updated 22 November 2026</p>
 
   <div class="card muted-card">
-    <p>시행일: 2026년 11월 18일</p>
+    <p>시행일: 2026년 11월 22일</p>
     <p>출근영어는 계정도 로그인도 없이 쓰는 앱이에요. 이름, 이메일, 전화번호, 위치를 수집하지 않고,
     광고·트래킹·제3자 분석 SDK도 넣지 않았어요. 기록은 기기에서 만들어진 익명 기기 ID 하나로만 구분해요.</p>
   </div>
@@ -101,6 +101,8 @@
     <li>사진 · 붙여넣은 글에서 가져오기: 고른 사진 속 글자는 iPhone에 내장된 Apple 문자 인식(Vision)으로 기기 안에서 읽어요. 사진, 사진에서 읽은 글, 붙여넣은 글은 서버로 보내지 않고 저장하지도 않으며, 가져오기 화면을 닫으면 버려져요. 링크 주소를 붙여넣어도 그 주소에 접속하지 않아요. 저장하기로 고른 문장만 아래 「내가 만든 카드」가 돼요.</li>
     <li>모음집: 모음집의 표현은 앱 안에 들어 있어요. 가져온 표현은 아래 「내가 만든 카드」가 돼요.</li>
     <li>안내 카드: 쉬는 화면의 안내를 어떤 것까지 봤는지는 이 iPhone에만 적어 둬요.</li>
+    <li>듣기: 남긴 표현을 iPhone에 내장된 음성으로 기기 안에서 읽어요. 인터넷이 없어도 되고, 표현이나 소리를 서버로 보내지 않으며 녹음도 하지 않아요. 화면을 꺼도 이어서 읽도록 iPhone의 백그라운드 오디오를 쓰고, 재생을 눌렀을 때만 소리가 나요.</li>
+    <li>이번 주 목표: 정한 일수와 이번 주 진행은 이 iPhone 안에서만 계산하고 저장해요. 서버로 보내지 않아요.</li>
   </ul>
 
   <h2>서버에 저장하는 것</h2>
@@ -116,17 +118,19 @@
     <li>이번 주 제안 카드: 매주 월요일 「이런 상황도 있어요」 카드 3장을 만들 때, 앱 언어와 학습 프로필·아직 안 본 상황 종류를 정해진 코드로만 서버로 보내요. 내 상황 카드와 같은 방식이고, 직접 적은 글은 보내지 않아요. 카드를 만들 때는 Anthropic Claude API를 사용하고, 만들어진 카드는 익명 기기 ID에 연결해 저장해요.</li>
     <li>1.8에서 늘어난 앱 사용 기록: 표현 복사, 「실제로 썼어요」, 들어보기, 알림·위젯으로 연 때, 이번 주 제안 카드를 보거나 연 때, 주간 돌아보기 공유, 알림 시간 설정, 서랍 칸이 찬 때(expression_copied, expression_used, tts_played, notification_opened, suggestion_shown, suggestion_opened, weekly_review_shared, widget_opened, reminder_time_set, drawer_filled). 카드·표현 ID와 상황 종류만 담기고, 문장은 담기지 않아요.</li>
     <li>첫 카드 만들기: 처음 고르기에서 고른 직무와 영어가 필요한 순간(설정에서 고른 상대가 있으면 그것도), 앱 언어를 정해진 코드로만 서버로 보내 Anthropic Claude API로 첫 카드를 만들어요. 직접 적은 글은 보내지 않고, 만들어진 카드는 내 상황 카드처럼 익명 기기 ID에 연결해 저장해요.</li>
-    <li>내가 만든 카드: 직접 적거나 사진 · 붙여넣은 글에서 골라 저장한 카드와 모음집에서 가져온 카드를 이 iPhone과 서버에 저장해요. 서버에 저장하는 것은 영어 표현, 뜻, 적었다면 상황 · 예문 · 주제, 뜻의 언어, 출처 종류(직접 입력 · 사진 · 모음집), 모음집 카드면 모음집 항목 번호, 만든 시각, 수정 번호, 중복 확인용 요약값(해시)이에요. 이 카드는 익명 기기 ID에만 연결되고 이름이나 이메일과는 연결되지 않으며, 이 기기의 카드를 보관해 두는 데만 써요. 카드를 만들 때 AI를 쓰지 않고, Anthropic에 보내지 않아요. 카드를 지우면 서버에서도 내용이 지워지고, 지운 카드의 ID · 수정 번호 · 시각만 남아(늦게 도착한 저장 요청이 카드를 되살리지 않게 하려고) 「내 데이터 삭제」 때 함께 지워져요. 계정이 없어서 다른 기기로 옮기는 기능은 없고, 앱을 다시 설치하거나 휴대폰을 바꾸면 돌아오지 않을 수 있어요.</li>
+    <li>내가 만든 카드: 직접 적거나 사진 · 붙여넣은 글에서 골라 저장한 카드, 모음집에서 가져온 카드, 상황 대화에서 저장한 표현을 이 iPhone과 서버에 저장해요. 서버에 저장하는 것은 영어 표현, 뜻, 적었다면 상황 · 예문 · 주제, 뜻의 언어, 출처 종류(직접 입력 · 사진 · 모음집), 모음집 카드면 모음집 항목 번호, 만든 시각, 수정 번호, 중복 확인용 요약값(해시)이에요. 이 카드는 익명 기기 ID에만 연결되고 이름이나 이메일과는 연결되지 않으며, 이 기기의 카드를 보관해 두는 데만 써요. 직접 적거나 사진 · 글 · 모음집에서 가져온 카드는 만들 때 AI를 쓰지 않고, Anthropic에 보내지 않아요(상황 대화에서 저장한 표현과 뜻은 대화 중에 Claude가 쓴 것이고, 어떤 카드든 그 카드로 상황 대화를 시작하면 아래 「상황 대화」처럼 카드 내용이 전달돼요). 카드를 지우면 서버에서도 내용이 지워지고, 지운 카드의 ID · 수정 번호 · 시각만 남아(늦게 도착한 저장 요청이 카드를 되살리지 않게 하려고) 「내 데이터 삭제」 때 함께 지워져요. 계정이 없어서 다른 기기로 옮기는 기능은 없고, 앱을 다시 설치하거나 휴대폰을 바꾸면 돌아오지 않을 수 있어요.</li>
     <li>복습 기록: 복습에서 기억났어요 · 헷갈렸어요 · 다시 볼래요 중 고른 평가를 표현 ID, 복습 묶음(세션) ID, 평가한 시각과 함께 익명 기기 ID에 연결해 저장해요. 문장이나 뜻은 담기지 않아요. 서버에는 기록만 하고, 복습 일정은 이 iPhone에서 계산해요. 카드를 지워도 그 카드의 복습 기록은 남고, 「내 데이터 삭제」 때 함께 지워져요.</li>
     <li>알림 설정: 새 표현 알림과 복습 알림 각각의 켜짐 여부 · 시간 · 요일 · 한 번에 볼 개수, 「내가 만든 카드 내용 미리보기」 여부, 일시정지가 끝나는 시각을 익명 기기 ID에 연결해 저장해요. 문장은 담기지 않아요. 알림은 여전히 iPhone 안에서 예약되고, 푸시 토큰은 보내지 않아요.</li>
     <li>1.9 · 1.10에서 늘어난 앱 사용 기록: 내 카드를 만들거나 고치거나 지운 때, 복습에서 답을 보고 평가한 때, 알림 설정 · 권한 · 예약 · 알림으로 연 때, 앱 안 링크를 연 결과, 모음집을 열거나 가져온 때, 사진 · 글에서 문장을 찾았거나 찾지 못한 때, 첫 화면 · 처음 고르기 단계 · 첫 카드 만들기, 안내 카드를 보거나 열거나 닫은 때(card_created, card_edited, card_deleted, review_answer_revealed, review_rated, reminder_preference_saved, reminder_permission_changed, reminder_scheduled, reminder_opened, deep_link_resolved, deep_link_failed, card_generation_failed, collection_opened, collection_imported, card_draft_extracted, first_visit_shown, onboarding_shown, onboarding_step, starter_requested, starter_arrived, starter_failed, starter_skipped_wait, tip_shown, tip_opened, tip_dismissed). 출처 종류 · 평가 · 개수 · 단계 · 이유 · 모음집 ID 같은 정해진 코드와 숫자만 담기고, 카드 문장이나 뜻, 링크 주소는 담기지 않아요. 기기가 서버에 등록되기 전에 생긴 기록은 버리지 않고 이 iPhone에 두었다가 등록된 뒤에 보내요.</li>
+    <li>상황 대화: 대화를 시작하면 그 카드의 내용(제목 · 상황 · 하고 싶은 말 · 상대 · 상황 종류 · 표현)과 앱 언어를 서버로 보내요. 상대의 말, 내가 쓴 문장을 다듬은 문장과 이유, 힌트, 마칠 때의 건질 표현과 뜻은 Anthropic Claude API로 만들고, 이때 카드 내용과 내가 쓴 문장, 그때까지의 대화가 전달돼요. 서버에는 카드 내용, 주고받은 글, 답한 횟수 · 힌트 횟수, 날짜를 익명 기기 ID에만 연결해 저장해요. 계정이 없어서 이름이나 이메일과는 연결되지 않고, 대화를 이어 가고 하루 횟수를 세는 데만 쓰며 광고에는 쓰지 않아요. 대화 기록은 매주 한 번 하는 정리로 약 한 달 안에(늦어도 37일) 서버에서 지워지고, 「내 데이터 삭제」를 누르면 바로 지워져요. 대화는 글로만 주고받고 앱은 마이크를 쓰지 않아요. 회사명이나 사람 이름은 넣지 마세요.</li>
+    <li>1.12에서 늘어난 앱 사용 기록: 상황 대화를 시작 · 진행하거나 힌트를 본 때, 대화를 마치거나 실패한 때, 듣기를 시작하거나 끝까지 들은 때, 이번 주 목표를 정하거나 채운 때(roleplay_started, roleplay_turn, roleplay_hint_used, roleplay_finished, roleplay_failed, listen_started, listen_completed, weekly_goal_set, weekly_goal_met). 시작한 곳 · 상황 종류 · 답한 횟수 · 저장한 개수 · 실패 이유 · 들은 개수 · 순서 · 목표 일수 같은 정해진 코드와 숫자만 담기고, 대화 내용이나 카드 문장은 담기지 않아요.</li>
   </ul>
 
   <h2>제3자 처리자</h2>
   <div class="table-scroll">
     <table>
       <tr><th>처리자</th><th>하는 일</th><th>전달되는 것</th></tr>
-      <tr><td>Anthropic</td><td>피드백·내 상황 카드·첫 카드·이번 주 제안 카드 생성</td><td>전사 텍스트, 내 상황에 적은 글, 첫 카드·제안 카드용 언어·프로필 코드</td></tr>
+      <tr><td>Anthropic</td><td>피드백·내 상황 카드·첫 카드·이번 주 제안 카드·상황 대화 답 생성</td><td>전사 텍스트, 내 상황에 적은 글, 첫 카드·제안 카드용 언어·프로필 코드, 상황 대화의 카드 내용과 주고받은 글</td></tr>
       <tr><td>Cloudflare</td><td>앱 서버와 데이터베이스 운영(Workers · D1)</td><td>위 「서버에 저장하는 것」의 항목</td></tr>
       <tr><td>GitHub Pages</td><td>이 웹사이트 제공</td><td>이 페이지 방문 기록 — 앱 데이터는 전달되지 않아요</td></tr>
     </table>
@@ -134,10 +138,10 @@
 
   <h2>보관 기간</h2>
   <p>서버에 저장된 기록(연습 기록, 표현 카드 활동, 학습 프로필, 내 상황 카드, 내가 만든 카드, 복습 기록, 알림 설정, 앱 사용 기록)은 정해진 보관 기간 없이 익명 기기 ID 아래 보관되고, 앱의 <em>내 데이터 삭제</em>를 누르면 그때 전부 삭제돼요.
-  자동으로 지우는 것은 내 상황에 적은 글 하나뿐이에요. 매주 한 번 하는 정리 때 30일이 지난 글을 지워서, 약 한 달 안에(늦어도 37일) 사라져요(만들어진 카드는 남아요). 음성 파일은 앞서 적은 대로 서버로 보내지 않으므로 서버에 보관하는 음성도 없어요.</p>
+  자동으로 지우는 것은 내 상황에 적은 글과 상황 대화 기록이에요. 매주 한 번 하는 정리 때 30일이 지난 글과 대화를 지워서, 약 한 달 안에(늦어도 37일) 사라져요(내 상황으로 만들어진 카드와 상황 대화에서 내 카드로 저장한 표현은 남아요). 음성 파일은 앞서 적은 대로 서버로 보내지 않으므로 서버에 보관하는 음성도 없어요.</p>
 
   <h2>삭제하는 방법</h2>
-  <p>앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록(내 상황 글·카드, 학습 프로필, 내가 만든 카드, 복습 기록, 알림 설정 포함)이 즉시 전부 삭제되고, 이 iPhone의 카드와 기록도 함께 지워져요. 지운 뒤에는 되돌릴 수 없어요.
+  <p>앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록(내 상황 글·카드, 학습 프로필, 내가 만든 카드, 복습 기록, 알림 설정, 상황 대화 포함)이 즉시 전부 삭제되고, 이 iPhone의 카드와 기록도 함께 지워져요. 지운 뒤에는 되돌릴 수 없어요.
   기기에 남아 있는 녹음 파일은 앱 설정에서 전체 삭제할 수 있어요.</p>
 
   <h2>결제</h2>
@@ -155,7 +159,7 @@
 
 <section class="en">
   <h2>English</h2>
-  <p>Effective 18 November 2026. 출근영어 is used without an account or sign-in. It
+  <p>Effective 22 November 2026. 출근영어 is used without an account or sign-in. It
   does not collect your name, email address, phone number or location, and contains
   no advertising, tracking or third-party analytics SDKs. Records are tied only to
   an anonymous device ID generated on the device.</p>
@@ -197,13 +201,14 @@
       during setup (and the people you talk to, if picked in Settings) and the app language are sent as fixed codes
       only and the cards are generated with the Anthropic Claude API; no text you wrote is sent. The cards are stored
       with the anonymous device ID like My situation cards.</li>
-    <li><strong>My cards.</strong> Cards you write yourself, pick from a photo or pasted text, or bring in from a
-      collection are stored on the iPhone and on our server: the English expression, the meaning, the situation,
+    <li><strong>My cards.</strong> Cards you write yourself, pick from a photo or pasted text, bring in from a
+      collection or save from a situation chat are stored on the iPhone and on our server: the English expression, the meaning, the situation,
       example and topic if you added them, the language of the meaning, the source type (typed, photo or
       collection), the collection item reference for collection cards, the creation time, a revision number and a
       hash used to spot duplicates. They are tied only to the anonymous device ID, never to a name or email, and are
-      kept only so this device's cards are held for it. No AI is used to make them and they are not sent to
-      Anthropic. When you delete a card its content is removed from the server; only its ID, revision and times stay
+      kept only so this device's cards are held for it. No AI is used to make the cards you write, pick or bring in, and they are not
+      sent to Anthropic (expressions saved from a situation chat, and their meanings, were written by Claude during the
+      chat, and starting a situation chat on any card sends its content as described under Situation chat). When you delete a card its content is removed from the server; only its ID, revision and times stay
       (so a late save cannot bring it back) until Delete my data. There is no transfer to another device, and
       reinstalling the app or changing phones may not bring your cards back.</li>
     <li><strong>Review records.</strong> Each self-rating in review (I remembered it, I wasn't sure, Show it again) is
@@ -220,6 +225,20 @@
       fixed codes and numbers such as source type, rating, count, step, reason and collection ID, never card
       sentences, meanings or links. Events from before the device is registered are kept on the iPhone and sent
       after registration.</li>
+    <li><strong>Situation chat.</strong> Starting a chat sends that card's content (title, situation, what you want to
+      say, counterpart, situation type and expression) and the app language to our server. The counterpart's lines,
+      the more natural version of your line and why, hints, and the expressions and meanings offered at the end are
+      generated with the Anthropic Claude API, which receives the card content, the lines you write and the
+      conversation so far. The server stores the card content, the lines exchanged, the number of replies and hints
+      and the date, tied only to the anonymous device ID, never to a name or email (there is no account). They are
+      used only to continue the chat and count the daily limit, never for advertising. Conversation records are
+      deleted from the server by a weekly clean-up within about a month (37 days at the latest), and immediately by
+      Delete my data. The chat is text only and the app does not use the microphone. Leave out company and people's
+      names.</li>
+    <li><strong>Usage events added in 1.12.</strong> Starting or continuing a situation chat, using a hint, finishing
+      or failing a chat, starting or finishing Listen, and setting or meeting This week's goal (roleplay_started, roleplay_turn, roleplay_hint_used, roleplay_finished, roleplay_failed, listen_started, listen_completed, weekly_goal_set, weekly_goal_met).
+      They carry only fixed codes and numbers such as where it was opened, situation type, number of replies, number
+      saved, failure reason, number listened to, order and goal days, never the conversation or card text.</li>
     <li><strong>On the device only.</strong> Notifications are scheduled on the iPhone; no push token is sent and
       our server sends no notifications. New-expression reminders show today's card situation and review reminders only how many are due,
       never the English; your own and My situation cards' text appears only if you turn on their preview (off by
@@ -231,11 +250,16 @@
       text read from it and pasted text are neither sent to our server nor stored, and are dropped when you close the
       screen. A pasted link is not opened. Only lines you choose to save become My cards. Collections are built into
       the app; what you bring in becomes My cards. Which tips you have seen is noted only on the iPhone.</li>
+    <li><strong>Listen.</strong> Kept expressions are read aloud with the iPhone's built-in voice on the device and it
+      works offline; no expression or sound is sent to our server and nothing is recorded. It uses the iPhone's
+      background audio only so playback continues with the screen off, and sound plays only when you press play.</li>
+    <li><strong>This week's goal.</strong> The number of days you pick and this week's progress are worked out and
+      stored only on the iPhone and are not sent to our server.</li>
   </ul>
   <div class="table-scroll">
     <table>
       <tr><th>Processor</th><th>Purpose</th><th>What it receives</th></tr>
-      <tr><td>Anthropic</td><td>Feedback, My situation, first card and weekly suggestion card generation</td><td>The transcribed text, the text you write for My situation, and the language and profile codes for first cards and weekly suggestions</td></tr>
+      <tr><td>Anthropic</td><td>Feedback, My situation, first card and weekly suggestion card generation, and situation chat replies</td><td>The transcribed text, the text you write for My situation, the language and profile codes for first cards and weekly suggestions, and the card content and lines of a situation chat</td></tr>
       <tr><td>Cloudflare</td><td>Running the app server and database (Workers, D1)</td><td>The items listed above as stored on the server</td></tr>
       <tr><td>GitHub Pages</td><td>Hosting this website</td><td>Visits to this page — no app data</td></tr>
     </table>
@@ -243,12 +267,13 @@
   <p><strong>Retention.</strong> Server records (practice records, card activity, the learning profile,
   My situation cards, the cards you make, review records, reminder settings and usage events) have no set retention
   period: they are kept under the anonymous device ID until you delete them with <em>내 데이터 삭제</em> (Delete my
-  data). The only automatic clean-up is the text you write for My situation: a weekly clean-up removes it once it is
-  30 days old, so it is gone within about a month (37 days at the latest); the card stays. No audio is kept on
+  data). The only automatic clean-ups are the text you write for My situation and situation chat records: a weekly
+  clean-up removes them once they are 30 days old, so they are gone within about a month (37 days at the latest);
+  My situation cards and expressions you saved from a chat as your own cards stay. No audio is kept on
   the server, because audio is never sent to it.</p>
   <p><strong>Deletion.</strong> <em>내 데이터 삭제</em> (Delete my data) in the app removes
-  everything stored on the server immediately, including My situation text and cards, the learning profile, the cards you made, review records and
-  reminder settings; the cards and records on this iPhone are removed too, and this cannot be undone. Recordings on the device can be
+  everything stored on the server immediately, including My situation text and cards, the learning profile, the cards you made, review records,
+  reminder settings and situation chats; the cards and records on this iPhone are removed too, and this cannot be undone. Recordings on the device can be
   deleted in the app settings.</p>
   <p><strong>Payments.</strong> WorkEnglish Pro is an App Store auto-renewable subscription (KRW 6,900 per month or KRW 39,000 per year). The 14-day trial after install starts without any Apple payment, so nothing is charged and nothing renews when it ends. Discounts offered in the app after the trial (50% for a day, 30% for the rest of that week) apply only when you choose to buy. Cancel any time in iPhone Settings &gt; Apple Account &gt; Subscriptions. Apple processes the payment; card details never reach our server. We store only the subscription state tied to the anonymous device ID (trial, active or expired, the expiry date, and any promotional offer in effect).</p>
   <p><strong>Children.</strong> The app is rated 4+, but it is made for working
