@@ -47,11 +47,15 @@
         "며칠 간격으로 다시 보는 복습: 기억났어요 · 헷갈렸어요 · 다시 볼래요",
         "주제별 모음집 8개에서 골라 담기",
         "새 표현 알림과 복습 알림을 따로 설정, 전체 일시정지",
+        "남긴 표현을 한 장씩 넘겨 보는 「넘겨 보기」(평가는 원할 때만)",
+        "카드 한 장의 상황으로 AI 상대와 영어로 짧게 글을 주고받는 「상황 대화」",
+        "남긴 표현을 차례로 읽어 주는 「듣기」(iPhone 내장 음성, 인터넷 없이)",
+        "원할 때만 정하는 「이번 주 목표」(연속 기록을 세지 않아요)",
         "매주 월요일 「이런 상황도 있어요」 카드 3장",
         "주간 돌아보기 카드를 이미지로 저장·공유",
         "선택 기능: 말하거나 적어 보고 받는 AI 피드백"
       ],
-      "description": "소리 없이 한 장부터. 출퇴근길에 한 손으로 보는 영어 표현 카드 iOS 앱이에요. 업무 상황을 보고 속으로 떠올린 뒤 탭해서 표현 하나를 확인하고, 남긴 표현은 내 표현에서 찾아 한 장부터 복습해요. 마이크·키보드·로그인 없이 시작하고, 한 줄로 적은 내 상황은 그 상황의 표현 카드가 돼요. 들은 표현은 영어와 뜻만 적어 내 카드로 만들 수 있고(사진이나 붙여넣은 글에서 골라도 돼요), 남긴 표현과 내 카드는 며칠 간격으로 다시 나와요. 주제별 모음집에서 골라 담을 수도 있어요. 정한 시간에 오늘 카드의 상황이 알림으로 오고, 홈 화면·잠금 화면 위젯에서도 오늘 카드를 볼 수 있어요(영어 표현은 앱 안에서만 보여요). 남긴 카드는 「내 표현」에 더미로 쌓이고, 「기록」의 숫자는 올라가기만 해요. 상황 카드는 120장이에요. 말하거나 적어 보는 AI 연습은 선택이에요. 설치 후 14일은 모든 기능이 무료이고, 그 뒤 Pro는 월 6,900원 또는 연 39,000원(자동 갱신)이에요. 체험이 끝나도 남긴 표현·기록·복습과 하루 카드 한 장은 무료예요.",
+      "description": "소리 없이 한 장부터. 출퇴근길에 한 손으로 보는 영어 표현 카드 iOS 앱이에요. 업무 상황을 보고 속으로 떠올린 뒤 탭해서 표현 하나를 확인하고, 남긴 표현은 내 표현에서 찾아 한 장부터 복습해요. 마이크·키보드·로그인 없이 시작하고, 한 줄로 적은 내 상황은 그 상황의 표현 카드가 돼요. 들은 표현은 영어와 뜻만 적어 내 카드로 만들 수 있고(사진이나 붙여넣은 글에서 골라도 돼요), 남긴 표현과 내 카드는 며칠 간격으로 다시 나와요. 주제별 모음집에서 골라 담을 수도 있어요. 남긴 표현은 「넘겨 보기」로 한 장씩 넘기거나 「듣기」로 차례로 들을 수 있고, 카드의 상황으로 AI 상대와 영어로 짧게 글을 주고받는 「상황 대화」도 있어요. 이번 주에 며칠 볼지는 원할 때만 정해요. 정한 시간에 오늘 카드의 상황이 알림으로 오고, 홈 화면·잠금 화면 위젯에서도 오늘 카드를 볼 수 있어요(영어 표현은 앱 안에서만 보여요). 남긴 카드는 「내 표현」에 더미로 쌓이고, 「기록」의 숫자는 올라가기만 해요. 상황 카드는 120장이에요. 말하거나 적어 보는 AI 연습은 선택이에요. 설치 후 14일은 모든 기능이 무료이고, 그 뒤 Pro는 월 6,900원 또는 연 39,000원(자동 갱신)이에요. 체험이 끝나도 남긴 표현·기록·복습과 하루 카드 한 장은 무료예요.",
       "image": "https://richoh86.github.io/workenglish-site/assets/app-icon-1024.png",
       "screenshot": [
         "https://richoh86.github.io/workenglish-site/assets/release-1.5.0/ko-quietRecord.webp",
@@ -243,6 +247,38 @@
             "@type": "Answer",
             "text": "아니요. 사진 속 글자는 iPhone에 내장된 Apple 문자 인식으로 기기 안에서 읽고, 사진과 읽은 글은 서버로 보내지도 저장하지도 않아요. 가져오기 화면을 닫으면 사라져요. 붙여넣은 글도 같아요. 그중 저장하기로 고른 문장만 내 카드가 되고, 내 카드는 이 기기와 서버(익명 기기 ID 아래)에 보관돼요."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "상황 대화의 상대는 실제 사람인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니요. 상대는 AI예요. 카드의 상황에 맞춰 서버에서 Anthropic의 Claude가 답을 쓰고, 대화 화면에도 AI 상대라고 표시돼요. 대화는 글로만 주고받고, 앱은 마이크를 쓰지 않아요. 주고받은 글은 익명 기기 ID 아래 저장되고 약 한 달 안에(늦어도 37일) 지워져요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "상황 대화는 하루에 몇 번 할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "무료로는 하루 1번, 체험 중과 Pro는 하루 5번 대화할 수 있어요. 대화 한 번에 최대 6번까지 답할 수 있고, 「여기까지」를 누르면 언제든 마칠 수 있어요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "듣기는 인터넷이 필요한가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니요. iPhone에 내장된 음성으로 기기 안에서 읽어서 인터넷 없이도 돼요. 재생을 눌렀을 때만 소리가 나고, 화면을 꺼도 이어서 들을 수 있어요. 들은 표현은 서버로 보내지 않고, 복습 일정에도 영향을 주지 않아요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "이번 주 목표는 연속 기록을 세나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니요. 이번 주에 카드를 본 날만 세고, 연속 기록이나 안 본 날은 표시하지 않아요. 주가 바뀌면 조용히 처음부터 다시 세요. 기본은 꺼져 있고, 「기록」 탭에서 정하거나 끌 수 있어요. 목표는 이 iPhone에만 저장돼요."
+          }
         }
       ]
     },
@@ -299,10 +335,46 @@
 
 <hr>
 
-<!-- 1-0. 1.9 · 1.10 새로 생겼어요 -->
+<!-- 1-0. 1.11 · 1.12 (위) · 1.9 · 1.10 (아래) 새로 생겼어요 -->
 <section id="new">
   <h2>새로 생겼어요</h2>
-  <p class="muted small">1.9와 1.10에서 달라졌어요. 내 카드 · 복습 · 모음집은 체험이 끝나도 무료로 써요.</p>
+  <p class="muted small">1.11과 1.12에서 생겼어요. 넘겨 보기 · 듣기 · 이번 주 목표는 체험이 끝나도 무료이고, 상황 대화는 무료로도 하루 1번 할 수 있어요.</p>
+
+  <div class="card">
+    <p class="label">넘겨 보기</p>
+    <h3>남긴 표현을 한 장씩 넘겨 봐요</h3>
+    <p>「내 표현」의 「넘겨 보기」를 누르면 남긴 표현이 카드로 한 장씩 나와요. 왼쪽으로 밀면 다음, 오른쪽으로 밀면 이전, 탭하면 뒤집혀요.
+    평가하지 않고 넘겨도 되고, 「알아요」 · 「다시 볼래요」는 누르고 싶을 때만 눌러요.</p>
+    <p class="small muted">순서는 복습할 것 먼저 · 최근 남긴 순 · 섞기 중에 고르고, 상황과 영어 중 무엇을 먼저 볼지도 정할 수 있어요. 닫았다가 같은 날 다시 열면 보던 카드부터 이어서 봐요.</p>
+  </div>
+
+  <div class="card">
+    <p class="label">상황 대화</p>
+    <h3>카드의 상황으로 짧게 주고받아요</h3>
+    <p>카드 뒷면이나 카드 상세의 「이 상황으로 대화해 보기」를 누르면, 그 상황의 상대 역할을 하는 AI와 영어로 글을 주고받아요.
+    한 번에 최대 6번까지 답하고, 내가 쓴 문장 아래에 더 자연스러운 문장 한 줄과 이유가 붙어요. 막히면 「힌트」를 눌러요.
+    마치면 건질 표현을 골라 내 카드로 저장할 수 있어요.</p>
+    <p class="small muted">상대는 실제 사람이 아니라 AI이고, 답은 서버에서 Anthropic의 Claude가 써요. 글로만 주고받고 마이크는 쓰지 않아요.
+    무료로는 하루 1번, 체험 중과 Pro는 하루 5번 대화할 수 있어요. 회사명이나 사람 이름은 넣지 마세요.</p>
+  </div>
+
+  <div class="card">
+    <p class="label">듣기</p>
+    <h3>남긴 표현을 차례로 들어요</h3>
+    <p>「내 표현」의 「듣기」를 누르면 남긴 표현을 상황 한 줄, 영어, 영어 한 번 더 순서로 읽어 줘요.
+    속도는 0.8× · 1.0× · 1.2× 중에 고르고, 상황 읽기와 반복은 끌 수 있어요. 끝까지 들으면 멈춰요.</p>
+    <p class="small muted">재생을 눌렀을 때만 소리가 나요. 화면을 꺼도 이어지고, 잠금 화면이나 이어폰 버튼으로 멈추거나 넘길 수 있어요.
+    iPhone에 내장된 음성으로 기기 안에서 읽어서 인터넷이 없어도 돼요.</p>
+  </div>
+
+  <div class="card">
+    <p class="label">이번 주 목표</p>
+    <h3>이번 주 며칠 볼지, 원할 때만</h3>
+    <p>「기록」 탭 위쪽에서 이번 주에 며칠 볼지 2 · 3 · 5 · 7일 중에 골라요. 카드를 확인하거나 복습 · 넘겨 보기 · 대화 · 듣기 중 하나라도 한 날을 하루로 세요.</p>
+    <p class="small muted">기본은 꺼져 있어요. 연속 기록을 세지 않고, 안 본 날을 따로 표시하지 않아요. 주가 바뀌면 조용히 처음부터 다시 세요.</p>
+  </div>
+
+  <p class="muted small">1.9와 1.10에서 달라진 것도 그대로예요. 내 카드 · 복습 · 모음집은 체험이 끝나도 무료로 써요.</p>
 
   <div class="card">
     <p class="label">내 카드 직접 만들기</p>
@@ -692,6 +764,26 @@
     <p>아니요. 사진 속 글자는 iPhone에 내장된 Apple 문자 인식으로 기기 안에서 읽고, 사진과 읽은 글은 서버로 보내지도 저장하지도 않아요. 가져오기 화면을 닫으면 사라져요. 붙여넣은 글도 같아요. 그중 저장하기로 고른 문장만 내 카드가 되고, 내 카드는 이 기기와 서버(익명 기기 ID 아래)에 보관돼요.</p>
   </details>
 
+  <details class="qa">
+    <summary>상황 대화의 상대는 실제 사람인가요?</summary>
+    <p>아니요. 상대는 AI예요. 카드의 상황에 맞춰 서버에서 Anthropic의 Claude가 답을 쓰고, 대화 화면에도 AI 상대라고 표시돼요. 대화는 글로만 주고받고, 앱은 마이크를 쓰지 않아요. 주고받은 글은 익명 기기 ID 아래 저장되고 약 한 달 안에(늦어도 37일) 지워져요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>상황 대화는 하루에 몇 번 할 수 있나요?</summary>
+    <p>무료로는 하루 1번, 체험 중과 Pro는 하루 5번 대화할 수 있어요. 대화 한 번에 최대 6번까지 답할 수 있고, 「여기까지」를 누르면 언제든 마칠 수 있어요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>듣기는 인터넷이 필요한가요?</summary>
+    <p>아니요. iPhone에 내장된 음성으로 기기 안에서 읽어서 인터넷 없이도 돼요. 재생을 눌렀을 때만 소리가 나고, 화면을 꺼도 이어서 들을 수 있어요. 들은 표현은 서버로 보내지 않고, 복습 일정에도 영향을 주지 않아요.</p>
+  </details>
+
+  <details class="qa">
+    <summary>이번 주 목표는 연속 기록을 세나요?</summary>
+    <p>아니요. 이번 주에 카드를 본 날만 세고, 연속 기록이나 안 본 날은 표시하지 않아요. 주가 바뀌면 조용히 처음부터 다시 세요. 기본은 꺼져 있고, 「기록」 탭에서 정하거나 끌 수 있어요. 목표는 이 iPhone에만 저장돼요.</p>
+  </details>
+
   <div class="actions">
     <a class="btn btn-primary" href="https://apps.apple.com/kr/app/id6811576834" rel="noopener">App Store에서 받기</a>
   </div>
@@ -708,6 +800,7 @@
     <li><strong>계정도 로그인도 없어요.</strong> 기록은 기기에서 만든 익명 기기 ID 하나로만 구분해요.</li>
     <li><strong>알림과 위젯은 기기 안에서 만들어져요.</strong> 알림은 iPhone 안에서 예약되고, 위젯은 기기 안에 적어 둔 오늘 카드 요약만 읽어요. 영어 표현은 알림과 위젯에 나오지 않아요.</li>
     <li><strong>내가 만든 카드는 서버에도 보관돼요.</strong> 계정 없이 이 기기의 익명 ID 아래 보관하고, 사진 속 글자는 iPhone 안에서만 읽어요. 앱을 다시 설치하거나 휴대폰을 바꾸면 돌아오지 않을 수 있어요.</li>
+    <li><strong>상황 대화에서 주고받은 글은 약 한 달 안에(늦어도 37일) 지워져요.</strong> 답을 만들기 위해 서버로 보내지고 Anthropic의 Claude가 처리해요. 듣기와 이번 주 목표는 이 iPhone 안에서만 처리돼요.</li>
     <li><strong>언제든 지울 수 있어요.</strong> 앱의 '내 데이터 삭제'를 누르면 서버 기록이 즉시 전부 삭제돼요.</li>
   </ul>
   <p><a href="privacy.html">개인정보 처리방침</a> · <a href="support.html">지원</a></p>
@@ -741,6 +834,15 @@
       a day. New-expression and review reminders have their own times, days and amounts, and you can pause them
       all. The first card now comes alone, onboarding asks three questions, and notification permission is asked
       only when you tap Get reminders and start. Your cards, review and collections stay free after the trial.</li>
+    <li>New in 1.11 and 1.12: Flip through shows your kept expressions one card at a time; swipe left for the next,
+      right for the previous, and tap to turn a card over. Rating it (I know it, Show it again) is optional.
+      Situation chat (Try this situation as a conversation, on the back of a card or in a card's detail) is a short
+      written conversation in English with an AI counterpart, not a real person, about that card's situation: up to
+      six replies, a more natural version of each of your lines, and at the end you can save what you want as your
+      own cards. It is text only and the app does not use the microphone; free users get one a day, the trial and
+      Pro five a day. Listen aloud reads your kept expressions with the iPhone's built-in voice, offline; it plays
+      only when you press play and keeps going with the screen off. This week's goal lets you pick how many days to
+      open the app this week (2, 3, 5 or 7); it is off by default, counts no streaks and marks no missed days.</li>
     <li>Notifications: pick commute 08:30, lunch 12:30, the way home 18:30 or your own time, and the situation of
       today's card arrives as a notification, without the English; tap it to open that card. A look-back of the
       week arrives on Sunday evening and can be saved or shared as an image. Notifications are scheduled on the
@@ -762,6 +864,9 @@
       write the card, and deleted from the server within about a month (37 days at the latest). Leave out company and people's names.</li>
     <li>Cards you make are kept on the iPhone and on our server under the anonymous device ID, with no account.
       Reinstalling the app or changing phones may not bring them back.</li>
+    <li>In Situation chat, the lines you write and the AI's replies are sent to our server and processed by
+      Anthropic's Claude to write the replies. They are stored under the anonymous device ID only and deleted within
+      about a month (37 days at the latest). Listen and This week's goal stay on the iPhone.</li>
     <li>In optional practice, speech is transcribed on the iPhone by Apple's speech recognition, and the audio never leaves
       the device. Only the text is sent to the server, where the feedback is written by Anthropic's
       Claude. There is no account or sign-in — records are tied to an anonymous device ID and can be
