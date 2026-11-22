@@ -154,12 +154,32 @@
   계정이 없어서 카드는 이 기기의 익명 ID로만 구분해요. 앱을 다시 설치하거나 휴대폰을 바꾸면 돌아오지 않을 수 있어요. 같은 iPhone에 다시 설치했을 때 서버에 보관된 카드를 한 번 가져오기도 하지만,
   늘 되는 것은 아니고 복습 일정은 처음부터 다시 시작해요. 다른 iPhone으로 옮기는 기능은 없어요. 「내 데이터 삭제」를 눌렀다면 기기와 서버에서 모두 지워져 되돌릴 수 없어요.</p>
 
+  <p><strong>상황 대화의 상대는 실제 사람인가요?</strong><br>
+  아니요. 상대는 AI예요. 카드의 상황에 맞춰 서버에서 Anthropic의 Claude가 답을 쓰고, 대화 화면에도 AI 상대라고 표시돼요. 대화는 글로만 주고받고, 앱은 마이크를 쓰지 않아요. 주고받은 글은 익명 기기 ID 아래 저장되고 약 한 달 안에(늦어도 37일) 지워져요.</p>
+
+  <p><strong>상황 대화는 하루에 몇 번 할 수 있나요?</strong><br>
+  무료로는 하루 1번, 체험 중과 Pro는 하루 5번 대화할 수 있어요. 대화 한 번에 최대 6번까지 답할 수 있고, 「여기까지」를 누르면 언제든 마칠 수 있어요.</p>
+
+  <p><strong>듣기는 인터넷이 필요한가요?</strong><br>
+  아니요. iPhone에 내장된 음성으로 기기 안에서 읽어서 인터넷 없이도 돼요. 재생을 눌렀을 때만 소리가 나고, 화면을 꺼도 이어서 들을 수 있어요. 들은 표현은 서버로 보내지 않고, 복습 일정에도 영향을 주지 않아요.</p>
+
+  <p><strong>이번 주 목표는 연속 기록을 세나요?</strong><br>
+  아니요. 이번 주에 카드를 본 날만 세고, 연속 기록이나 안 본 날은 표시하지 않아요. 주가 바뀌면 조용히 처음부터 다시 세요. 기본은 꺼져 있고, 「기록」 탭에서 정하거나 끌 수 있어요. 목표는 이 iPhone에만 저장돼요.</p>
+
+  <p><strong>남긴 표현을 넘겨 보거나 듣고 싶어요.</strong><br>
+  「내 표현」 탭의 「넘겨 보기」나 「듣기」를 눌러요. 지금 고른 필터나 검색 결과 그대로 열려요. 넘겨 보기는 왼쪽으로 밀면 다음, 오른쪽으로 밀면 이전, 탭하면 뒤집혀요.
+  넘겨 보기의 ⋯ 메뉴에서 순서를 바꾸거나 「듣기로 전환」을 고를 수 있어요. 듣기는 처음 재생할 때 소리가 난다고 한 번 알려 드리고, 무음 모드에서도 들려요.</p>
+
+  <p><strong>상황 대화가 시작되지 않거나 답이 늦어요.</strong><br>
+  상황 대화는 서버에서 답을 만들어서 인터넷 연결이 필요해요. 답이 늦으면 「조금만 기다려 주세요」가 보이고, 보내지 못하면 쓴 글은 그대로 남아 「다시 보내기」로 다시 보낼 수 있어요.
+  오늘 할 수 있는 대화를 다 했다면 내일 다시 할 수 있어요. 대화 중에 영어 없이 한국어만 적으면 영어로 한 줄 적어 보도록 힌트를 드려요.</p>
+
   <p><strong>제 녹음이 서버에 남나요?</strong><br>
   기본 카드는 녹음하지 않아요. 선택 연습에서 말로 답하면 iPhone에 내장된 음성 인식으로 기기 안에서 텍스트로 바뀌고, 음성 파일은 저희 서버로 보내지 않으며 서버에 저장하지도 않아요.
   서버로는 텍스트만 가고, 피드백은 Anthropic의 Claude가 만들어요.</p>
 
   <p><strong>제 데이터를 지우고 싶어요.</strong><br>
-  앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록(내 카드 · 복습 기록 · 알림 설정 포함)이 즉시 전부 삭제되고, 이 iPhone의 카드와 기록도 함께 지워져요.
+  앱 안의 <em>내 데이터 삭제</em>를 누르면 서버에 저장된 기록(내 카드 · 복습 기록 · 알림 설정 · 상황 대화 포함)이 즉시 전부 삭제되고, 이 iPhone의 카드와 기록도 함께 지워져요.
   기기에 남아 있는 녹음 파일은 앱 설정에서 전체 삭제할 수 있어요.</p>
 
   <p><strong>소리 내기 어려운 곳에서는 어떻게 하나요?</strong><br>
@@ -261,13 +281,37 @@
   not bring them back. After reinstalling on the same iPhone the cards on the server are sometimes brought back once,
   but not always, and the review schedule starts over. There is no transfer to another iPhone. After Delete my data
   everything is gone from the iPhone and the server and cannot be undone.</p>
+  <p><strong>Is the Situation chat counterpart a real person?</strong><br>
+  No, it is an AI. Anthropic's Claude writes its replies on our server to fit the card's situation, and the chat
+  screen says it is an AI counterpart. The chat is text only and the app does not use the microphone. The lines
+  are stored under the anonymous device ID and deleted within about a month (37 days at the latest).</p>
+  <p><strong>How many situation chats a day?</strong><br>
+  One a day for free, five a day during the trial and with Pro. Each chat has up to six replies, and That's enough
+  ends it at any time.</p>
+  <p><strong>Does Listen need the internet?</strong><br>
+  No. It reads with the iPhone's built-in voice on the device, offline. Sound plays only when you press play, and it
+  keeps going with the screen off. What you listen to is not sent to our server and does not change your review
+  schedule.</p>
+  <p><strong>Does This week's goal count streaks?</strong><br>
+  No. It counts only the days this week on which you looked at a card; it shows no streak and marks no missed days,
+  and a new week quietly starts from zero. It is off by default; set it or turn it off in the Record tab. The goal
+  is kept only on this iPhone.</p>
+  <p><strong>Flipping through or listening to kept expressions.</strong><br>
+  In My expressions tap Flip through or Listen aloud; they open on the filter or search you are on. In Flip through
+  swipe left for the next card, right for the previous, and tap to turn it over; its ... menu changes the order or
+  switches to listening. Before the first playback Listen tells you once that it plays sound, even with the ringer
+  off.</p>
+  <p><strong>A situation chat will not start or the reply is slow.</strong><br>
+  Situation chat needs a connection because the replies are made on our server. If a reply is slow you see Just a
+  moment, please; if it cannot be sent your line stays and Send again resends it. Once today's chats are used up you
+  can talk again tomorrow. If you write only Korean, you get a hint to try one line in English.</p>
   <p><strong>Are my recordings kept on the server?</strong><br>
   No. The default cards record nothing. In optional practice, speech is turned into text on your iPhone by
   Apple's built-in speech recognition, and the audio is never sent to or stored on our server. Only the
   text is sent, and Anthropic's Claude writes the feedback.</p>
   <p><strong>How do I delete my data?</strong><br>
   Tap <em>내 데이터 삭제</em> (Delete my data) in the app to remove everything stored on
-  the server immediately, including your cards, review records and reminder settings; the cards and records on this
+  the server immediately, including your cards, review records, reminder settings and situation chats; the cards and records on this
   iPhone are removed too. Recordings on the device can be deleted in the app settings.</p>
   <p><strong>What if I cannot speak out loud?</strong><br>
   The default cards need no microphone or typing, so they work silently on the subway or at your desk.
